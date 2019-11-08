@@ -13,6 +13,10 @@ We will use a Twitter API to get live data in the form of a JSON file. Using loc
   
 ## Variables: 
 * Frequency of word choice: How often a word is used among tweets about a particular TV show </br>
+* Content with emoji in text: The string of text in the content of the tweet  </br>
+* Tweet Date: The date the tweet was made   </br>
+* Emoji Presence: 1 or 0 value, indicating presence (1) of emjoi or no emoji (0)  </br>
+* Location: The geographic coordinate where tweet was created </br>
 * Degree of sentiment in word choice: The degree of word choice used among tweets about a NO (use TextBlob python package to gauge sentiment) </br>
 * Time of sentiment: Only tweets between the release and decision for renewal date for a NO will be observed </br>
 * Release year: Many shows broadcasted on Netflix are older collections, however,  some are newly released on Netflix</br>
