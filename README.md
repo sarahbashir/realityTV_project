@@ -23,6 +23,7 @@ We will use a Twitter API to get live data in the form of a JSON file. Using loc
 * Release year: Many shows broadcasted on Netflix are older collections, however,  some are newly released on Netflix </br>
 * Audience rating of NO: integer from 0 to 100  </br>
 * Critic rating of NO: integer from 0 to 100  </br>
+* NO name: Name of NO content </br>
 
 
 ## End Product: 
