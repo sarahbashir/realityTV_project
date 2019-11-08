@@ -15,7 +15,7 @@ We will use a Twitter API to get live data in the form of a JSON file. Using loc
 * Frequency of word choice: How often a word is used among tweets about a particular NO</br>
 * Content with emoji in text: The string of text in the content of the tweet  </br>
 * Tweet Date: The date the tweet was made   </br>
-* Emoji Presence: 1 or 0 value, indicating presence (1) of emjoi or no emoji (0)  </br>
+* Emoji Presence: 1 or 0 value, indicating presence (1) of emoji or no emoji (0)  </br>
 * Emojis Used: List of all used emjois stored as text </br>
 * Location: The geographic coordinate where tweet was created </br>
 * Degree of sentiment in word choice: The degree of word choice used among tweets about a NO (use TextBlob python package to gauge sentiment) </br>
@@ -23,14 +23,15 @@ We will use a Twitter API to get live data in the form of a JSON file. Using loc
 * Release year: Many shows broadcasted on Netflix are older collections, however,  some are newly released on Netflix </br>
 * Audience rating of NO: integer from 0 to 100  </br>
 * Critic rating of NO: integer from 0 to 100  </br>
-* NO name: Name of NO content </br>
+* NO name: Name of NO content (We will look at The Crown, Queer Eye, To All the Boys I’ve Loved Before, Peaky Blinders, 13 Reasons Why, Fuller House, Friends From College, Chilling Adventures of Sabrina, Bojack Horseman)
+ </br>
 
 
 ## End Product: 
-We will be creating several visualization tools using either Tableau or Shiny to be published on an online interface. On this interface, users can interact with the data clicking on certain television shows they would like to visualize. Each tab on our interface will correspond to a certain television show, each containing several visualization types:</br>
+We will be creating several visualization tools using either Tableau or Shiny to be published on an online interface. On this interface, users can interact with the data clicking on certain NO content they would like to visualize. Each tab on our interface will correspond to a certain media piece, each containing several visualization types:</br>
 * Polarity of words (x-axis: quantifying good vs. bad words, y-axis: frequency in which each word is used to describe each show) </br>
 * Quantifying sentiment based on weighting frequency of word usage (i.e. quantify the word offensive as -1 and the word amazing as 1, then taking the quantified sentiment would be 0)</br>
 * Tweet Count overtime (x-axis: time, y-axis: tweet count) </br>
-* Emoji Frequency overtime: A chart or a line graph of commonly used emoji  </br>
+* Emoji Frequency over time: A chart or a line graph of commonly used emoji  </br>
 * Polarity proportion: A pi chart comparing positive tweets, neutral tweets, and negative tweets.  </br>
 The interactive component of this visualization is allowing users to compare cities for each television show. We plan to look at Los Angeles, New York, Dallas, Miami, Las Vegas, Seattle, and Chicago
