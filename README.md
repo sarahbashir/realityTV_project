@@ -3,7 +3,7 @@ Sarah Bashir: Project Manager, Director of Computation</br>
 Ethan Ong:  Task Manager, Director of Research</br>
 Lindsey Tam:  Facilitator, Reporter</br>
 
-## Title: Polarity of Original Netflix Content
+## Title: Polarity of a contestants on the Bachelor and the Bachelorette
 
 ## Purpose: 
 Do you and your friends have radically different opinions on a television show on Netflix? Our project covers a topic of interest because we are interested in seeing whether different cities in the United States express different trends towards certain Netflix orginals (NO). From our project, hopefully others can understand the varying sentiments on television shows across the country. Additionally, some questions we need to address include: Does positive public sentiment equate to higher viewer ratings? What keywords should be considered as positive versus negative public sentiment?
@@ -19,16 +19,13 @@ We will use a Twitter API to get live data in the form of a JSON file. Using loc
 * Emojis Used: List of all used emjois stored as text </br>
 * Location: The geographic coordinate where tweet was created </br>
 * Degree of sentiment in word choice: The degree of word choice used among tweets about a NO (use TextBlob python package to gauge sentiment) </br>
-* Time of sentiment: Only tweets between the release and decision for renewal date for a NO will be observed </br>
-* Release year: Many shows broadcasted on Netflix are older collections, however,  some are newly released on Netflix </br>
-* Audience rating of NO: integer from 0 to 100  </br>
-* Critic rating of NO: integer from 0 to 100  </br>
-* NO name: Name of NO content (We will look at The Crown, Queer Eye, To All the Boys I’ve Loved Before, Peaky Blinders, 13 Reasons Why, Fuller House, Friends From College, Chilling Adventures of Sabrina, Bojack Horseman)
+* Show name and season: We will look at Bachelor and Bachelorette for seasons 2017, 2018, 2019
  </br>
 
 
 ## End Product: 
 We will be creating several visualization tools using either Tableau or Shiny to be published on an online interface. On this interface, users can interact with the data clicking on certain NO content they would like to visualize. Each tab on our interface will correspond to a certain media piece, each containing several visualization types:</br>
+* Populatity of con
 * Polarity of words (x-axis: quantifying good vs. bad words, y-axis: frequency in which each word is used to describe each show) </br>
 * Quantifying sentiment based on weighting frequency of word usage (i.e. quantify the word offensive as -1 and the word amazing as 1, then taking the quantified sentiment would be 0)</br>
 * Tweet Count overtime (x-axis: time, y-axis: tweet count) </br>
