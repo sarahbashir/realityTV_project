@@ -1,5 +1,6 @@
 1. Have you already collected, or do you have access to, all of the data that you will need in order to complete your project? If not, please estimate the percentage of the data that you have, describe any issues that you are having, and what your plan is for getting the rest of the data.
- We have access to all two years of Twitter data. Since there is so much data, it is stored on a super computer at CMC (lambda server). This Twitter data is kept up to date via an already existing script on the server. Therefore, it is not neccessary to create a Twitter API. 
+
+We have access to all two years of Twitter data. Since there is so much data, it is stored on a super computer at CMC (lambda server). This Twitter data is kept up to date via an already existing script on the server. Therefore, it is not neccessary to create a Twitter API. 
 <br>
 <br>
  We are interested in scraping Wikpedia for contestant information. This will give us information on the contestant's name, season (this gives us a general timeline of when to look for specific keywords), and episode information. Though we have not started this process, we anticipate it will take less than a week.
