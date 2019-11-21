@@ -8,4 +8,4 @@ Learning how to navigate the supercomputer.
 
 3. What are the elements from outside of the course, if any, that you plan to incorporate into your project?
 
-Learning how to use Apashe Spark to process the data and learning Tableau for visualizing the data.
+Learning how to use Apache Spark to process the data and learning Tableau for visualizing the data.
