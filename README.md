@@ -3,7 +3,7 @@ Sarah Bashir: Project Manager, Director of Computation</br>
 Ethan Ong:  Task Manager, Director of Research</br>
 Lindsey Tam:  Facilitator, Reporter</br>
 
-## Title: Polarity of a contestants on the Bachelor and the Bachelorette
+## Title: Polarity of contestants on The Bachelor and The Bachelorette
 
 ## Purpose: 
 Do you and your friends have radically different opinions on a television show on Netflix? Our project covers a topic of interest because we are interested in seeing whether different cities in the United States express different trends towards certain Netflix orginals (NO). From our project, hopefully others can understand the varying sentiments on television shows across the country. Additionally, some questions we need to address include: Does positive public sentiment equate to higher viewer ratings? What keywords should be considered as positive versus negative public sentiment?
