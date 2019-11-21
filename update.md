@@ -11,7 +11,7 @@ The biggest issue of this project is working with the Twitter data. Since this d
 
 3. What are the elements from outside of the course, if any, that you plan to incorporate into your project?
 
-There are mahy components of this project that none of the group member's have experience in:
+There are mahy components of this project that none of the group member's have limited experience in:
 <ul><li>Learning how to use Apache Spark to process the data 
 <li> Using Tableau for visualizing the data
 <li> Webscraping wikpedia
