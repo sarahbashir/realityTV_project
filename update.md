@@ -7,7 +7,7 @@
 
 2. What is the single biggest unresolved issue you are having? Please describe it briefly, and what your plan is for resolving this issue.
 
-The biggest issue of this project is working with the Twitter data. Since this dataset is so large, it is going to take a long time to go through it and narrow it down by location and tweet content. Thus far, we have spent 2 days running a script to download and parse the two years of data. We were able to capture a sample of data from every day, but not every hour in each day (due to limited disc space, we will ask for more). We will probably narrow down our search to the times where the show is airing.
+The biggest issue of this project is working with the Twitter data. Since this dataset is so large, it is going to take a long time to go through it and narrow it down by location and tweet content. Thus far, we have spent 2 days running a script to download and parse the two years of data. We were able to capture a sample of data from every day, but not every hour in each day (due to limited disc space, we will ask for more). We will probably narrow down our search to the times where the show is airing. Our github repo has a small example of what our parsed data looks like.
 
 3. What are the elements from outside of the course, if any, that you plan to incorporate into your project?
 
