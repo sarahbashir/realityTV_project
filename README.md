@@ -32,3 +32,12 @@ We will be creating several visualization tools using either Tableau or Shiny to
 * Emoji Frequency over time: A chart or a line graph of commonly used emoji  </br>
 * Polarity proportion: A pi chart comparing positive tweets, neutral tweets, and negative tweets.  </br>
 The interactive component of this visualization is allowing users to compare cities for each television show. We plan to look at Los Angeles, New York, Dallas, Miami, Las Vegas, Seattle, and Chicago
+
+## Visualizations
+* Chloropleth map (https://en.wikipedia.org/wiki/Choropleth_map): what locations are these shows recieving the most engagement from?
+* Heatmap?: Contestants and associated words
+* Tree with contestants
+* Each show has an interactive timeline
+* Stacked bar graph (x: week number, y: proportion talking about contestant) <- interactive (click to see sentiment)
+
+this is super cool: https://fivethirtyeight.com/features/the-bachelorette/
