@@ -1,31 +1,31 @@
-﻿name,age,hometown (state),hometown (city)
-Jed Wyatt,25,Tennessee,Sevierville
-Tyler Cameron,26,Florida,Jupiter
-Peter Weber,27,California,Westlake Village
-Luke Parker,24,Georgia,Gainesville
-Garrett Powell,27,Alabama,Homewood
-Mike Johnson,31,Texas,San Anotnio
-Connor Saeli,24,Michigan,Birmingham
-Dustin Kendrick,30,Illinois,Chicago
-Dustin Barbour,24,California,San Diego
-Devin Harris,27,California,Sherman Oaks
-Grant Eckel,30,California,San Clemente
-Kevin Fortenberry,27,Illinois,Manteno
-John Paul Jones,24,Maryland,Lanham
-Matteo Valles,25,Georgia,Atlanta
-Luke Stone,29,Massachusetts,Marion
-"Cameron ""Cam"" Ayala",30,Texas,Austin
-Joey Jones,33,Maryland,Bethesda
-Jonathan Saunders,27,California,Los Angeles
-Tyler Gwozdz,28,Florida,Boca Raton
-Connor Jenkins,28,California,Newport Beach
-Daron Blaylock,25,Georgia,Buckhead
-Matthew Spraggins,23,California,Newport Beach
-Brian Bowles,30,Kentucky,Louisville
-Chasen Coscia,27,Michigan,Ann Arbor
-Hunter Jones,24,California,Westchester
-Joe Barsano,30,Illinois,Chicago
-Matt Donald,26,California,Los Gatos
-Ryan Spirko,25,Pennsylvania,Philadelphia
-Thomas Staton,27,Michigan,Detroit
-Scott Andersen,28,Illinois,Chicago
+﻿name,age,city,state,place,date_elim,twitter_handle
+Jed Wyatt,25,Sevierville,Tennessee,1,30-Jul-19,WyattJed
+Tyler Cameron,26,Jupiter,Florida,2,29-Jul-19,TylerCameron
+Peter Weber,27,Westlake Village,California,3,15-Jul-19,PeterWeber
+Luke Parker,24,Gainesville,Georgia,4,15-Jul-19,LukeParker
+Garrett Powell,27,Homewood,Alabama,5,1-Jul-19,RgarrettP
+Mike Johnson,31,San Anotnio,Texas,6,1-Jul-19,MikeJohnson
+Connor Saeli,24,Birmingham,Michigan,7,1-Jul-19,consaelaway
+Dustin Kendrick,30,Chicago,Illinois,8,24-Jun-19,dustinbkendrick
+Dylan Barbour,24,San Diego,California,10,24-Jun-19,dylanbarbour
+Devin Harris,27,Sherman Oaks,California,11,17-Jun-19,DevinHarris
+Grant Eckel,30,San Clemente,California,12,17-Jun-19,GEEmann123
+Kevin Fortenberry,27,Manteno,Illinois,13,17-Jun-19,KevinFortenberry
+John Paul Jones,24,Lanham,Maryland,14,3-Jun-19,JohnPaul
+Matteo Valles,25,Atlanta,Georgia,15,3-Jun-19,MatteoValles
+Luke Stone,29,Marion,Massachusetts,16,3-Jun-19,LukeStone
+"Cameron ""Cam"" Ayala",30,Austin,Texas,17,27-May-19,CamRonAyala
+Joey Jones,33,Bethesda,Maryland,18,27-May-19,JoeyJones
+Jonathan Saunders,27,Los Angeles,California,19,27-May-19,JonathanSaunders
+Tyler Gwozdz,28,Boca Raton,Florida,20,27-May-19,TylerGwozdz
+Connor Jenkins,28,Newport Beach,California,21,20-May-19,ConnorLoo
+Daron Blaylock,25,Buckhead,Georgia,22,20-May-19,daronblaylock
+Matthew Spraggins,23,Newport Beach,California,23,20-May-19,MattSpraggins_
+Brian Bowles,30,Louisville,Kentucky,24,13-May-19,BrianBowles
+Chasen Coscia,27,Ann Arbor,Michigan,25,13-May-19,chasen_michael
+Hunter Jones,24,Westchester,California,26,13-May-19,HunterJoness
+Joe Barsano,30,Chicago,Illinois,27,13-May-19,JoeBarsano
+Matt Donald,26,Los Gatos,California,28,13-May-19,MattDonald
+Ryan Spirko,25,Philadelphia,Pennsylvania,29,13-May-19,RyanSpirko
+Thomas Staton,27,Detroit,Michigan,30,13-May-19,ThomasStaton
+Scott Andersen,28,Chicago,Illinois,31,13-May-19,ScottAndersen
