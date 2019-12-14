@@ -8,7 +8,7 @@ Tweet id, tweet_text, contestant
 Global_dataset = pd.Dataframe() // empty dataframe
 
 For every season i:
-For j in range(500): // how many times we bootstrap each season. Feel free to change 500
+For j in range(500): // how many times we bootstrap each season
 	sample 2000 tweets
 	Sentiments = {}
 	for each tweet in the sample:
@@ -46,6 +46,6 @@ x_train, y_train, x_test, y_test = sklearn.model_selection.train_test_split(INPU
 
 Model = sklearn.something_classifier()
 model.fit(x_train, y_train)
-Score = model.predict(x_test, y_test) // you get the gist
+Score = model.predict(x_test, y_test) 
 
 
