@@ -13,10 +13,10 @@ BA18 = ["bachelor", ]
 def generate_words(data):
     # data(str): csv on show info
     # eg: Bachelor_S22_2018.csv
-
+    words = []
     df = pd.read_csv(os.path.join(project_path, "show_info", data))
 
-    words = ["bachelor", "bachelornation", "bachelorabc", "the bachelor"]  # change to bachelorette if neccessary
+    #words = ["bachelor", "bachelornation", "bachelorabc", "the bachelor"]  # change to bachelorette if neccessary
 
     for i in range(len(df["name"])):
         words.append(df["name"][i])
@@ -94,10 +94,16 @@ if __name__ == "__main__":
     start_2019 = datetime.date(2018, 12, 6)  # bachelorettes announced
     end_2019 = datetime.date(2019, 3, 18)  # roughly one week after season end
 
+    start_2019_ette = datetime.date(2019, 3, 14)  # bachelors announced
+    end_2019_ette = datetime.date(2019, 7, 7)  # roughly one week after season end
+
     words_2018 = generate_words("Bachelor_2018.csv")
-    words_2019 = generate_words("Bachelor_2019.csv")
+    #words_2019 = generate_words("Bachelor_2019.csv")
+    #words_2019_ette = generate_words("Bachelorette_S15_2019.csv")
 
     main("Bachelor_2018.csv", start_2018, end_2018, words_2018)
-    main("Bachelor_2019.csv", start_2019, end_2019, words_2019)
+    #main("Bachelor_2019.csv", start_2019, end_2019, words_2019)
+    #main("Bachelorette_S15_2019.csv", start_2019_ette, end_2019_ette, words_2019_ette)
+
 
 
