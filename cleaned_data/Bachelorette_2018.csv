@@ -1,6 +1,7 @@
 ,city,date,polarity,state,text
 0,South Burlington,Fri May 18 03:48:18 +0000 2018,0.0,VT,"Mike Johnson is not the hero we need, but the hero we deserve!!"
-1,Queens,Thu May 17 22:43:36 +0000 2018,0.0,NY,@JohnPaulWeber Up block from us. It was glorious
+1,Manhattan,Thu May 17 18:40:39 +0000 2018,-0.0625,NY,This is the dumbest show in the world. IT's all fake everyone saying they love each other after screwing each other.  #thebachelorette
+2,Queens,Thu May 17 22:43:36 +0000 2018,0.0,NY,@JohnPaulWeber Up block from us. It was glorious
 0,Hooks,Sat May 19 01:48:48 +0000 2018,0.0,TX,@MarkWoodsmall @packersfan86 @mushwear @jimmyjamny @Babchik @EvCoRadio @jpwilson1982 @JohnPaulFAL @FalQueen… https://t.co/9c4vUUrF4o
 1,Hooks,Sat May 19 01:50:59 +0000 2018,0.0,TX,@MarkWoodsmall @packersfan86 @mushwear @jimmyjamny @Babchik @EvCoRadio @jpwilson1982 @JohnPaulFAL @FalQueen… https://t.co/uMpwXrMM3a
 2,Lindenhurst,Sat May 19 00:03:15 +0000 2018,0.3125,NY,The most underrated Led Zeppelin member! John Baldwin aka John Paul Jones. Musical genius!!!!! https://t.co/QJ9vKoaxRn
@@ -24,7 +25,11 @@
 0,Denver,Tue May 22 01:51:22 +0000 2018,0.06818181818181818,CO,"Appreciate you! Once I get a new charger in the mail, Devin Harris is next! https://t.co/stQEek1U3S"
 1,Vermillion,Tue May 22 01:57:34 +0000 2018,0.0,SD,look what dis man Mike Johnson did to his grandma😂😂😂😂 https://t.co/2MB0iDv7xM
 2,New Orleans,Mon May 21 19:58:31 +0000 2018,0.75,LA,@RepMikeJohnson Using the money for healthcare and jobs for veterans would be more wonderful.
+3,Pasadena,Tue May 22 06:02:42 +0000 2018,0.26666666666666666,CA,"After a great season of @AmericanIdol, @ABCNetwork goes back to the dumpster next week in that time slot...ugh! #thebachelorette"
 0,Winchester,Tue May 22 19:56:31 +0000 2018,1.0,NV,@JohnPaulKavana3 Great!
+1,Baton Rouge,Tue May 22 23:45:08 +0000 2018,0.0,LA,"Technical difficulties but the title says #AshleyandJared!! 
+🌹 🌹 🌹 
+#bachelor #bachelorabc #bip #BachelorInParadise… https://t.co/YPt1HyOL5M"
 0,Sheffield,Wed May 23 18:55:56 +0000 2018,-0.075,AL,Due to the possible weather threat Graduation will be held inside the Mike Johnson Rec. Center 7 p.m. Friday 5/25/1… https://t.co/INBmflGbWS
 1,Arlington,Wed May 23 23:46:54 +0000 2018,0.0,VA,@JohnPaul_USA @roswell2001 This is all Broadway spectacle. I call it Trumpleton
 2,Buffalo,Thu May 24 00:00:27 +0000 2018,0.5,NY,Syracuse Chiefs take a 7-0 lead on the Buffalo Bisons after Hunter Jones blasts a grand slam in the 8th. #MiLB
@@ -36,42 +41,243 @@ Coach George Teague &amp; #JohnPaulIICardinals Football! Today they got their…
 0,Crofton,Sat May 26 19:39:20 +0000 2018,0.050000000000000024,MD,"Different channel same countdown 
 #326- ZEP - Good Times Bad Times
 ..... wow John Paul Jones is really rolling on this one"
-0,Round Rock,Sun May 27 22:22:07 +0000 2018,0.0,TX,@johngranato @JohnPaulHOU @KGJoseph Giles hasn't pitched in awhile and the Astros are trying to limit Devo's inning… https://t.co/zJZgF2hJpT
-1,Round Rock,Sun May 27 22:23:25 +0000 2018,0.0,TX,@JohnPaulHOU @johngranato @KGJoseph I agree. Devo should not have started the 9th inning.
-2,Houston,Sun May 27 22:25:03 +0000 2018,0.0,TX,@JohnPaulHOU No it doesnt.....
-3,Round Rock,Sun May 27 22:28:54 +0000 2018,-0.35,TX,@JohnPaulHOU @johngranato @KGJoseph I don't even think using Giles was questionable. He hasn't pitched in a few day… https://t.co/fGgEIjHkrK
-4,Round Rock,Sun May 27 22:31:48 +0000 2018,0.16666666666666669,TX,"@johngranato @JohnPaulHOU @KGJoseph Yes, John, it is so easy to question after a bitter loss. If Devo had started t… https://t.co/y9IuIKQtQZ"
-5,Round Rock,Sun May 27 22:32:12 +0000 2018,0.0,TX,"@johngranato @JohnPaulHOU @KGJoseph Thank you, hindsight manager. You seem to have all the answers after the fact."
-6,Round Rock,Sun May 27 22:59:42 +0000 2018,0.0,TX,"@johngranato @JohnPaulHOU @KGJoseph No, you seem to be using hindsight managing. Do you recall the bullpen meltdown… https://t.co/3s2pTX9ug0"
-7,Round Rock,Sun May 27 23:00:52 +0000 2018,0.0,TX,@johngranato @JohnPaulHOU @KGJoseph Those complaining about not using Devo in the 9th inning today are the same one… https://t.co/V3v6DV5o9g
-8,Round Rock,Sun May 27 23:14:45 +0000 2018,-0.1,TX,"@johngranato @JohnPaulHOU @KGJoseph You see, John, this is how hindsight managers operate. Even if he had closed ou… https://t.co/NG78oLbtfl"
-9,Round Rock,Sun May 27 23:43:30 +0000 2018,0.0,TX,@johngranato @JohnPaulHOU @KGJoseph That's the quickest way to pile up a relievers innings.
-10,Round Rock,Sun May 27 23:52:05 +0000 2018,0.5,TX,"@johngranato @JohnPaulHOU @KGJoseph Also, John, the manager didn't overthink it. The Astros had the top rated bullp… https://t.co/KXnbJDVEk2"
-11,Racine,Mon May 28 00:22:36 +0000 2018,0.0,WI,@RepMikeJohnson That is even bigger that the 1%! https://t.co/LpOUqINof9
-12,Houston,Mon May 28 00:46:30 +0000 2018,-0.4,TX,@RoundRockTim @johngranato @JohnPaulHOU @KGJoseph How can the manger over think a game when he's sitting in the tun… https://t.co/L0MN9i0uwU
-13,Delmar,Mon May 28 01:29:26 +0000 2018,0.0,NY,@JohnPaulHOU Ugh
-0,Norman,Tue May 29 00:35:33 +0000 2018,0.0,OK,@NotGayJohnPaul @garrettgappa But isn’t all that apart of the job description of being a server?
-1,Norman,Tue May 29 00:49:20 +0000 2018,0.0,OK,"@garrettgappa @NotGayJohnPaul That’s commission, coming from the owner of the car that was sold. When you buy a car… https://t.co/6XrQ7cHBEj"
-2,Norman,Tue May 29 00:53:59 +0000 2018,0.0,OK,"@garrettgappa @NotGayJohnPaul If anything, restaurants should be giving a percentage of the check to the servers fo… https://t.co/p5XpY2x02a"
-3,Selma,Tue May 29 03:33:35 +0000 2018,0.6,CA,@JohnPaulHOU Celtics lmao
-4,Selma,Tue May 29 03:36:47 +0000 2018,0.15,CA,"@Astros_Arsenal @JohnPaulHOU Shit, he gotta better chance going to philly than Houston."
-5,Beverly Hills,Tue May 29 03:36:57 +0000 2018,0.0,CA,"@tomfriedman Keep ringing the bell as Paul Revere &amp; John Paul Jones are spinning in the grave! Yes, the glass is ov… https://t.co/XRKo8Z6qCv"
-6,Flemington,Mon May 28 22:59:24 +0000 2018,0.7,NJ,@JohnPaulSouza Good thoughts.
-7,Marietta,Mon May 28 19:27:56 +0000 2018,-0.0625,GA,"Combat-wounded veteran USMC Sgt (Ret) Joey Jones was turned away from a theme park roller coaster the other day, pe… https://t.co/T2Mvzr7tHc"
-8,Delmar,Mon May 28 18:11:03 +0000 2018,0.39999999999999997,NY,@JohnPaulHOU So far so good
-9,Denver,Mon May 28 18:29:14 +0000 2018,0.0,CO,"🚨NEW @Nuggets_Daily PODCAST🚨
+0,Alexandria,Mon May 28 04:59:31 +0000 2018,0.375,VA,"“Are you excited for Bekhas season of #thebachelor”
+- no one ever"
+1,Round Rock,Sun May 27 22:22:07 +0000 2018,0.0,TX,@johngranato @JohnPaulHOU @KGJoseph Giles hasn't pitched in awhile and the Astros are trying to limit Devo's inning… https://t.co/zJZgF2hJpT
+2,Round Rock,Sun May 27 22:23:25 +0000 2018,0.0,TX,@JohnPaulHOU @johngranato @KGJoseph I agree. Devo should not have started the 9th inning.
+3,Houston,Sun May 27 22:25:03 +0000 2018,0.0,TX,@JohnPaulHOU No it doesnt.....
+4,Round Rock,Sun May 27 22:28:54 +0000 2018,-0.35,TX,@JohnPaulHOU @johngranato @KGJoseph I don't even think using Giles was questionable. He hasn't pitched in a few day… https://t.co/fGgEIjHkrK
+5,Round Rock,Sun May 27 22:31:48 +0000 2018,0.16666666666666669,TX,"@johngranato @JohnPaulHOU @KGJoseph Yes, John, it is so easy to question after a bitter loss. If Devo had started t… https://t.co/y9IuIKQtQZ"
+6,Round Rock,Sun May 27 22:32:12 +0000 2018,0.0,TX,"@johngranato @JohnPaulHOU @KGJoseph Thank you, hindsight manager. You seem to have all the answers after the fact."
+7,Round Rock,Sun May 27 22:59:42 +0000 2018,0.0,TX,"@johngranato @JohnPaulHOU @KGJoseph No, you seem to be using hindsight managing. Do you recall the bullpen meltdown… https://t.co/3s2pTX9ug0"
+8,Round Rock,Sun May 27 23:00:52 +0000 2018,0.0,TX,@johngranato @JohnPaulHOU @KGJoseph Those complaining about not using Devo in the 9th inning today are the same one… https://t.co/V3v6DV5o9g
+9,Round Rock,Sun May 27 23:14:45 +0000 2018,-0.1,TX,"@johngranato @JohnPaulHOU @KGJoseph You see, John, this is how hindsight managers operate. Even if he had closed ou… https://t.co/NG78oLbtfl"
+10,Round Rock,Sun May 27 23:43:30 +0000 2018,0.0,TX,@johngranato @JohnPaulHOU @KGJoseph That's the quickest way to pile up a relievers innings.
+11,Round Rock,Sun May 27 23:52:05 +0000 2018,0.5,TX,"@johngranato @JohnPaulHOU @KGJoseph Also, John, the manager didn't overthink it. The Astros had the top rated bullp… https://t.co/KXnbJDVEk2"
+12,Racine,Mon May 28 00:22:36 +0000 2018,0.0,WI,@RepMikeJohnson That is even bigger that the 1%! https://t.co/LpOUqINof9
+13,Houston,Mon May 28 00:46:30 +0000 2018,-0.4,TX,@RoundRockTim @johngranato @JohnPaulHOU @KGJoseph How can the manger over think a game when he's sitting in the tun… https://t.co/L0MN9i0uwU
+14,Delmar,Mon May 28 01:29:26 +0000 2018,0.0,NY,@JohnPaulHOU Ugh
+0,Oak Park,Tue May 29 00:08:56 +0000 2018,0.0,IL,Jojo and Jordan are still together? Huh. #thebachelorette
+1,Oak Park,Tue May 29 00:10:05 +0000 2018,0.2,IL,"Um, what is this Proposal garbage? Didn’t we learn from Who Wants to Marry a Millionaire? #thebachelorette"
+2,Oak Park,Tue May 29 00:11:51 +0000 2018,-0.4,IL,IM STILL BROKEN UP ABOUT PETER #thebachelorette https://t.co/8x7y0hMSmY
+3,Washington,Tue May 29 00:12:30 +0000 2018,-0.024999999999999994,DC,"#thebachelorette but just this thing where the past women are hanging out and talking and burning sage, the whole season"
+4,Washington,Tue May 29 00:13:14 +0000 2018,0.0,DC,"#thebachelorette is now trending in #DC
+
+https://t.co/82UQchfom7 https://t.co/so8VonIDBg"
+5,Alpharetta,Tue May 29 00:13:14 +0000 2018,0.5,GA,@kaitlynbristowe is and will forever be my favorite. #thebachelorette
+6,Manhattan,Tue May 29 00:18:45 +0000 2018,0.0,NY,Is Becca wearing white because they want her to look like a scorned bride? #thebachelorette
+7,Houston,Tue May 29 00:19:29 +0000 2018,0.0,TX,#thebachelorette / #HoustonRockets  night! 🌹🚀🌹🚀 https://t.co/Oue7W8E9Hk
+8,Pittsburgh,Tue May 29 00:19:48 +0000 2018,0.0,PA,"#thebachelorette is now trending in #Pittsburgh
+
+https://t.co/EK8FBTtpAZ https://t.co/zvxlxcoOvR"
+9,Pensacola,Tue May 29 00:20:09 +0000 2018,0.2857142857142857,FL,Me right now because I can’t watch #thebachelorette until tomorrow... https://t.co/wn5kpXCkeU
+10,Oak Park,Tue May 29 00:20:10 +0000 2018,-0.8,IL,... I hate that Reno guy #thebachelorette
+11,Massapequa,Tue May 29 00:20:48 +0000 2018,0.5,NY,This Reno guy was really cute until he opened his mouth 😂😂😂 @BacheloretteABC #thebachelorette
+12,San Antonio,Tue May 29 00:21:44 +0000 2018,0.2523809523809524,TX,"So this guy really just wants a career out of this show, right?! #thebachelorette"
+13,Massapequa,Tue May 29 00:21:56 +0000 2018,0.04910714285714285,NY,This model is a little too feminine for me right now #thebachelorette
+14,Bethesda,Tue May 29 00:21:58 +0000 2018,-0.35000000000000003,MD,Wow HATE JORDAN then #thebachelorette
+15,Hunters Creek Village,Tue May 29 00:22:29 +0000 2018,-0.5,TX,My mom and I are drunk watching #thebachelorette premier. I have peaked
+16,Dallas,Tue May 29 00:23:54 +0000 2018,0.0,TX,"#thebachelorette is now trending in #Dallas
+
+https://t.co/mGY6GYAvG8 https://t.co/n887frQKLS"
+17,New Hope,Tue May 29 00:24:43 +0000 2018,0.0,MN,Colton’s a front runner.... no doubt #thebachelorette
+18,Naperville,Tue May 29 00:24:52 +0000 2018,0.0,IL,I didn’t know you could have a career owning 1000 bottles of cologne. #thebachelorette  #fakejob
+19,Johnson City,Tue May 29 00:25:03 +0000 2018,0.0,TN,He’s gonna blow her nose? #jeanblanc #thebachelorette
+20,Johnson City,Tue May 29 00:25:03 +0000 2018,0.0,TN,He’s gonna blow her nose? #jeanblanc #thebachelorette
+21,Manhattan,Tue May 29 00:25:47 +0000 2018,-0.1,NY,Colton is wearing a leather shirt and a mauve crushed velvet vest. Why did you decide that? #thebachelorette
+22,Philadelphia,Tue May 29 00:26:09 +0000 2018,0.0,PA,"Joe as this season’s @WellsAdams ?
+#thebachelorette"
+23,League City,Tue May 29 00:26:19 +0000 2018,0.0,TX,I want a Colton! 😍 #thebachelorette
+24,Orlando,Tue May 29 00:30:01 +0000 2018,0.0,FL,Who’s watching the season premiere of #thebachelorette? 🙋🏽‍♀️
+25,Oak Park,Tue May 29 00:30:50 +0000 2018,0.0,IL,Please. Colton is angling to be #TheBachelor #thebachelorette https://t.co/b8aqqQ5ZCP
+26,Murphy,Tue May 29 00:31:12 +0000 2018,0.0,MO,Colton.... are you the one?!! @randyr called it while he was working on the stairs!  #thebachelorette
+27,Boston,Tue May 29 00:32:49 +0000 2018,0.7,MA,"Good choice not wearing the velvet vest tonight, Colton. #thebachelorette"
+28,Atlanta,Tue May 29 00:33:56 +0000 2018,0.0,GA,"me: #thebachelorette is a fake, trash show where no one ever finds love 
+
+also me: https://t.co/eNzkk31GmF"
+29,Charlotte,Tue May 29 00:34:43 +0000 2018,0.0,NC,jesus clay. that ain’t it #thebachelorette
+30,Columbus,Tue May 29 00:35:05 +0000 2018,0.0,OH,"#thebachelorette is now trending in #Columbus
+
+https://t.co/60mLCNruud https://t.co/Twp0PN7ztW"
+31,Quincy,Tue May 29 00:35:13 +0000 2018,0.04722222222222221,MA,Sitting down with @Barry_abides to watch the first episode of #thebachelorette and I am SO looking forward to his commentary.
+32,Norman,Tue May 29 00:35:33 +0000 2018,0.0,OK,@NotGayJohnPaul @garrettgappa But isn’t all that apart of the job description of being a server?
+33,Atlanta,Tue May 29 00:36:10 +0000 2018,0.0,GA,"10/10 that guy does NOT speak French. 
+
+#thebachelorette https://t.co/REJm8zMS0H"
+34,Alpharetta,Tue May 29 00:36:36 +0000 2018,0.0,GA,drink every time someone says “let’s do the damn thing” #thebachelorette
+35,New Hope,Tue May 29 00:37:13 +0000 2018,0.5,MN,Top knot guy is a stunt man huh #thebachelorette
+36,Washington,Tue May 29 00:37:40 +0000 2018,0.2857142857142857,DC,"“You have hair like my sister.” This is what all guys want to hear, right? #thebachelorette"
+37,West Palm Beach,Tue May 29 00:38:15 +0000 2018,0.35044642857142855,FL,"Hahahahaha what was that, Jordan??!!! I’m excited to watch this man unfold right in front of our eyes. #thebachelorette"
+38,Oak Park,Tue May 29 00:38:46 +0000 2018,0.0,IL,“The tapping of the shoes is the heartbeat of a gentleman.” #thebachelorette https://t.co/BEHVqtKCuV
+39,West Palm Beach,Tue May 29 00:39:00 +0000 2018,0.0,FL,Jordan is this years Deanie baby! #thebachelorette
+40,Alpharetta,Tue May 29 00:40:05 +0000 2018,-1.0,GA,like can we stop talking about arie? he was the worst. let’s move on. #thebachelorette
+41,Toms River,Tue May 29 00:40:32 +0000 2018,0.25,NJ,Did I just see the first #manbun in bachelorette history? #thebachelorette
+42,Des Moines,Tue May 29 00:40:40 +0000 2018,-0.3,IA,Garrett. Your mini van sucks #thebachelorette
+43,Coral Terrace,Tue May 29 00:40:57 +0000 2018,1.0,FL,Yeah maybe bringing a cardboard cut out of her ex fiancé might not be the best idea #thebachelorette
+44,Pittsford,Tue May 29 00:41:01 +0000 2018,0.0,NY,Can they please require IQ tests before appearing on The Bachelorette???? #thebachelorette
+45,Washington,Tue May 29 00:41:21 +0000 2018,0.0,DC,"Becca, don’t go inside a stranger’s van. #thebachelorette"
+46,Floresville,Tue May 29 00:41:43 +0000 2018,0.0,TX,Man bun and cardboardcutout of another weirdo hmmm ya weirdo #thebachelorette
+47,San Antonio,Tue May 29 00:41:46 +0000 2018,0.5,TX,Garrett is so cute omg #thebachelorette
+48,Toms River,Tue May 29 00:42:02 +0000 2018,0.024999999999999994,NJ,My husband’s everyday whip is a minivan. And he’s pretty dreamy so... #thebachelorette #nothingwrongwithminivans
+49,Columbus,Tue May 29 00:42:17 +0000 2018,0.0,GA,Did a dude just roll up in a minivan 🤦‍♂️#thebachelorette
+50,Towson,Tue May 29 00:45:16 +0000 2018,0.0,MD,I feel like there are a lot of @TimTebow 🏈 look alikes on Becca’s season of @BacheloretteABC #thebachelorette #LetsDoTheDamnThing
+51,Oakville,Tue May 29 00:47:09 +0000 2018,0.05000000000000003,MO,joe: “let’s remind the girl of her ex. that’s a bad idea” glad to know he has good hair AND common sense #thebachelorette
+52,Hartford City,Tue May 29 00:48:32 +0000 2018,0.005681818181818177,IN,When #thebachelorette isn’t on because of the victory celebration.... but other people are live tweeting it. I’m no… https://t.co/cffWZ390tu
+53,St Louis,Tue May 29 00:48:41 +0000 2018,0.3,MO,"“Whoever brings an ox, wins.” -carrie guenzler heaney #thebachelorette"
+54,Overland Park,Tue May 29 00:49:15 +0000 2018,0.3,KS,Lincoln brought cake. He wins automatically. #thebachelorette https://t.co/1nfviyzevt
+55,Norman,Tue May 29 00:49:20 +0000 2018,0.0,OK,"@garrettgappa @NotGayJohnPaul That’s commission, coming from the owner of the car that was sold. When you buy a car… https://t.co/6XrQ7cHBEj"
+56,Oakville,Tue May 29 00:49:21 +0000 2018,0.0,MO,me when mike brings out the arie cutout #thebachelorette https://t.co/DfTuTmFSnl
+57,Roseville,Tue May 29 00:49:24 +0000 2018,0.0,MN,I will personally chase Chase out of the mansion.  #thebachelorette
+58,Washington,Tue May 29 00:49:34 +0000 2018,-0.2,DC,"ah, yes, chase! the advertising VP whose firm’s website still, in the year of our lord 2018, prompts you to enable flash #thebachelorette"
+59,Hartford City,Tue May 29 00:49:35 +0000 2018,0.005681818181818177,IN,When #thebachelorette isn’t on because of the victory celebration.... but other people are live tweeting it. I’m no… https://t.co/Mwmg4CsaF4
+60,Cedar Rapids,Tue May 29 00:49:39 +0000 2018,0.0,IA,Why a bull? Is this a metaphor for vitality? #thebachelorette
+61,Roseville,Tue May 29 00:49:56 +0000 2018,0.0,MN,Where do you think he hid the banjo? His pants? The pool? The alcove by the pool? #thebachelorette
+62,Washington,Tue May 29 00:51:16 +0000 2018,0.03333333333333333,DC,“social media participant” from upstate america??? it me #thebachelorette
+63,Andover,Tue May 29 00:52:09 +0000 2018,0.0,MA,"The stuntman seems a bit hostile, huh? #thebachelorette"
+64,Atlanta,Tue May 29 00:52:09 +0000 2018,0.0,GA,"Did they find Kamil on Tinder? 🙄
+
+#thebachelorette"
+65,Kansas City,Tue May 29 00:52:17 +0000 2018,-1.0,MO,The model is the worst #thebachelorette
+66,West Palm Beach,Tue May 29 00:52:41 +0000 2018,-0.16666666666666666,FL,Trent! seriously. Get back in the damn car. #thebachelorette
+67,Kansas City,Tue May 29 00:53:53 +0000 2018,0.0,MO,Joe is so chicago 🙈#thebachelorette
+68,Norman,Tue May 29 00:53:59 +0000 2018,0.0,OK,"@garrettgappa @NotGayJohnPaul If anything, restaurants should be giving a percentage of the check to the servers fo… https://t.co/p5XpY2x02a"
+69,Columbus,Tue May 29 00:54:31 +0000 2018,-0.6,GA,A chicken suit 🐔 😂🤣😂🤣#thebachelorette
+70,Kansas City,Tue May 29 00:54:40 +0000 2018,0.0,MO,I feel like this cologne dude would just smell you all the time #thebachelorette
+71,Roseville,Tue May 29 00:54:49 +0000 2018,-0.13333333333333333,MN,Venture Capitalist / Chicken. It’s good to know my title of Student / Potato isn’t that weird. #thebachelorette
+72,Charlotte,Tue May 29 00:55:24 +0000 2018,0.0,NC,he brought in the choir from the royal wedding 😂😂😂 #thebachelorette
+73,St Matthews,Tue May 29 00:56:24 +0000 2018,0.5,KY,If I get one more fashion tip about another contestant #thebachelorette https://t.co/Kan4rqnLcN
+74,Charlotte,Tue May 29 00:56:32 +0000 2018,0.0,NC,by my count that’s 7 blacks dudes in the house this season. #thebachelorette https://t.co/PEW7uOK7pS
+75,Miami,Tue May 29 00:58:04 +0000 2018,0.0,FL,"Well now that I’m totally screwed up from watching #13ReasonsWhy szn 2, I shall move on to some comedic relief... #thebachelorette 🌹"
+76,Cedar Rapids,Tue May 29 00:58:16 +0000 2018,0.2,IA,How did he fit that entire choir in the limo though? #thebachelorette
+77,Atlanta,Tue May 29 00:59:12 +0000 2018,0.0,GA,"All in favor of Jordan shutting tf up. 
+
+#thebachelorette https://t.co/kaQPTdGCoc"
+78,Parkland,Tue May 29 00:59:23 +0000 2018,0.0,FL,#NoAriholes! #thebachelorettepar
+79,Mount Washington,Tue May 29 01:02:00 +0000 2018,0.6,KY,Can we get the Rose Choir song turned into a ringtone @BachelorInterns ???#thebachelorette
+80,Wichita,Tue May 29 02:12:38 +0000 2018,0.0,KS,When Jordan talks about the “walls of his brain” 🧐🙄#thebachelorette https://t.co/gua3LtyQcx
+81,Bunker Hill Village,Tue May 29 02:17:15 +0000 2018,-0.8,TX,tbh already hate this season of #thebachelorette and i looked up the finale spoilers and now i don't even wanna watch it
+82,Prescott,Tue May 29 02:44:49 +0000 2018,-0.30000000000000004,AZ,The dude with the thick as Chicago accent. I can’t. 🙉 #thebachelorette
+83,Mesa,Tue May 29 02:53:25 +0000 2018,0.0,AZ,Literally throwing up hearing these pick up lines 🤮🤮🤮 #thebachelorette
+84,Los Angeles,Tue May 29 03:02:30 +0000 2018,0.0,CA,Becca sending him home should send a message to all these guys.. #thebachelorette https://t.co/2i7cDZNVVS @analysisnytimes
+85,Minneapolis,Tue May 29 03:09:33 +0000 2018,-0.3125,MN,i mean yeah becca’s my friend but even *i* am going to have some words with her about sending home grocery store joe. #thebachelorette
+86,Phoenix,Tue May 29 03:17:50 +0000 2018,-0.325,AZ,excuse me if you show up in a chicken suit.. buck-bye #thebachelorette
+87,Seattle,Tue May 29 03:23:57 +0000 2018,0.0,WA,yesss the trump shade from jean blanc 🙌 #thebachelorette
+88,Selma,Tue May 29 03:33:35 +0000 2018,0.6,CA,@JohnPaulHOU Celtics lmao
+89,Oak Harbor,Tue May 29 03:36:31 +0000 2018,0.35,WA,How many of these guys are gonna tell her they’re ready to #DoTheDamnThing #thebachelorette
+90,Selma,Tue May 29 03:36:47 +0000 2018,0.15,CA,"@Astros_Arsenal @JohnPaulHOU Shit, he gotta better chance going to philly than Houston."
+91,Beverly Hills,Tue May 29 03:36:57 +0000 2018,0.0,CA,"@tomfriedman Keep ringing the bell as Paul Revere &amp; John Paul Jones are spinning in the grave! Yes, the glass is ov… https://t.co/XRKo8Z6qCv"
+92,Oak Harbor,Tue May 29 03:39:08 +0000 2018,0.0,WA,Omg this Jordan guy 😂😂😂 #thebachelorette
+93,Los Angeles,Tue May 29 03:42:51 +0000 2018,0.7,CA,Becca the rebound looks good on you girl @thebkoof #thebachelorette
+94,Oak Harbor,Tue May 29 03:52:08 +0000 2018,0.0,WA,60/40 my ass. Go home bro #thebachelorette
+95,Wichita,Tue May 29 03:53:22 +0000 2018,0.25,KS,"So. Tonight I watched #thebachelorette for the first time ever, having been persuaded by @calexandralocke and joine… https://t.co/1YMkH18zbz"
+96,Torrance,Tue May 29 03:53:27 +0000 2018,0.0,CA,60/40 get the hell out of here #thebachelorette https://t.co/n4YamRl4bC
+97,Portland,Tue May 29 04:03:31 +0000 2018,0.20833333333333334,OR,Isn’t it obvious that Jordan is gay? #thebachelorette
+98,Flemington,Mon May 28 22:59:24 +0000 2018,0.7,NJ,@JohnPaulSouza Good thoughts.
+99,Marietta,Mon May 28 19:27:56 +0000 2018,-0.0625,GA,"Combat-wounded veteran USMC Sgt (Ret) Joey Jones was turned away from a theme park roller coaster the other day, pe… https://t.co/T2Mvzr7tHc"
+100,Los Angeles,Mon May 28 23:40:27 +0000 2018,-0.4,CA,The bachelorette is dressed like a whore! She's one to chuck and fuck. #thebachelorette #promo
+101,Fort Hamer,Mon May 28 23:52:53 +0000 2018,0.0,FL,Finally #thebachelorette is back tonight! 🌹🌹
+102,Austin,Tue May 29 00:01:13 +0000 2018,0.018750000000000003,TX,There’s nothing like a reminder of how much you were a hot mess a few months ago. #thebachelorette
+103,Boston,Tue May 29 00:03:34 +0000 2018,-0.10000000000000003,MA,This montage is EVERYTHING &amp; Arie should take a crap in his own hand tbqh #thebachelorette
+104,Long Beach,Tue May 29 04:10:32 +0000 2018,0.5,MD,I liked Clay #thebachelorette ;  not only did he seem nice but he had a great way to remember his name.
+105,Provo,Tue May 29 04:19:43 +0000 2018,0.0,UT,Man i wanna punch this jordan dude in the mouth #thebachelorette
+106,Owensboro,Tue May 29 04:56:24 +0000 2018,0.0,KY,It baffles and annoys me every season that the sun has RISEN by the end of #thebachelorette night one. Why? Start y… https://t.co/Eixl5tDk3k
+107,Columbus,Tue May 29 04:56:26 +0000 2018,-0.24999999999999992,OH,wasn’t tweeting much about #thebachelorette tonight because this season I’m WRITING ABOUT IT (and I’m bad at doing… https://t.co/z3f8rtFVL0
+108,Delmar,Mon May 28 18:11:03 +0000 2018,0.39999999999999997,NY,@JohnPaulHOU So far so good
+109,Westlake,Mon May 28 18:14:12 +0000 2018,0.0,OH,Holy moly #thebachelorette is on tonight?!? Time to get that DVR fired up for what I’ve dubbed ‘Becca’s Boy Toys. G… https://t.co/CK5cenpPnE
+110,Denver,Mon May 28 18:29:14 +0000 2018,0.0,CO,"🚨NEW @Nuggets_Daily PODCAST🚨
 
 Devin Harris' season in review. Topics:
 
 🗣Three-way trade to acquire Harris
 🗣Why Harr… https://t.co/yJMiVcfp4R"
-10,Oklahoma City,Tue May 29 01:35:26 +0000 2018,0.0,OK,"@SideH0E @NotGayJohnPaul but like i said, the way servers are paid is based on their performance. i shouldn't be ma… https://t.co/4HUby7b0Ws"
-11,Oklahoma City,Tue May 29 01:36:07 +0000 2018,0.0,OK,"@SideH0E @NotGayJohnPaul when you go to a restaurant, you expect to pay for the food, and the service. it's just the way the industry is"
+111,Omaha,Tue May 29 01:10:25 +0000 2018,0.0,NE,When Becca said “let’s play some basketball” #thebachelorette https://t.co/XNHE3JELvC
+112,Charlotte,Tue May 29 01:12:31 +0000 2018,0.0,NC,Becca has the hottest guys in #thebachelorette history. 🔥🔥🔥
+113,Silver Spring,Tue May 29 01:13:33 +0000 2018,-0.3,MD,Why did the chicken cross the court? Cuz he bout to get dunked on by Christon! #thebachelorette #bachelorette https://t.co/1390BJHXdk
+114,Naperville,Tue May 29 01:14:17 +0000 2018,0.2836734693877551,IL,"“If i was able to love the wrong person that much, imagine how much I’ll be able to love the right person” #deepthoughtsonthebachelorette"
+115,North Valley Stream,Tue May 29 01:14:33 +0000 2018,-0.4,NY,do I watch #thebachelorette or the #RocketsVsGSW game
+116,Oklahoma City,Tue May 29 01:15:27 +0000 2018,-0.25999999999999995,OK,ok wow shocked when the chicken guy took off his chicken mask #thebachelorette
+117,Kansas City,Tue May 29 01:15:42 +0000 2018,-0.2,MO,That banker is such a fuck boy #thebachelorette
+118,Zoar,Tue May 29 01:16:59 +0000 2018,0.0,OH,Me after meeting the men on #thebachelorette https://t.co/WEtmQRl00l
+119,Huntsville,Tue May 29 01:18:33 +0000 2018,-0.6,TX,when chicken guy took off the chicken face  #thebachelorette https://t.co/fJqPHPTqmR
+120,Atlanta,Tue May 29 01:18:36 +0000 2018,0.0,GA,"omg Garrett.
+
+#thebachelorette https://t.co/Yv2WP0qiAS"
+121,Oklahoma City,Tue May 29 01:18:38 +0000 2018,0.2857142857142857,OK,someone always accuses someone of “not being there for the right reasons” #thebachelorette
+122,Daphne,Tue May 29 01:20:08 +0000 2018,0.7,AL,This is so good 👏 #thebachelorette https://t.co/JpUTDm9aT7
+123,Jupiter,Tue May 29 01:20:34 +0000 2018,0.2,FL,John got a whole lot cuter before I knew he was the Venmo guy. I said he was going to go home...... girl. 👏🏽pick 👏🏽him 👏🏽 #thebachelorette
+124,Ozark,Tue May 29 01:22:37 +0000 2018,0.0,MO,Did Clay on #thebachelorette go to @MissouriState ????
+125,Katy,Tue May 29 01:24:51 +0000 2018,0.0,TX,You’re not what guy? She doesn’t know. None of us know #thebachelorette
+126,Opa-Locka,Tue May 29 01:25:40 +0000 2018,0.0,FL,Chase looks like Taylor Lautner #thebachelorette
+127,Columbus,Tue May 29 01:27:07 +0000 2018,0.6,GA,Chase is not getting a rose tonight #thebachelorette
+128,Jupiter,Tue May 29 01:28:52 +0000 2018,0.0,FL,"Jake, o no. #thebachelorette https://t.co/qWVS8yOkhQ"
+129,Woodbury,Tue May 29 01:31:26 +0000 2018,0.13095238095238093,MN,Ummmm Jake from Minneapolis... heyyyyyyy. I’m still here and super single. #bachelorette #thebachelorette
+130,Opa-Locka,Tue May 29 01:33:33 +0000 2018,0.0,FL,Damn Becca ain’t playing around #thebachelorette 💣 bye Felicia
+131,Overland Park,Tue May 29 01:34:04 +0000 2018,0.0,KS,I am living for all of @ravengates cardi b’s gifs for #thebachelorette https://t.co/THe7pVNQcm
+132,Brooklyn,Tue May 29 01:34:45 +0000 2018,0.6,NY,Every time they pan to the model guy he just looks like this lmao #thebachelorette https://t.co/mmNhxifOh1
+133,Brooklyn,Tue May 29 01:35:13 +0000 2018,0.06818181818181818,NY,With each new season of #thebachelorette there's a sense of hope and renewal. Then the limo doors start to open.
+134,Oklahoma City,Tue May 29 01:35:26 +0000 2018,0.0,OK,"@SideH0E @NotGayJohnPaul but like i said, the way servers are paid is based on their performance. i shouldn't be ma… https://t.co/4HUby7b0Ws"
+135,Oklahoma City,Tue May 29 01:36:07 +0000 2018,0.0,OK,"@SideH0E @NotGayJohnPaul when you go to a restaurant, you expect to pay for the food, and the service. it's just the way the industry is"
+136,Virginia Beach,Tue May 29 01:38:40 +0000 2018,0.13636363636363635,VA,Jordan reminds me of Schmidt from New Girl #thebachelorette #TheBachelorette
+137,Alpharetta,Tue May 29 01:38:46 +0000 2018,0.0,GA,harry potter guy FTW #thebachelorette
+138,Atlanta,Tue May 29 01:42:35 +0000 2018,0.0,GA,"If she doesn’t choose Garrett can I have him? 
+
+#thebachelorette https://t.co/KuxPg4Ko3h"
+139,Kansas City,Tue May 29 01:46:32 +0000 2018,0.425,MO,"Bachelorette rule of thumb: if there is a “text” or an”ex” on the first night, a rose should be a no #thebachelorette"
+140,Chicago,Tue May 29 01:47:03 +0000 2018,0.2,IL,"Let’s be real, I would probably date the bank post, Ryan, in the floral suit. #thebachelorette"
+141,Manhattan,Tue May 29 01:47:22 +0000 2018,-0.39583333333333337,NY,Hard to believe someone would go on this show for the wrong reasons. Smh #thebachelorette
+142,Charlotte,Tue May 29 01:47:35 +0000 2018,0.13636363636363635,NC,"Reasons to send Chris and Chase home:
+1. They live in Orlando 
+#thebachelorette"
+143,Valparaiso,Tue May 29 01:48:21 +0000 2018,0.25,IN,Becca and Garret are gonna get married no joke I'm calling it now 💋⚘👰💍#thebachelorette
+144,Gainesville,Tue May 29 01:48:29 +0000 2018,0.35,FL,I already love Blake so much 😩 #thebachelorette
+145,West Palm Beach,Tue May 29 01:49:19 +0000 2018,0.0,FL,Christon’s eyeballs are getting to me 😍 #thebachelorette
+146,Nantucket,Tue May 29 01:49:22 +0000 2018,0.2857142857142857,MA,I can’t believe they kicked someone off right away #thebachelorette @BacheloretteABC 🙈
+147,Amherst,Tue May 29 01:51:53 +0000 2018,0.0,NY,Garrett Blake Colton. #thebachelorette
+148,Riverview,Tue May 29 01:52:28 +0000 2018,0.0,MI,"butterfliessssssssss ❤️
+#thebachelorette #neverforget #readywhenuare #plsmarryme #loveu @peterkrauswi https://t.co/xRitnfk6gT"
+149,Manhattan,Tue May 29 01:53:41 +0000 2018,-0.4,NY,HOW DO YOU DO THIS TO JOE WHAT THE FUCK #thebachelorette
+150,Charlotte,Tue May 29 01:54:27 +0000 2018,-0.08333333333333333,NC,"7 black guys to start the episode, 6 still left after ep 1. i’ll take it. #thebachelorette https://t.co/3RDdtdq5kW"
+151,Brookline,Tue May 29 01:55:02 +0000 2018,-0.2,MA,HOW DO YOU SEND TRADER JOE HOME NIGHT ONE?! I’M DEAD. #thebachelorette
+152,Washington,Tue May 29 01:55:22 +0000 2018,0.03333333333333333,DC,This dude’s job title is Social Media PARTICIPANT. #thebachelor
+153,Manhattan,Tue May 29 01:55:28 +0000 2018,-0.6,NY,"Joe for Bachelor in Paradise. Fucking lock that up now, ABC. #thebachelorette"
+154,Huntsville,Tue May 29 01:55:31 +0000 2018,0.0,TX,THE GROCERY GUY IS GOING HOME? NOOOOOO #thebachelorette
+155,Philadelphia,Tue May 29 01:56:14 +0000 2018,0.5,PA,MIKE DESERVES MORE SCREEN TIME GIVE HIM ALL THE ROSES AND ALL THE ATTENTION #thebachelorette
+156,Dublin,Tue May 29 01:57:02 +0000 2018,-0.17500000000000002,OH,"Becca’s pool is weak. I’m not proud, but I’m here for Colton.... even though we know exactly how that’s going to end. #thebachelorette"
+157,Atlanta,Tue May 29 01:57:27 +0000 2018,0.0,GA,"Wait... how embarrassed is Kamil? 
+
+#thebachelorette"
+158,Charlotte,Tue May 29 02:00:49 +0000 2018,0.0,NC,ain’t a #thebachelorette season montage without the obligatory ambulance sirens
+159,Ashland,Tue May 29 02:00:58 +0000 2018,0.0,OH,this model dude has lost his mind #thebachelorette
+160,Andover,Tue May 29 02:01:43 +0000 2018,0.4,MA,The model is bizarre. #thebachelorette
+161,Hazlet,Tue May 29 02:02:06 +0000 2018,0.0,NJ,This season of #thebachelorette is gonna be so good😩
+162,Mount Washington,Tue May 29 02:02:12 +0000 2018,0.375,KY,Pretty sure Jordan thought this was a dating show where he was signing up to date himself.  #thebachelorette
 0,Houston,Tue May 29 22:34:12 +0000 2018,0.5,TX,@JohnPaulHOU Max Stassi has been phenomenal. Why is he not the replacement..
-1,Lincoln,Wed May 30 00:33:43 +0000 2018,1.0,CA,"@JohnPaulFerrar2 Yooooo this was happening to me too but i swear if you wait it out a lil bit, things get better!!!!"
-0,Boston,Thu May 31 02:53:20 +0000 2018,-0.5,MA,@Aspero28 @ollie_stevens @Jimmy2Lips The demise of Rondo was greatly exaggerated. Which gas station is Devin Harris working at these days?
-1,Greenville,Wed May 30 19:58:22 +0000 2018,-0.5,SC,@JohnPaul_USA @realDonaldTrump Wrong she despises trump.
-2,Birmingham,Thu May 31 02:00:05 +0000 2018,-0.4,MI,@JohnPaul48 @justinsuntron Almost game time 🙌
+1,Henderson,Wed May 30 02:59:22 +0000 2018,0.125,NV,"Limo 4: #thebachelorette 
+Christion: 🙂
+Wills: 😏
+Jason: 🙃
+Kamil: 😞
+Jake: TELL US MORE ABOUT THE PAST
+Trent: 😜 that line"
+2,Durango,Wed May 30 03:15:37 +0000 2018,0.0,CO,"Me: “Let’s change it to Westworld”
+Shane: “...but I’m kinda in to this...” #thebachelorette 🌹"
+3,Henderson,Wed May 30 03:30:10 +0000 2018,0.0,NV,Do men not wear socks with suits anymore? What is this trend? When did it start? When does it end? #thebachelorette
+4,Rexburg,Wed May 30 04:35:06 +0000 2018,-0.5000000000000001,ID,Casually gets rug burn while watching #thebachelorette #commitment
+5,Alexandria,Tue May 29 23:53:02 +0000 2018,0.3625,VA,"Catching up on #thebachelorette and wow, Colton, you have my ❤️ already!"
+6,Lincoln,Wed May 30 00:33:43 +0000 2018,1.0,CA,"@JohnPaulFerrar2 Yooooo this was happening to me too but i swear if you wait it out a lil bit, things get better!!!!"
+7,Rochester Hills,Tue May 29 19:12:09 +0000 2018,0.6,MI,"When you find out your #1 on #thebachelorette liked racist, bigot posts in #Instagram @BacheloretteABC https://t.co/HqzIaR0a0d"
+8,Bowie,Tue May 29 19:38:40 +0000 2018,-0.13181818181818183,MD,THIS MAN. BROUGHT A CARDBOARD CUT OUT. OF THE PERSON WHO DUMPED HER ON LIVE TV. WHO THE FUCK #thebachelorette
+9,Bowie,Tue May 29 19:48:17 +0000 2018,0.3,MD,omg so far i love blake. please don’t disappoint me b #thebachelorette
+0,Chula Vista,Thu May 31 05:28:22 +0000 2018,0.3,CA,Joe seems like such a nice guy why God why 😭😭#thebachelorette
+1,Dallas,Thu May 31 03:12:53 +0000 2018,-1.0,TX,Aaaaaand I immediately deciding to watch #thebachelorette. These dudes are the worst. 🥀
+2,Winterhaven,Thu May 31 00:35:03 +0000 2018,0.0,CA,"#760YO Check out Playaz Club [Explicit] by Rappin' 4-Tay on Amazon Music
+https://t.co/i5iPuwDdbd #SoundCloud 💍 #thebachelorette"
+3,Renton,Thu May 31 06:33:27 +0000 2018,0.0,WA,YOOO TEAM BLAKE 500% IF YOURE NOT TEAM BLAKE GTFO THE KITCHEN #thebachelorette
+4,Boston,Thu May 31 02:53:20 +0000 2018,-0.5,MA,@Aspero28 @ollie_stevens @Jimmy2Lips The demise of Rondo was greatly exaggerated. Which gas station is Devin Harris working at these days?
+5,Anchorage,Thu May 31 04:16:21 +0000 2018,0.6,AK,Ok her beaded dress is gorgeous though. #thebachelorette
+6,Greenville,Wed May 30 19:58:22 +0000 2018,-0.5,SC,@JohnPaul_USA @realDonaldTrump Wrong she despises trump.
+7,Brooklyn,Thu May 31 01:35:18 +0000 2018,0.3,NY,So far my front runner is the grocery mogul with too many teeth #thebachelorette
+8,Birmingham,Thu May 31 02:00:05 +0000 2018,-0.4,MI,@JohnPaul48 @justinsuntron Almost game time 🙌
 0,Elwood,Fri Jun 01 01:19:47 +0000 2018,0.8,NY,@Bklynfinest1477 @JohnPaulFAL @hilaryjoy @jimmyjamny @UCONNAl I just can’t believe I’m watching basketball. Lol
 1,Elwood,Fri Jun 01 01:34:42 +0000 2018,0.0,NY,@AstroDJrocks @mushwear @UCONNAl @jimmyjamny @JohnPaulFAL @Tropes1406 @DonnyVantage @Nemesis3373 @BEonWBER… https://t.co/bF5WDr0sKG
 2,Houston,Thu May 31 18:34:27 +0000 2018,-0.08333333333333333,TX,@JohnPaulSports @rockets With the 2 second half collapses  &amp; non adjustments &amp; not calling time outs &amp; not calling… https://t.co/jkUktslH8O
@@ -87,31 +293,173 @@ Devin Harris' season in review. Topics:
 0,Raleigh,Sat Jun 02 20:34:55 +0000 2018,0.45499999999999996,NC,"It was a very good day for Michael Johnson @MikeJohnsonAU 
 
 We will have the same tee times tomorrow (Sunday) as we… https://t.co/VG84yq0ak9"
-1,Raleigh,Sun Jun 03 03:18:39 +0000 2018,0.0,NC,"“This is what we play for.”
+1,Paradise,Sun Jun 03 04:38:26 +0000 2018,0.13636363636363635,NV,The new bachelorette is dumb...it's expecto patronum not expecto patronus you numbskull #thebachelorette
+2,Raleigh,Sun Jun 03 03:18:39 +0000 2018,0.0,NC,"“This is what we play for.”
 
 @AuburnMGolf alum @MikeJohnsonAU will wake up Sunday with a three-shot lead… https://t.co/2g4bDBHh0v"
 0,Tucson,Mon Jun 04 00:01:19 +0000 2018,0.11666666666666665,AZ,"John Paul Jones was one of my favorite bass players, back when I was growing up."
 1,Commack,Sun Jun 03 22:37:01 +0000 2018,0.0,NY,@Nemesis3373 @JohnPaulFAL @HandicapperFAL @Babchik @ConfusedFAL @JustNzinga @MrsHandicapper @EvCoRadio @JudgeTorre… https://t.co/cYzdgRhCFS
 2,Toftrees,Mon Jun 04 02:43:28 +0000 2018,0.0,PA,@JohnPaulFAL @ConfusedFAL @UCONNAl @BostonErik @Babchik @BEonWBER
-0,Carol Stream,Mon Jun 04 20:49:46 +0000 2018,0.0,IL,@mojo_fal_83od @JoelNajera @JohnPaulFAL I got it too.
-1,Diamond Bar,Mon Jun 04 23:12:08 +0000 2018,0.3,CA,"@RealtorJohnPaul Hi John, I own a financial brokerage that works with investors and buy/sell deals. I'm looking for… https://t.co/4nnc7cUzQu"
-2,Reston,Mon Jun 04 22:56:35 +0000 2018,1.0,VA,@ScoutingAstros @JohnPaulSports He’d be awesome in our ballpark and lineup.
-3,Elwood,Tue Jun 05 02:38:08 +0000 2018,0.0,NY,@JohnPaulFAL @brianlange77 @TXNS_FAN4ever @EvCoRadio @Babchik @MadDogRadio @mushwear @UCONNAl @hilaryjoy Me too!!
-4,Cliffside Park,Tue Jun 05 02:41:35 +0000 2018,0.0,NJ,@mushwear @EvCoRadio @Babchik @AGBerg12 @JudgeTorre @ZimmermanSXM @Tropes1406 @JohnPaulFAL @hereslauren @hilaryjoy… https://t.co/nF65B4XS5t
-5,Huntington Beach,Tue Jun 05 02:48:36 +0000 2018,0.09999999999999999,CA,@JohnPaulFAL @JFan57 @CMarq23 You really should. You could take care of drunk people and be the nice Fal 😊
-0,Huntington Beach,Wed Jun 06 02:17:24 +0000 2018,0.0,CA,@PennFal25 @JohnPaulFAL @Bklynfinest1477 @UCONNAl @jimmyjamny @ENewill @DolphinFal Man on the street #rickybobby lo… https://t.co/jiGo53QkO3
-1,Tuscaloosa,Wed Jun 06 04:17:48 +0000 2018,0.0,AL,I read “Friends with MJ” and initially assumed that it was @MikeJohnsonAU https://t.co/c7cD8wP2Lq
-2,Philadelphia,Wed Jun 06 00:18:23 +0000 2018,0.0,PA,@JoeyJones789 @TheIncredibles @AlaskaAir So tomorrow isn’t the premiere?
-3,Malta,Wed Jun 06 00:23:32 +0000 2018,0.46875,NY,@JohnPaulFAL @Bklynfinest1477 @UCONNAl @ENewill So much fun!!
-4,Malta,Wed Jun 06 00:53:15 +0000 2018,0.0,NY,@ENewill @Bklynfinest1477 @JohnPaulFAL @UCONNAl Damn I didn’t get a pic!!!
-5,Malta,Wed Jun 06 01:00:52 +0000 2018,0.0,NY,@Bklynfinest1477 @UCONNAl @JohnPaulFAL @ENewill Only thing I don’t like doing during the day is work.
-6,Huntington Beach,Wed Jun 06 01:49:40 +0000 2018,0.0,CA,@hilaryjoy @Bklynfinest1477 @IanBlairFal @UCONNAl @ENewill @jimmyjamny @JohnPaulFAL  https://t.co/gJwZePE7TE
-7,Malta,Wed Jun 06 01:50:27 +0000 2018,0.6,NY,@ElaineinCali @hilaryjoy @Bklynfinest1477 @IanBlairFal @UCONNAl @ENewill @JohnPaulFAL Nice penis.
-8,Huntington Beach,Wed Jun 06 01:57:36 +0000 2018,0.0,CA,@hilaryjoy @JFan57 @Bklynfinest1477 @IanBlairFal @UCONNAl @ENewill @jimmyjamny @JohnPaulFAL @FalQueen @mushwear The… https://t.co/7MUSx1sOW3
+3,Winterhaven,Mon Jun 04 04:35:44 +0000 2018,0.0,CA,#Desert #DesertLife #760YO #YO #NBAFinals #thebachelorette https://t.co/a7Uve1DLmt
+0,Pikesville,Tue Jun 05 00:09:24 +0000 2018,0.0,MD,Oh is Jordan a model? I had no idea 😂🙄 #thebachelorette
+1,Oak Park,Tue Jun 05 00:10:39 +0000 2018,-0.5,IL,I’m still not over Rachel’s decision. Sorry. Or sorry. #thebachelorette https://t.co/0tBfXHRS08
+2,Kansas City,Tue Jun 05 00:13:33 +0000 2018,0.0,MO,Me seeing @ashleyiaco in that #oceans8 commercial. #thebachelorette https://t.co/XMY4Q869PY
+3,Stillwater,Tue Jun 05 00:14:20 +0000 2018,0.0,OK,Help I’m attracted to Jordan’s face #thebachelorette https://t.co/FK6CEJgkda
+4,West Des Moines,Tue Jun 05 00:14:44 +0000 2018,0.0,IA,When they show Lincoln shirtless... #thebachelorette 😍😍😍 https://t.co/0cPDAVhx9b
+5,Columbus,Tue Jun 05 00:16:37 +0000 2018,0.25,OH,Yes Clay.  You do you honey. Keepin it hot while she got you on ice 🔥 #thebachelorette
+6,Boston,Tue Jun 05 00:17:16 +0000 2018,0.2,MA,Lincoln cheated through the whole thing...#thebachelorette
+7,Loveland,Tue Jun 05 00:19:55 +0000 2018,0.0,OH,Can’t wait to listen to Becca’s podcast after the show concludes #thebachelorette
+8,Aspinwall,Tue Jun 05 00:25:07 +0000 2018,0.2,PA,Lincoln’s kiss was really aggressive  #thebachelorette
+9,Chicago,Tue Jun 05 00:25:31 +0000 2018,0.0,IL,Hey Lincoln - chillll dude. It’s day 2. #thebachelorette
+10,Kerrville,Tue Jun 05 00:26:50 +0000 2018,0.0,TX,#Jordan reminds me of Joey Donner on #10thingsihateaboutyou.  #thebachelorette
+11,Chicago,Tue Jun 05 00:27:31 +0000 2018,0.6,IL,I don’t want any of these guys to get the rose. #thebachelorette
+12,Atlanta,Tue Jun 05 00:29:26 +0000 2018,0.0,GA,What’s his face — all I see is Ben Stiller. #thebachelorette
+13,Fort Wayne,Tue Jun 05 00:30:32 +0000 2018,-0.5,IN,connor are you an insecure douchebag or nah #thebachelorette
+14,Oshkosh,Tue Jun 05 00:31:01 +0000 2018,0.0,WI,"Lincoln, do you know how to kiss or nah?? #thebachelorette"
+15,Chicago,Tue Jun 05 00:34:01 +0000 2018,-0.43333333333333335,IL,i’m sorry but Lincoln looks like the absolute WORST kisser 🙅🏼‍♀️ #thebachelorette
+16,Chicago,Tue Jun 05 00:35:23 +0000 2018,0.0,IL,We are on minute 8 of arguing over a framed picture in case you were considering flipping over to #thebachelorette
+17,Miami,Tue Jun 05 00:35:40 +0000 2018,0.0,FL,@BacheloretteABC just started &amp; I already know my picks for our fantasy league are gonna get me some A1 points 👌🏼😂 #thebachelorette
+18,Fort Wayne,Tue Jun 05 00:36:11 +0000 2018,0.0,IN,when lincoln said he was looking forward to showing his mom the picture #thebachelorette https://t.co/kBywWwFaCv
+19,Radnor Township,Tue Jun 05 00:37:20 +0000 2018,0.24285714285714285,PA,Lincoln looks like he’s ratting our Connor to his kindergarten teacher right now. Is this real life? #thebachelorette
+20,Fort Wayne,Tue Jun 05 00:37:54 +0000 2018,0.5,IN,okay but clay. end of story. #thebachelorette https://t.co/3Ez955hORt
+21,Radnor Township,Tue Jun 05 00:40:20 +0000 2018,0.375,PA,Honestly it doesn’t bother me so much that Connor threw the photo as much as it does that he wears that many bracelets. #thebachelorette
+22,New Albany,Tue Jun 05 00:45:48 +0000 2018,-0.04999999999999999,IN,"Ok, the Globetrotter or the chicken #thebachelorette"
+23,Pensacola,Tue Jun 05 00:46:23 +0000 2018,0.05,FL,Apparently there’s a #thebachelorette viewing party happening in downtown pensacola and Jean Blanc is there. And my… https://t.co/xIU3qNt2OJ
+24,Louisville,Tue Jun 05 00:47:30 +0000 2018,0.0,KY,"""ingenuinity"" #thebachelorette"
+25,Atlanta,Tue Jun 05 00:48:25 +0000 2018,0.21428571428571427,GA,Jordan is like really really smart.  #thebachelorette https://t.co/mqXJ9nZVbP
+26,Boston,Tue Jun 05 00:49:09 +0000 2018,0.0,MA,Lil Jon on #thebachelorette ? https://t.co/UD1oLGxr4F
+27,Tampa,Tue Jun 05 00:50:27 +0000 2018,-0.19999999999999998,FL,Omfg hahaha this is awkward #thebachelorette
+28,Newton,Tue Jun 05 00:50:47 +0000 2018,0.0,MA,lil John should marry Becca. #thebachelorette https://t.co/C61kPxtYWp
+29,Radnor Township,Tue Jun 05 00:50:49 +0000 2018,0.0,PA,How in the hell did this Lil Jon/ABC collab happen? #thebachelorette
+30,Nashville,Tue Jun 05 00:50:59 +0000 2018,0.35,TN,"""There was this cool helmet."" Said no one ever... until now. #thebachelorette"
+31,Charlotte,Tue Jun 05 00:51:24 +0000 2018,0.0,NC,Do we have to remind d Becca about her ex in every episode? #thebachelorette
+32,Radnor Township,Tue Jun 05 00:51:53 +0000 2018,0.5,PA,How many episodes in until the Arie mentions stop? #thebachelorette
+33,Chicago,Tue Jun 05 00:51:59 +0000 2018,0.25,IL,My idea first date? Rehashing the girl’s bummed proposal with @LilJon. So relatable #thebachelorette
+34,St Petersburg,Tue Jun 05 00:52:16 +0000 2018,1.0,FL,BREAK ALL THE WINDOWS OF ARIES CAR!! This is the best date ever!!!! #thebachelorette #liljohn https://t.co/BEGDjv5VFi
+35,Philadelphia,Tue Jun 05 00:52:44 +0000 2018,0.0,PA,#thebachelorette producers out did themselves by bringing the actual couch Becca sat on when Arie broke up with her… https://t.co/Dv0QAZZR29
+36,Washington,Tue Jun 05 00:52:48 +0000 2018,0.0,DC,Maybe Becca should just be with Lil Jon. #thebachelorette
+37,Long Green,Tue Jun 05 00:52:51 +0000 2018,0.0,MD,I WANT TO HAVE THIS DATE #thebachelorette
+38,Washington,Tue Jun 05 00:54:13 +0000 2018,0.7166666666666667,DC,This is easily the best date in #thebachelorette history. Someone please gif it for me immediately.
+39,Manhattan,Tue Jun 05 00:55:47 +0000 2018,-0.06666666666666665,NY,Thanks @BacheloretteABC for putting that subtle disclaimer those fish were plastic #thebachelorette
+40,Bartow,Tue Jun 05 00:59:05 +0000 2018,0.0,FL,"Blake reminds me of Robert Pattinson, amiright? #thebachelorette"
+41,Avon,Tue Jun 05 01:02:45 +0000 2018,0.0,CT,Plot twist Jason is Alex Turner in disguise #thebachelorette https://t.co/maq7iNhjhi
+42,Los Angeles,Tue Jun 05 05:40:35 +0000 2018,-0.25625,CA,"this ep of #thebachelorette has everything that turns me on:
+
+1. like 8 dudes crying
+2. mean child actors
+3. trampoline dodgeball"
+43,Carol Stream,Mon Jun 04 20:49:46 +0000 2018,0.0,IL,@mojo_fal_83od @JoelNajera @JohnPaulFAL I got it too.
+44,Diamond Bar,Mon Jun 04 23:12:08 +0000 2018,0.3,CA,"@RealtorJohnPaul Hi John, I own a financial brokerage that works with investors and buy/sell deals. I'm looking for… https://t.co/4nnc7cUzQu"
+45,Houston,Mon Jun 04 23:23:43 +0000 2018,0.0,TX,Almost time for #thebachelorette week 2! 🌹
+46,Charlotte,Tue Jun 05 00:02:43 +0000 2018,-0.05,NC,I have a strange feeling “tick tock let’s make it rock” will catch on like “let’s do the damn thing” #thebachelorette
+47,Oak Park,Tue Jun 05 00:04:37 +0000 2018,0.0,IL,"Chris H.: How was it doing the thing?
+Me: STILL COUNTS CHRIS *starts binge drinking* #thebachelorette https://t.co/3G7r9fPPVv"
+48,San Diego,Tue Jun 05 04:36:12 +0000 2018,0.0,CA,“Because lord knows he’s not the quarterback!” #thebachelorette #HermanWatchesTheBachelorette
+49,Costa Mesa,Tue Jun 05 04:40:53 +0000 2018,0.0,CA,Take a shot every time Becca mentions being engaged to Arie #thebachelorette
+50,San Diego,Tue Jun 05 04:44:23 +0000 2018,0.5,CA,“Do they have a room for the more winey guys?” #HermanWatchesTheBachelorette #thebachelorette
+51,West Hollywood,Tue Jun 05 04:45:12 +0000 2018,0.07142857142857142,CA,"I just want to hang out with Clay, bake muffins and make vision boards. He’s such a pure human #thebachelorette"
+52,Seattle,Tue Jun 05 04:45:25 +0000 2018,0.08333333333333333,WA,Jordan reminds me soooooo much of my ex and I’m disappointed in myself lol #thebachelorette
+53,San Diego,Tue Jun 05 04:49:48 +0000 2018,0.0,CA,Um ABC were we supposed to CGI in some tears for Becca there? #thebachelorette
+54,Portland,Tue Jun 05 05:00:10 +0000 2018,0.7,OR,"Becca good lord, keeping Jordan?  #thebachelorette"
+55,Plano,Tue Jun 05 01:09:36 +0000 2018,0.5,TX,Okay it’s nothing else on TV watchable so I resort to the Bachelorette 😟😟😟#thebachelorette
+56,Philadelphia,Tue Jun 05 01:11:50 +0000 2018,0.0,PA,“YOU GUYS ARE TURTLES” #thebachelorette
+57,Columbus,Tue Jun 05 01:12:08 +0000 2018,0.2,OH,These kids are intense.   Damn.  What children's theater program did these producers find them? #thebachelorette
+58,Philadelphia,Tue Jun 05 01:12:27 +0000 2018,0.0,PA,"The kid screaming ""TRASH"" is all of us #thebachelorette"
+59,Helena,Tue Jun 05 01:14:01 +0000 2018,0.0,AL,By does this episode of #thebachelorette seems so low budget? @BacheloretteABC
+60,Columbus,Tue Jun 05 01:14:02 +0000 2018,0.275,OH,My dodgeball date favorite: Leo.  At first his long hair made me question his stability but now I like his free spirit. #thebachelorette
+61,Louisville,Tue Jun 05 01:14:22 +0000 2018,0.0,KY,3yo: what are those eggs? Me: those are balls. Dodgeballs. #thebachelorette
+62,Chicago,Tue Jun 05 01:17:44 +0000 2018,-0.10714285714285715,IL,@FashionistaNYC You know the hashtag is wrong right? #thebachelorette
+63,New Albany,Tue Jun 05 01:21:27 +0000 2018,0.0,IN,Jordan and Olivia should meet...maybe procreate #thebachelorette
+64,Raleigh,Tue Jun 05 01:26:31 +0000 2018,0.0,NC,TIA?!? #thebachelorette https://t.co/MyF6Ox4kHL
+65,Brownville,Tue Jun 05 01:32:53 +0000 2018,0.0,NJ,The male model aka the villain #thebachelorette
+66,Nashville,Tue Jun 05 01:33:06 +0000 2018,-0.6,TN,Wills has a harry potter tattoo amd so do I so... winner winner chicken dinner. #thebachelorette
+67,Mount Zion,Tue Jun 05 01:37:50 +0000 2018,0.0,IL,alright i’m already over the Arie bashes and jokes #thebachelorette
+68,St Petersburg,Tue Jun 05 01:38:01 +0000 2018,-0.15555555555555559,FL,“I want her to fall for my personality” *immediately strips down to his underwear* #thebachelorette
+69,Chicago,Tue Jun 05 01:38:04 +0000 2018,0.0,IL,Congratulations Jordan on being my POWER PLAYER OF THE WEEK! #thebachelorette #powermovesonly
+70,Port St Lucie,Tue Jun 05 01:38:20 +0000 2018,0.1,FL,"Jordan, you aren’t sexy and your body kinda sucks 🤷🏼‍♀️ #thebachelorette"
+71,Brooklyn,Tue Jun 05 01:38:21 +0000 2018,0.375,NY,Does Jordan think that kayaking on sundays wouldn’t be fun?! 🤔 #thebachelorette
+72,St Louis,Tue Jun 05 01:45:01 +0000 2018,0.024999999999999994,MO,Chicken man v. Naked man seems like a good fight to initiate. This can only go well (not). #thebachelorette
+73,Nashville,Tue Jun 05 01:46:30 +0000 2018,0.0,TN,"“I walked around in my underwear, dude. That’s *not* me looking for attention.” #thebachelorette"
+74,Detroit Lakes,Tue Jun 05 01:49:41 +0000 2018,0.0,MN,Here’s an idea: CALL TIA #thebachelorette
+75,Brooklyn,Tue Jun 05 01:51:27 +0000 2018,0.35,NY,“This is very comparable to swimwear” is what I say about most of my ensembles. #thebachelorette
+76,Buffalo,Tue Jun 05 01:55:31 +0000 2018,0.0,NY,Lincoln’s accent sounds just like Tucker the pizza boy’s from There’s Something About Mary.  #thebachelorette
+77,Brooklyn,Tue Jun 05 01:55:34 +0000 2018,0.0,NY,Are there 2 Blakes?! #thebachelorette
+78,Stillwater,Tue Jun 05 01:56:06 +0000 2018,-0.6,OK,David the chicken 4ever #thebachelorette
+79,Philadelphia,Tue Jun 05 01:56:20 +0000 2018,0.5,PA,#thebachelorette 🗣🗣 GIVE MIKE MORE SCREEN TIME ‼️‼️
+80,Philadelphia,Tue Jun 05 01:56:24 +0000 2018,0.0,PA,I hope Jordan goes home wearing that blanket cape #thebachelorette
+81,Boston,Tue Jun 05 01:57:03 +0000 2018,0.0,MA,Eliminate Blanket. #thebachelorette
+82,University,Tue Jun 05 01:57:05 +0000 2018,-0.10714285714285715,FL,"We may be sick, but never sick of The Bachelorette !!!! 
+
+@BacheloretteABC @flhospi@BachelorABC  #thebachelorette 🌹… https://t.co/7VpjIZUGYZ"
+83,St Petersburg,Tue Jun 05 01:57:10 +0000 2018,0.6,FL,oh my gosh WHY ARE YOU GIVING JORDAN A ROSE #thebachelorette
+84,Boston,Tue Jun 05 01:59:15 +0000 2018,0.024999999999999994,MA,90% of the first few episodes of #thebachelorette: “Who is that guy?”
+85,Hialeah,Tue Jun 05 01:59:40 +0000 2018,0.0,FL,Oh no don’t cry 😢 #thebachelorette
+86,Richmond,Tue Jun 05 02:00:29 +0000 2018,0.0,VA,"If anything, this episode just makes it look like @ABCNetwork controls her decisions #thebachelorette"
+87,St. Louis,Tue Jun 05 02:01:25 +0000 2018,0.0,MO,"#thebachelorette is now trending in #StLouis
+
+https://t.co/QlOg4ZDGJV https://t.co/VsI7NcxhlZ"
+88,Indianapolis,Tue Jun 05 02:03:01 +0000 2018,0.0,IN,"#thebachelorette is now trending in #Indianapolis
+
+https://t.co/NRSKFtqU7U https://t.co/RyXLtw6mvH"
+89,Memphis,Tue Jun 05 02:03:37 +0000 2018,0.0,TN,"#thebachelorette is now trending in #Memphis
+
+https://t.co/kfaMV207fY https://t.co/72HZlHr6cQ"
+90,San Diego,Tue Jun 05 03:25:24 +0000 2018,0.0,CA,the way lincoln talks about/hypes up becca is all i want from a man 😭😭 #thebachelorette
+91,West Hollywood,Tue Jun 05 03:26:34 +0000 2018,-0.1777777777777778,CA,"Lincoln, I’m gonna need you to take it down just a few notches...pretty please #thebachelorette"
+92,Los Angeles,Tue Jun 05 03:31:06 +0000 2018,-0.3125,CA,I’m dead!! Lincoln 🤦🏾‍♀️ #thebachelorette
+93,Oak Harbor,Tue Jun 05 03:35:24 +0000 2018,0.5,WA,Lincoln it was a picture of you winning a race you cheated in- not a puppy. Chill tf out. #thebachelorette
+94,San Diego,Tue Jun 05 03:47:32 +0000 2018,0.0,CA,“These guys are deep. This is deep.” #HermanWatchesTheBachelorette #thebachelorette
+95,Oak Harbor,Tue Jun 05 03:48:59 +0000 2018,0.5,WA,@chrisbharrison this date better not blow. #thebachelorette
+96,West Hollywood,Tue Jun 05 03:59:34 +0000 2018,0.0,CA,This is the purest I’ve ever seen Warwick look #thebachelorette
+97,Long Beach,Tue Jun 05 04:02:47 +0000 2018,0.0,CA,Connor is a douche and is showing his age. #immature #thebachelorette
+98,Los Angeles,Tue Jun 05 04:03:06 +0000 2018,0.0,CA,Guy reading the 2nd group date card 😍 #thebachelorette
+99,Reston,Mon Jun 04 22:56:35 +0000 2018,1.0,VA,@ScoutingAstros @JohnPaulSports He’d be awesome in our ballpark and lineup.
+100,Jonesboro,Tue Jun 05 02:13:03 +0000 2018,0.1,AR,The fact that #thebachelorette is gonna have Tia and Colton on the show at the same time just shows how much the search for drama 🙄
+101,Buffalo,Tue Jun 05 02:13:54 +0000 2018,0.0,NY,"#thebachelorette is now trending in #Buffalo
+
+https://t.co/q0A0pz1Dlb https://t.co/YQjDObBqRT"
+102,Fern Creek,Tue Jun 05 02:14:19 +0000 2018,-0.07777777777777779,KY,Am I the only one that thinks Jason looks like he might accidentally burn the mansion down with a crock-pot? #thebachelorette
+103,Cleveland,Tue Jun 05 02:26:44 +0000 2018,0.0,OH,"#thebachelorette is now trending in #Cleveland
+
+https://t.co/Voi34kdSK0 https://t.co/yQ4pSaGJKC"
+104,Tampa,Tue Jun 05 02:29:25 +0000 2018,-0.10714285714285715,FL,"We may be sick, but never sick of The Bachelorette !!!! 
+
+@BacheloretteABC @BachelorABC @FloridaHospital
+#thebachelorette⁠ ⁠ 🌹🌹🌹"
+105,Colorado Springs,Tue Jun 05 02:31:25 +0000 2018,0.6333333333333333,CO,#thebachelorette has gotten exceptionally tacky and kind of inappropriate with this Arie themed demo date.… https://t.co/gqabnmFMRU
+106,Elwood,Tue Jun 05 02:38:08 +0000 2018,0.0,NY,@JohnPaulFAL @brianlange77 @TXNS_FAN4ever @EvCoRadio @Babchik @MadDogRadio @mushwear @UCONNAl @hilaryjoy Me too!!
+107,Cliffside Park,Tue Jun 05 02:41:35 +0000 2018,0.0,NJ,@mushwear @EvCoRadio @Babchik @AGBerg12 @JudgeTorre @ZimmermanSXM @Tropes1406 @JohnPaulFAL @hereslauren @hilaryjoy… https://t.co/nF65B4XS5t
+108,Huntington Beach,Tue Jun 05 02:48:36 +0000 2018,0.09999999999999999,CA,@JohnPaulFAL @JFan57 @CMarq23 You really should. You could take care of drunk people and be the nice Fal 😊
+109,Marina del Rey,Tue Jun 05 02:50:06 +0000 2018,0.2,CA,Who’s ready to watch &amp; wine? #thebachelorette https://t.co/Li9UXUaliZ
+110,Cincinnati,Tue Jun 05 02:53:25 +0000 2018,0.0,OH,"#thebachelorette is now trending in #Cincinnati
+
+https://t.co/l7wFwSTjk1 https://t.co/CqpKOHMQxP"
+111,Gurnee,Tue Jun 05 03:00:54 +0000 2018,0.0,IL,@viallnicholas28 This is GOLD⚘🌹🥇#thebachelorette
+112,Atlanta,Tue Jun 05 03:02:01 +0000 2018,0.0,GA,"#thebachelorette is now trending in #Atlanta
+
+https://t.co/nsGX3E5K1L https://t.co/lUWqvh54dL"
+113,Baltimore,Tue Jun 05 03:03:03 +0000 2018,0.0,MD,"#thebachelorette is now trending in #Baltimore
+
+https://t.co/SWO6Cc1102 https://t.co/cNs3XNhKtj"
+114,Lake Forest,Tue Jun 05 03:04:09 +0000 2018,0.0,CA,Blake for bachelor 2019! #thebachelor starting the campaign now
+0,Brea,Tue Jun 05 23:40:16 +0000 2018,0.0,CA,"@Amy_Siskind Obviously, because @kanyewest is about to drop an album....and #thebachelorette!"
+1,Huntington Beach,Wed Jun 06 02:17:24 +0000 2018,0.0,CA,@PennFal25 @JohnPaulFAL @Bklynfinest1477 @UCONNAl @jimmyjamny @ENewill @DolphinFal Man on the street #rickybobby lo… https://t.co/jiGo53QkO3
+2,Tuscaloosa,Wed Jun 06 04:17:48 +0000 2018,0.0,AL,I read “Friends with MJ” and initially assumed that it was @MikeJohnsonAU https://t.co/c7cD8wP2Lq
+3,Philadelphia,Wed Jun 06 00:18:23 +0000 2018,0.0,PA,@JoeyJones789 @TheIncredibles @AlaskaAir So tomorrow isn’t the premiere?
+4,Malta,Wed Jun 06 00:23:32 +0000 2018,0.46875,NY,@JohnPaulFAL @Bklynfinest1477 @UCONNAl @ENewill So much fun!!
+5,Malta,Wed Jun 06 00:53:15 +0000 2018,0.0,NY,@ENewill @Bklynfinest1477 @JohnPaulFAL @UCONNAl Damn I didn’t get a pic!!!
+6,Malta,Wed Jun 06 01:00:52 +0000 2018,0.0,NY,@Bklynfinest1477 @UCONNAl @JohnPaulFAL @ENewill Only thing I don’t like doing during the day is work.
+7,Lake Butler,Tue Jun 05 20:49:09 +0000 2018,-0.2,FL,Also where the hell did crying Alex come from? #thebachelorette⁠ ⁠
+8,Los Angeles,Wed Jun 06 01:46:48 +0000 2018,0.09062500000000001,CA,"@RussellHFilm I think the Chicken Guy needs to loosen up, the model I question &amp; I love Mr. Colorado! #thebachelorette!"
+9,Huntington Beach,Wed Jun 06 01:49:40 +0000 2018,0.0,CA,@hilaryjoy @Bklynfinest1477 @IanBlairFal @UCONNAl @ENewill @jimmyjamny @JohnPaulFAL  https://t.co/gJwZePE7TE
+10,Malta,Wed Jun 06 01:50:27 +0000 2018,0.6,NY,@ElaineinCali @hilaryjoy @Bklynfinest1477 @IanBlairFal @UCONNAl @ENewill @JohnPaulFAL Nice penis.
+11,Huntington Beach,Wed Jun 06 01:57:36 +0000 2018,0.0,CA,@hilaryjoy @JFan57 @Bklynfinest1477 @IanBlairFal @UCONNAl @ENewill @jimmyjamny @JohnPaulFAL @FalQueen @mushwear The… https://t.co/7MUSx1sOW3
 0,Miami Beach,Thu Jun 07 02:50:51 +0000 2018,0.0,FL,@JohnPaulBonilla https://t.co/Jt98z29csF
 1,Santa Fe,Thu Jun 07 01:35:20 +0000 2018,-0.25,NM,@JohnPaulCline I have a few at the gym who are not nice
-2,Santa Fe,Thu Jun 07 00:31:27 +0000 2018,0.0,NM,@JohnPaulCline She was envious
-3,Philadelphia,Thu Jun 07 03:12:38 +0000 2018,0.0,PA,@JohnPaulII7 If you don't believe in Jesus Christ I respect your belief; you should learn to respect the religious… https://t.co/aGrzOWw7sm
+2,Salt Lake City,Thu Jun 07 01:52:40 +0000 2018,0.0,UT,Blake Blake Blake! #thebachelorette
+3,Ann Arbor,Wed Jun 06 22:17:29 +0000 2018,-0.1333333333333333,MI,How to win #TheBachelorette or #thebachelor: Don't be the crazy one and also don't be the one who leads the charge against the crazy one.
+4,Santa Fe,Thu Jun 07 00:31:27 +0000 2018,0.0,NM,@JohnPaulCline She was envious
+5,Philadelphia,Thu Jun 07 03:12:38 +0000 2018,0.0,PA,@JohnPaulII7 If you don't believe in Jesus Christ I respect your belief; you should learn to respect the religious… https://t.co/aGrzOWw7sm
 0,Bellingham,Fri Jun 08 04:35:16 +0000 2018,0.0,WA,@JohnPaulness @wynterdesjar I'm not even following along but I relate to this tweet on a deep level
 1,Cliffside Park,Thu Jun 07 23:36:24 +0000 2018,0.0,NJ,@HandicapperFAL @mushwear @FalQueen @Nemesis3373 @ConfusedFAL @DolphinFal @warriorboss2 @Tropes1406 @JohnPaulFAL… https://t.co/rCCgdqJIow
 2,Manhattan,Thu Jun 07 19:00:24 +0000 2018,0.0,NY,@legendaryl777 @JohnPaulRich180 @TheRedmenTV ???
@@ -124,79 +472,391 @@ DeMarcus Ware, single (… https://t.co/eAndjYbq4z"
 1,Fort Mill,Sat Jun 09 01:50:35 +0000 2018,0.0,SC,#SpursUp #MikeJohnsonGonnaOweMeSomeBeer @MPJohnson79 @SECcountry @DawgNationDaily @GamecockFB @GamecockTalk… https://t.co/UUxKa2uDwa
 2,Bay City,Fri Jun 08 22:37:04 +0000 2018,0.0,MI,Robert Plant recently met with Jimmy Page and John Paul Jones https://t.co/EbJBsp91qK
 3,Frisco,Fri Jun 08 22:53:05 +0000 2018,0.1,TX,"Devin Harris on Teammates Baseball abilities: “if you’re anywhere near Jalen Jones, get out of the way.”"
-4,Frisco,Fri Jun 08 23:54:16 +0000 2018,0.0,TX,"Big reception when former/future Maverick Devin Harris was introduced 
+4,Newport,Fri Jun 08 23:39:14 +0000 2018,0.13636363636363635,RI,Meet season 23’s new #thebachelor #abc @ Rosecliff https://t.co/avUa6y3nIh
+5,Frisco,Fri Jun 08 23:54:16 +0000 2018,0.0,TX,"Big reception when former/future Maverick Devin Harris was introduced 
 
 #DirkHeroes18"
-5,Bronx,Fri Jun 08 18:26:37 +0000 2018,0.0,NY,@legendaryl777 @JohnPaulRich180 @TheRedmenTV Why didn’t 10 goals help retrieve stock city from relegation
-6,Scottsdale,Sat Jun 09 06:23:13 +0000 2018,-0.16666666666666666,AZ,@Lila_lovelyxxx @JoeyJones4215 Typical bible beater thinks condemning you is going to work. Let me at him I’ll thro… https://t.co/QrO3KMsFxq
+6,Bronx,Fri Jun 08 18:26:37 +0000 2018,0.0,NY,@legendaryl777 @JohnPaulRich180 @TheRedmenTV Why didn’t 10 goals help retrieve stock city from relegation
+7,Scottsdale,Sat Jun 09 06:23:13 +0000 2018,-0.16666666666666666,AZ,@Lila_lovelyxxx @JoeyJones4215 Typical bible beater thinks condemning you is going to work. Let me at him I’ll thro… https://t.co/QrO3KMsFxq
 0,Breaux Bridge,Sat Jun 09 20:29:18 +0000 2018,0.0,LA,@RepMikeJohnson Any update on the national debt u railed about during election seasons?
 1,Lindenhurst,Sat Jun 09 21:57:05 +0000 2018,0.0,NY,John Paul Jones grooving it! https://t.co/COiiiIFjel
 2,Houston,Sun Jun 10 02:53:10 +0000 2018,-0.3,TX,@JohnPaulSports 2 1/2 yrs to late......
 0,Brooklyn,Sun Jun 10 20:48:58 +0000 2018,0.024999999999999994,NY,@JohnPaulWeber Shit looks pretty dope
-0,Bellingham,Tue Jun 12 01:52:04 +0000 2018,0.0,WA,@JohnPaulness  https://t.co/ZukeTQU0PF
-1,Bellingham,Mon Jun 11 23:35:28 +0000 2018,0.0,WA,@JohnPaulness PANCAKE IS MY FATHERS NAME
-2,Brooklyn,Tue Jun 12 02:39:53 +0000 2018,0.875,NY,"Loved this! 
+0,Henderson,Tue Jun 12 05:11:59 +0000 2018,0.5,NV,I can’t handle how many variations of the hashtag there are #thebachelorette #TheBachelerette #TheBachelerotte… https://t.co/PTSpcfgzBJ
+1,Burbank,Tue Jun 12 05:17:57 +0000 2018,-0.2,CA,Becca crying over Clay is all of America crying over Clay rn #thebachelorette
+2,Burbank,Tue Jun 12 05:19:30 +0000 2018,-0.375,CA,NO ROSE CEREMONY?! #thebachelorette
+3,Inglewood,Tue Jun 12 05:50:36 +0000 2018,0.1,CA,#TheBachelorette the whole Clay and Becca thing made me cry. Clay for the next #thebachelor @BachelorABC
+4,Chattanooga,Tue Jun 12 01:12:44 +0000 2018,0.0,TN,"YES! #TrumpKimSummit recap then, #thebachelorette NOW! https://t.co/SkDKktM8W9"
+5,San Pedro,Tue Jun 12 01:13:20 +0000 2018,0.0,TX,Regular programming is back yesssss #thebachelorette
+6,Fairway,Tue Jun 12 01:13:55 +0000 2018,-0.1,KS,Not really the one on one I was hoping for tbh. #thebachelorette https://t.co/e78h3XR1XC
+7,Queens,Tue Jun 12 01:13:58 +0000 2018,0.0,NY,And we are back to @BacheloretteABC #thebachelorette
+8,Chicago,Tue Jun 12 01:15:26 +0000 2018,0.3,IL,BACK TO THE MOST IMPORTANT MEETING OF THE NIGHT #thebachelorette
+9,Houston,Tue Jun 12 01:15:55 +0000 2018,0.0,TX,I think the model needs to just wear the red nail polish from now on. #4000TinderMatches #thebachelorette
+10,Brentwood,Tue Jun 12 01:21:02 +0000 2018,0.0,TN,@thebkoof is crushing the outfit game tonight 💕👌🏽 #thebachelorette
+11,Virginia Beach,Tue Jun 12 01:24:32 +0000 2018,0.35,VA,"Creative editing? Or did someone ((cough cough Jordan cough)) really snap?
+@#thebachelorette https://t.co/E7wwH3iWHx"
+12,Lincoln,Tue Jun 12 01:28:49 +0000 2018,0.0,NE,I called that David fell out of bed. You guys it’s never a fight #thebachelorette
+13,Indianapolis,Tue Jun 12 01:29:52 +0000 2018,0.6,IN,HE FELL OUT OF BED!? ALL THAT SUSPENSE FOR THAT LMAO #thebachelorette
+14,Lafayette,Tue Jun 12 01:29:53 +0000 2018,-0.15,IN,wtf fell out of bed and busted his face up?  really? #thebachelorette @BacheloretteABC
+15,Raleigh,Tue Jun 12 01:31:16 +0000 2018,0.0,NC,#thebachelorette producers are SAVAGE. Period.
+16,Brentwood,Tue Jun 12 01:31:31 +0000 2018,0.55,TN,Are we sure David isn’t faking his own death to get the girl? 🤔 #thebachelorette @ebassclinics
+17,Virginia Beach,Tue Jun 12 01:31:37 +0000 2018,0.0,VA,Lincoln’s arms....  #thebachelorette https://t.co/0TdBxACF5r
+18,Stillwater,Tue Jun 12 01:34:49 +0000 2018,0.5,OK,CLAYS PEP TALK WITH HIS LISP OMG I LOVE IT #thebachelorette
+19,Arlington,Tue Jun 12 01:36:50 +0000 2018,0.01190476190476189,VA,Omg is #thebachelorette serious right now? All of that build up and we find out the man FELL OUT HIS BUNK BED?!
+20,Manhattan,Tue Jun 12 01:46:15 +0000 2018,0.0,NY,.@ABC interrupting #thebachelorette for the  #TrumpKimSummit is like when #Apple downloaded the U2 album on our… https://t.co/TCPSGvBjzE
+21,Virginia Beach,Tue Jun 12 01:46:30 +0000 2018,0.0,VA,2 ambulances in one week?!? Week 3 in bananas. #thebachelorette
+22,June Park,Tue Jun 12 01:47:45 +0000 2018,0.0,FL,At this rate the next group date is going to be at the hospital #thebachelorette https://t.co/UOdAR9sw1p
+23,Virginia Beach,Tue Jun 12 01:48:27 +0000 2018,0.0,VA,"Omg. Omg. Omg. 
+2-on-1 date in the ER. David vs. Clay! Do it. Do it @BacheloretteABC.  #thebachelorette"
+24,Bellingham,Tue Jun 12 01:52:04 +0000 2018,0.0,WA,@JohnPaulness  https://t.co/ZukeTQU0PF
+25,Stillwater,Tue Jun 12 01:59:14 +0000 2018,0.6,OK,Clay swooping in for the rose like #thebachelorette https://t.co/FEdpePEKO9
+26,Arlington,Tue Jun 12 02:00:16 +0000 2018,0.0,VA,Are they trying to hide the banjo guy? Why has he gotten 5 seconds of air time this season? #thebachelorette
+27,Houston,Tue Jun 12 02:01:51 +0000 2018,0.26785714285714285,TX,@TheRITAS @chrisbharrison 😊 Exactly what I'm doing right this moment. @thebachelorette and a pineapple @TheRITAS https://t.co/Mya5PqIcGB
+28,Kansas City,Tue Jun 12 02:04:01 +0000 2018,0.0,MO,"#thebachelorette is now trending in #KansasCity
+
+https://t.co/LaxjLSlPt4 https://t.co/w1hsFUKt7Y"
+29,Bellingham,Mon Jun 11 23:35:28 +0000 2018,0.0,WA,@JohnPaulness PANCAKE IS MY FATHERS NAME
+30,Huntington,Tue Jun 12 00:10:14 +0000 2018,0.0,WV,It's gonna be a kick in the balls if Tia says she doesn't know this dude #thebachelorette @PopHollywood_
+31,Longview,Tue Jun 12 00:10:51 +0000 2018,0.0,TX,"#thebachelorette I like Jordan now. I wanna see him in paradise, i make no apologies."
+32,Huntington,Tue Jun 12 00:18:20 +0000 2018,0.2,WV,Hey Becca he was real giddy to see Tia #thebachelorette @BacheloretteABC
+33,Oklahoma City,Tue Jun 12 00:20:02 +0000 2018,0.2,OK,It’s not a #thebachelorette or #thebachelor or really any bachelor franchise show without a trip to the hospital. 🤷🏼‍♀️
+34,Virginia Beach,Tue Jun 12 00:28:55 +0000 2018,0.2857142857142857,VA,These guys being catty with their nail done right now...  #thebachelorette https://t.co/ObgdbI8a63
+35,Atlanta,Tue Jun 12 00:31:23 +0000 2018,0.0,GA,Why does someone always end up leaving in an ambulance on this show #thebachelorette
+36,Houston,Tue Jun 12 00:33:03 +0000 2018,0.0,TX,"Tia, Becca and Colton walk into a room...#thebachelorette https://t.co/pKUePITeJI"
+37,Atlanta,Tue Jun 12 00:33:43 +0000 2018,-0.16666666666666666,GA,Jordan needs to do less #thebachelorette
+38,Brentwood,Tue Jun 12 00:36:36 +0000 2018,0.0,TN,The model gesturing with his painted nails is my fav thing ever #thebachelorette
+39,Oklahoma City,Tue Jun 12 00:36:55 +0000 2018,0.3,OK,“I’m a golden retriever.” So you’re basically saying your a dog....lol alright bud #thebachelorette
+40,Katy,Tue Jun 12 00:37:01 +0000 2018,-0.5,TX,I can’t with Jordan wtf #thebachelorette
+41,Fairway,Tue Jun 12 00:37:09 +0000 2018,0.0,KS,Jordan rn. #thebachelorette https://t.co/4fvzWJFMVf
+42,St Petersburg,Tue Jun 12 00:37:25 +0000 2018,0.33333333333333337,FL,"“How are you as a partner” - “I am everything, I cook, I clean, I’m a golden retriever” #thebachelorette https://t.co/6d9LgX65uE"
+43,Atlanta,Tue Jun 12 00:37:46 +0000 2018,0.0,GA,David’s vocal fry 😩 #thebachelorette
+44,Virginia Beach,Tue Jun 12 00:38:17 +0000 2018,0.3,VA,"Honestly, David is being a dick. I get Jordan is the villain, but really.... David is pushing too far.  #thebachelorette"
+45,Lenexa,Tue Jun 12 00:39:13 +0000 2018,0.08499999999999999,KS,Jordan just referred to himself as a golden retriever! 😂 I’m dead! Sorry but golden retrievers are cute.. you are not. #thebachelorette
+46,Brooklyn,Tue Jun 12 00:39:35 +0000 2018,0.0,NY,I wish just one of these guys knew “professionality” is not a word. I need it. #thebachelorette
+47,Mount Washington,Tue Jun 12 00:40:07 +0000 2018,0.4333333333333333,KY,"“A woman likes something worth catching” Way to make yourself sound like a venereal disease, Jordan. #thebachelorette"
+48,Atlanta,Tue Jun 12 00:40:07 +0000 2018,0.0,GA,Chris just got the one on one with #Becca #thebachelorette
+49,Chicago,Tue Jun 12 00:41:18 +0000 2018,-0.020833333333333343,IL,"Jordan, you and your weak chin are not model worthy. Your make believe agent needs their head checked. 🛑 #thebachelorette"
+50,Brentwood,Tue Jun 12 00:42:01 +0000 2018,0.2857142857142857,TN,Someone had acknowledged this already right? #doppelgänger #thebachelorette BenvsColton https://t.co/4M9W4BvUYO
+51,New Braunfels,Tue Jun 12 00:42:48 +0000 2018,0.0,TX,COLTON😍 #thebachelorette
+52,Atlanta,Tue Jun 12 00:42:51 +0000 2018,0.0,GA,I legit had to look up what a wilamina model is #thebachelorette #wilhelmina #notwilamina
+53,Boynton Beach,Tue Jun 12 00:46:11 +0000 2018,-0.21875,FL,@Colt3FIVE you are my official  favorite.....for now. Don’t mess this up! #thebachelorette
+54,Atlanta,Tue Jun 12 00:47:12 +0000 2018,-0.3333333333333333,GA,I can’t take any of them seriously with nail polish on #thebachelorette
+55,Philadelphia,Tue Jun 12 00:50:15 +0000 2018,-0.25,PA,“You can’t ruin my image because my image is me!” - Jordan #YASQUEEN!! Throw that shit on a t-shirt! #thebachelorette #MotivationMonday
+56,Philadelphia,Tue Jun 12 00:50:31 +0000 2018,-0.25,PA,“You can’t ruin my image because my image is me!” - Jordan #YASQUEEN throw that shit on a t-shirt! #MotivationMonday #thebachelorette
+57,Manhattan,Tue Jun 12 00:51:05 +0000 2018,0.0,NY,Omg #thebachelorette Jordan is my sport animal
+58,Atlanta,Tue Jun 12 00:51:43 +0000 2018,0.0,GA,Richard should be the only one singing 🙉🙊 #thebachelorette
+59,Brooklyn,Tue Jun 12 00:52:26 +0000 2018,0.5,NY,Did we learn nothing about the dangers of #thebachelorette contestants engaging in poem/song writing on Desiree’s season?!
+60,Louisville,Tue Jun 12 00:53:48 +0000 2018,0.5,KY,There is a disco in my kitchen. This is more entertaining than #thebachelorette https://t.co/SPhhgfTpHl
+61,Houston,Tue Jun 12 00:54:22 +0000 2018,0.8,TX,WILLS THE GAWD LOL. #thebachelorette
+62,Philadelphia,Tue Jun 12 00:58:33 +0000 2018,0.0,PA,#WheresClay #thebachelorette
+63,Chattanooga,Tue Jun 12 01:03:18 +0000 2018,0.30000000000000004,TN,"Historic and amazing  —yes 👍 
+Worth postponing #thebachelorette — debatable 🤷🏾‍♀️🤦🏾‍♀️🙇🏾‍♀️ https://t.co/Xnj5ZdT3wp"
+64,Louisville,Tue Jun 12 01:04:14 +0000 2018,0.5859375000000001,KY,Everyone remain calm!!! #thebachelorette https://t.co/nTMQOm59r1
+65,San Pedro,Tue Jun 12 01:04:19 +0000 2018,0.0,TX,Whyyyyyyyyy #thebachelorette https://t.co/WGbpGJpmsV
+66,Atlanta,Tue Jun 12 02:10:48 +0000 2018,0.0,GA,Clay leaving #thebachelorette https://t.co/v4OddopCg4
+67,Houston,Tue Jun 12 02:11:29 +0000 2018,0.0,TX,What a turn of events. #ClayHarbor #thebachelorette
+68,Manhattan,Tue Jun 12 02:11:36 +0000 2018,0.0,NY,Clay for Paradise OR ELSE. #thebachelorette
+69,Ann Arbor,Tue Jun 12 02:12:34 +0000 2018,0.0,MI,Clay needs to be in Paradise @BachelorABC @BacheloretteABC #thebachelorette #thebachelor https://t.co/T45ePsPAPy
+70,Brooklyn,Tue Jun 12 02:39:53 +0000 2018,0.875,NY,"Loved this! 
 
 Hey @JimmyPage @RobertPlant &amp; John Paul Jones, can Yoyoka coax @ledzeppelin out of retirement??… https://t.co/xTCHNvW0jv"
-0,Alexandria,Tue Jun 12 20:09:23 +0000 2018,0.0,LA,We have reaction from @RepMikeJohnson &amp; Rep. Ralph Abraham on #TrumpKimMeeting coming up tonight at 6 on @KALBtv5
+71,Louisville,Tue Jun 12 02:54:19 +0000 2018,0.39285714285714285,KY,Soooi many ladies sliding into his dms right now #thebachelorette https://t.co/b5SbVvHkaI
+72,Burbank,Tue Jun 12 03:29:39 +0000 2018,0.0,CA,Loooove Becca forgetting Jason’s name 😂😂 #thebachelorette
+73,Los Angeles,Tue Jun 12 03:32:07 +0000 2018,-0.26666666666666666,CA,I hate when #thebachelorette makes these dudes partake in obstacle courses to test if they’re ready for the “messy”… https://t.co/KQitBj1JRn
+74,Los Angeles,Tue Jun 12 03:36:30 +0000 2018,0.5,CA,"watching #thebachelorette :
+
+me: he’s cute, but he has a receding hair line
+
+marie: u can’t be so petty, what if pp… https://t.co/nQoXGjhmDo"
+75,Los Angeles,Tue Jun 12 03:46:44 +0000 2018,0.17045454545454544,CA,Who is this new #guy?! #thebachelorette https://t.co/eyx9LfTQwr  @analysisnytimes
+76,Philadelphia,Tue Jun 12 03:52:49 +0000 2018,0.0,PA,"#thebachelorette is now trending in #Philadelphia
+
+https://t.co/XbrLxzlYeZ https://t.co/lvYP3XB6Dj"
+77,Long Beach,Tue Jun 12 03:53:17 +0000 2018,0.2,CA,Becca and Colton. I’m calling it now...she should just ditch the whole rest of the show tbh 🌹 #thebachelorette
+78,Vancouver,Tue Jun 12 03:56:16 +0000 2018,-0.7,WA,Jordan is embarrassing. I had to cover my head it’s so painful. #thebachelorette
+79,Miami,Tue Jun 12 04:02:26 +0000 2018,0.0,FL,"#thebachelorette is now trending in #Miami
+
+https://t.co/T01sCyfFb5 https://t.co/Fv5QO5Zs6s"
+80,Los Angeles,Tue Jun 12 04:02:37 +0000 2018,0.0,CA,“Chris R. Is boyband Ron Perlman.”-@ReynoldsAustin #thebachelorette
+81,Milwaukee,Tue Jun 12 04:04:23 +0000 2018,0.0,WI,"#thebachelorette is now trending in #Milwaukee
+
+https://t.co/DTkle5TlNe https://t.co/k58diMoNAq"
+82,Burbank,Tue Jun 12 04:12:29 +0000 2018,0.0,CA,I would rather die than sing on tv #thebachelorette
+83,Salt Lake City,Tue Jun 12 04:21:54 +0000 2018,0.2,UT,@thebkoof likes kissing almost as much as I do. 😏 #thebachelorette #beccathebachelorette @BacheloretteABC
+84,Henderson,Tue Jun 12 04:34:12 +0000 2018,0.0,NV,We are all Jason and Wills in this convo #thebachelorette
+85,Henderson,Tue Jun 12 04:40:07 +0000 2018,0.0,NV,To Jordan: ⬇️ #thebachelorette https://t.co/ST5s4Y45F9
+86,Burbank,Tue Jun 12 04:55:04 +0000 2018,0.25,CA,"Love @keyshawn on #thebachelorette, finally the celebrity guest we deserve ✌🏼"
+0,Chicago,Wed Jun 13 01:30:37 +0000 2018,0.02500000000000001,IL,"David is an instigator. As much as I don’t like jordan, a man that talks about another guy never wins #thebachelorette"
+1,Chicago,Wed Jun 13 01:32:02 +0000 2018,0.0,IL,Bruh this guy fell out of bed?? They promoted it as if Jordan beat him up.. #thebachelorette
+2,Chicago,Wed Jun 13 01:33:17 +0000 2018,0.0,IL,Clay though.. #thebachelorette &gt;&gt;&gt;
+3,Chicago,Wed Jun 13 01:35:37 +0000 2018,0.0,IL,Becca singing.. #thebachelorette https://t.co/H5uRILKLBg
+4,Chicago,Wed Jun 13 01:36:52 +0000 2018,0.0,IL,Lincoln playing football.. #thebachelorette https://t.co/WFKchy4gll
+5,Chicago,Wed Jun 13 01:39:50 +0000 2018,0.0,IL,Noooo clay (bae) is hurt! #thebachelorette
+6,Richmond,Wed Jun 13 01:43:48 +0000 2018,0.25,VA,Finally watching @thebachelorette and I feel so much better knowing Becca can’t remember everyone’s name.
+7,Chicago,Wed Jun 13 01:58:16 +0000 2018,0.0,IL,Nooooo! Clay don’t leave!!!!!!!! #thebachelorette
+8,Chicago,Wed Jun 13 01:58:30 +0000 2018,0.0,IL,Nooooo clay!! #thebachelorette
+9,Chicago,Wed Jun 13 02:02:39 +0000 2018,0.0,IL,They didn’t even give clay a limo? Come on.. #thebachelorette
+10,Chicago,Wed Jun 13 02:04:36 +0000 2018,0.6,IL,Chris Harrison.. we don’t want these breaks of the episode before the rose ceremony... #thebachelorette
+11,Milwaukee,Wed Jun 13 02:55:29 +0000 2018,0.0,WI,"Wait, is @jordan__kimball a male model? He never talks about his profession... #thebachelorette #BachelorNation"
+12,Minneapolis,Wed Jun 13 00:15:23 +0000 2018,0.0875,MN,I'm screaming at the other guys trying not to laugh Jordan bc they're all of us #thebachelorette
+13,Pittsburgh,Wed Jun 13 01:02:32 +0000 2018,0.0,PA,one thing I’ve learned from watching this weeks #thebachelorette is Richard Marks needs to stop dying his hair
+14,Alexandria,Tue Jun 12 20:09:23 +0000 2018,0.0,LA,We have reaction from @RepMikeJohnson &amp; Rep. Ralph Abraham on #TrumpKimMeeting coming up tonight at 6 on @KALBtv5
 0,Lancaster,Wed Jun 13 20:59:44 +0000 2018,-0.5,PA,@JohnPaulFAL @darrenrovell Not till we have an owner that knows wtf he is doing 🤷🏻‍♂️
-1,Bellingham,Wed Jun 13 19:10:27 +0000 2018,0.13636363636363635,WA,@montanaugh I can't wait for i&amp;k mario parties with @JohnPaulness coming to us live from Arizona
-0,Westmont,Fri Jun 15 05:00:28 +0000 2018,0.0,IL,@RepMikeJohnson I call BS
-1,Donna,Thu Jun 14 22:58:04 +0000 2018,-0.15625,TX,Kinder-5th learning how to play the guitar and other instruments with Luke Parker! 🎸🎶 #DonnaSRP https://t.co/gLtGkzqOt0
+1,San Diego,Thu Jun 14 04:32:15 +0000 2018,-0.2,CA,I’ll stop watching #thebachelorette when Leo goes home. No need to waste my time 👋🏼
+2,Bellingham,Wed Jun 13 19:10:27 +0000 2018,0.13636363636363635,WA,@montanaugh I can't wait for i&amp;k mario parties with @JohnPaulness coming to us live from Arizona
+3,Indianola,Thu Jun 14 02:27:40 +0000 2018,0.11249999999999999,IA,Omg I’m dying. Just catching up on #thebachelorette. I knew I KNEWWWWW that dumb ambulence on the preview implying… https://t.co/Jlpdi7pA4p
+4,Los Angeles,Thu Jun 14 00:14:42 +0000 2018,0.30000000000000004,CA,"Man.... Becca’s suitors are nothing short of amazing... 😏
+https://t.co/jNWPKGSCnd
+#thebachelorette #WednesdayWisdom"
+5,Denton,Thu Jun 14 05:44:42 +0000 2018,0.25,TX,Omg “Clay” had clay the first night for Beccas on the first night...... IT ALL MAKES SENSE NOW #thebachelorette https://t.co/tu6svyZh57
+6,Manhattan,Thu Jun 14 00:02:30 +0000 2018,0.4,NY,I feel like everyone joins #thebachelor to get that verified check on insta and sell fit tea 👀 https://t.co/gSs4gW7RJh
+0,Los Angeles,Fri Jun 15 03:13:47 +0000 2018,0.225,CA,Just got caught up on #thebachelorette. Excuse me while I go find Clay and tell him his search for love isn’t over.
+1,Westmont,Fri Jun 15 05:00:28 +0000 2018,0.0,IL,@RepMikeJohnson I call BS
+2,Donna,Thu Jun 14 22:58:04 +0000 2018,-0.15625,TX,Kinder-5th learning how to play the guitar and other instruments with Luke Parker! 🎸🎶 #DonnaSRP https://t.co/gLtGkzqOt0
 0,Moultrie,Fri Jun 15 21:23:10 +0000 2018,0.0,GA,@sfitzgerald90 @CoachJoeyJones @HSFReport @CCPackersFball @ChadSimmons_ @RecruitGeorgia @propst7 @HankSouth247 Thank you 😊
-1,Bellingham,Sat Jun 16 02:44:15 +0000 2018,0.0,WA,@JohnPaulness @wynterdesjar Hell ye
+1,Inver Grove Heights,Sat Jun 16 01:22:21 +0000 2018,0.0,MN,"Stephen Colbert... Stephen Colbert gets it. I will only tell the truth. No justice, no peace. #thebachelorette… https://t.co/M5Gser2QQj"
+2,Inver Grove Heights,Sat Jun 16 01:28:42 +0000 2018,0.390625,MN,"@Lin_Manuel LMFAO!!! Anyways love ya!! I will only tell the truth. No justice, no peace. #thebachelorette… https://t.co/j3AoerbQpR"
+3,Inver Grove Heights,Sat Jun 16 02:12:50 +0000 2018,0.0,MN,"If I’m lying, then why are they watching? I will only tell the truth. No justice, no peace. #thebachelorette… https://t.co/GS8GWqlnj4"
+4,Inver Grove Heights,Sat Jun 16 02:13:47 +0000 2018,0.0,MN,"If I’m lying, then why are they watching? I will only tell the truth. No justice, no peace. #thebachelorette… https://t.co/jmIw8RzeZL"
+5,Inver Grove Heights,Sat Jun 16 02:31:45 +0000 2018,0.0,MN,"If I’m lying, then why are they watching? I will only tell the truth. No justice, no peace. #thebachelorette… https://t.co/ih7iklk2vI"
+6,Bellingham,Sat Jun 16 02:44:15 +0000 2018,0.0,WA,@JohnPaulness @wynterdesjar Hell ye
+7,Inver Grove Heights,Sat Jun 16 04:24:59 +0000 2018,0.0,MN,@LesleyMurph you must not know bout me 🤪🤧😘 @bachelorabc @ravennicolegates Don’t modulate the key then not debate wi… https://t.co/jWL3aLrFu9
+8,Inver Grove Heights,Sat Jun 16 04:29:11 +0000 2018,0.0,MN,@LesleyMurph go against me? I dare you 🤣🤪🤧😉 @bachelorabc @ravennicolegates Don’t modulate the key then not debate w… https://t.co/11ckjTPoOO
+9,Forest Glen,Fri Jun 15 22:59:25 +0000 2018,0.2857142857142857,MD,All I want to do right now is watch @thebachelorette @BachelorABC and eat chocolate.
+10,Gainesville,Sat Jun 16 00:32:40 +0000 2018,0.00833333333333334,FL,Raven vs Bekah was great and all but Raven is weak as fuck for deleting all the tweets.... #thebachelor #TheBachelerotte
+11,Inver Grove Heights,Sat Jun 16 00:38:39 +0000 2018,0.0,MN,"@ravengates 🤧 I will only tell the truth. No justice, no peace. #thebachelorette #thebachelor #bip #bachelornation… https://t.co/dMtgLChtaQ"
+12,Inver Grove Heights,Sat Jun 16 00:55:31 +0000 2018,0.0,MN,"@carolinelbock @ravengates Nope. I will only tell the truth. No justice, no peace. #thebachelorette #thebachelor… https://t.co/SnzSBqmkvw"
+13,Inver Grove Heights,Sat Jun 16 03:54:45 +0000 2018,0.0,MN,"@chrissyteigen @bachelorabc @ravennicolegates Don’t modulate the key then not debate with me? If I’m lying, then wh… https://t.co/q3uEJUzV86"
 0,San Antonio,Sun Jun 17 04:30:28 +0000 2018,1.0,TX,@JohnPauly__ best ever
 1,Bellingham,Sun Jun 17 05:02:31 +0000 2018,1.0,WA,@JohnPaulness omg that's so perfect
 2,Toftrees,Sun Jun 17 03:17:12 +0000 2018,0.0,PA,@Uber_FAL @IanBlairFal @Babchik @EvCoRadio @CherryFrancoma @UCONNAl @BdalFal @TonyD2155 @JohnPaulFAL @jimmyjamny… https://t.co/kKZCqyT3fS
 0,Chicago,Sun Jun 17 20:38:10 +0000 2018,0.0,IL,@JohnPaulBunyan @EJT___ you're fired 🙂
 1,Norfolk,Sun Jun 17 20:55:09 +0000 2018,0.0,VA,@BigMikeJohnson_ Waaaaaaab
-0,Roswell,Mon Jun 18 18:20:41 +0000 2018,0.0,GA,@W_Mote50 @CoachTuck69 @CoachJoeyJones @BallCoachJoeMo @ChrisBoniol Well done!
-1,Austin,Tue Jun 19 06:45:54 +0000 2018,0.0,TX,"Talitha Bateman in a #JohnPaulAtaker flounce off-shoulder dress with #SamEdelman ""Willa"" platform sandals &amp;… https://t.co/VQhWQJLOo3"
+0,Atlanta,Tue Jun 19 02:18:18 +0000 2018,0.0,GA,All these winter dates on #thebachelorette makes me miss snowy winters... but then again nah #hotlanta
+1,New Brighton,Tue Jun 19 02:23:59 +0000 2018,0.0,MN,Whoever hurt Blake from #thebachelorette thank you bc now he has Becca #teamblake
+2,Bristol,Tue Jun 19 02:30:54 +0000 2018,-0.5,RI,Am I wrong though? #thebachelorette https://t.co/vxhk8YWLZ9
+3,Chattanooga,Tue Jun 19 02:32:39 +0000 2018,0.0,TN,Watchimg Garrett on #thebachelorette -- and all I can think about is his problematic IG likes. I just want somebody to tell Becca! 😩
+4,Kansas City,Tue Jun 19 02:51:52 +0000 2018,0.0,MO,This interaction with Jean #thebachelorette https://t.co/x2IpdSd2f0
+5,Laughlin,Tue Jun 19 02:52:17 +0000 2018,-0.4125,NV,After hearing about all of this Lincoln shit I am not even mad at Connor for throwing his picture in the pool🤷🏼‍♀️ #thebachelorette
+6,Plano,Tue Jun 19 02:53:46 +0000 2018,0.0,TX,Am I the only one who has literally never seen John before tonight? Lolzz #thebachelorette
+7,Roswell,Mon Jun 18 18:20:41 +0000 2018,0.0,GA,@W_Mote50 @CoachTuck69 @CoachJoeyJones @BallCoachJoeMo @ChrisBoniol Well done!
+8,Willis,Mon Jun 18 18:35:05 +0000 2018,0.5,TX,Congratulations to @ashleyiaco &amp; @haibon_jared. They’ve always been to of my favorite people from #thebachelor fran… https://t.co/BGOQ9v64Y7
+9,Philadelphia,Tue Jun 19 01:09:47 +0000 2018,0.06666666666666667,PA,Low key leave Jordan alone he can wear his gold underpants all he wants #thebachelorette https://t.co/mncSp9p0oP
+10,The Woodlands,Tue Jun 19 01:15:25 +0000 2018,0.0,TX,Maybe Becca  I’ll hire Jordan for her bachelorette party #thebachelorette
+11,Newport News,Tue Jun 19 01:18:00 +0000 2018,0.4,VA,Jean Blanc got Becca perplexed 😂😂 #thebachelorette
+12,Columbus,Tue Jun 19 01:20:29 +0000 2018,-0.5,OH,Leo is a mix between Kenny G and Weird Al #thebachelorette https://t.co/nJnljoCLpZ
+13,Washington,Tue Jun 19 01:20:33 +0000 2018,-0.45,DC,FAKE AS FUCK YOURE A LITERAL SOCIOPATH JEAN BLANC #thebachelorette
+14,Bensalem,Tue Jun 19 01:20:34 +0000 2018,-0.5,PA,This is making me so uncomfortable. Jean is a grade A bull shitter.  #thebachelorette https://t.co/7NkHOhDPmm
+15,Lake Butler,Tue Jun 19 01:21:59 +0000 2018,0.0,FL,Becca is so HEATED she doesn’t even need a coat #thebachelorette
+16,Shreveport,Tue Jun 19 01:23:16 +0000 2018,0.0,LA,Deleted footage of John Blanc’s interaction with Becca on #thebachelorette https://t.co/RtnWD781Cl
+17,Newport News,Tue Jun 19 01:29:00 +0000 2018,-0.46875,VA,"Don’t say things you don’t mean, it’s manipulative and WRONG! #thebachelorette"
+18,Kearny,Tue Jun 19 01:29:12 +0000 2018,0.0,NJ,Because everyone wakes up in a sweater with a camera 🎥 trained upon me. #thebachlorette #thebachelorette
+19,Sea Isle City,Tue Jun 19 01:34:32 +0000 2018,0.0,NJ,Where is my Wills ? #thebachelorette
+20,Fort Lauderdale,Tue Jun 19 01:38:45 +0000 2018,0.1922222222222222,FL,I fw Wills high key. He’s fine 😋 #thebachelorette
+21,Pensacola,Tue Jun 19 01:39:18 +0000 2018,0.2,FL,"Wills, you da real MVP.  #thebachelorette https://t.co/X3BbQGeiMO"
+22,Brooklyn,Tue Jun 19 01:43:12 +0000 2018,0.475,NY,Wills might be the first man ever to make a scarf look good on #thebachelorette
+23,Kearny,Tue Jun 19 01:44:12 +0000 2018,0.05,NJ,She has no interest in Wills.  She barely blinked at his story.   #thebachelorette
+24,Bristol,Tue Jun 19 01:44:56 +0000 2018,0.5,RI,Ok but Wills kinda looks like Pennywise #thebachelorette
+25,Kearny,Tue Jun 19 01:46:03 +0000 2018,0.0,NJ,Wills on Bachelor in Paradise. #thebachelorette
+26,Moorhead,Tue Jun 19 01:49:42 +0000 2018,0.0,MN,I tweet a lot when I drink. I also tweet a lot when I watch #thebachelorette So when I’m doing both I’m gonna be su… https://t.co/2oHhuUXGsN
+27,Moorhead,Tue Jun 19 01:50:54 +0000 2018,0.8,MN,all these grocery joe tweets out here giving me life lol #thebachelorette
+28,Atlanta,Tue Jun 19 01:59:48 +0000 2018,0.0,GA,Goodbye Nick and Christon #Becca is just not into you all #thebachelorette https://t.co/grLl11Twtn
+29,Columbus,Tue Jun 19 00:01:53 +0000 2018,0.0,OH,I don’t even care to watch #thebachelorette now. Bishes ruined it over the weekend. 😑
+30,Danville,Tue Jun 19 00:04:33 +0000 2018,0.2,IL,My husband: Some guy just rolled out of a bed &amp; is the hospital? Is this show for real? #forrealz #thebachelorette
+31,Los Angeles,Tue Jun 19 05:03:17 +0000 2018,0.0,CA,That sponge analogy? #thebachelorette https://t.co/wdG8OEUbYf
+32,Austin,Tue Jun 19 06:45:54 +0000 2018,0.0,TX,"Talitha Bateman in a #JohnPaulAtaker flounce off-shoulder dress with #SamEdelman ""Willa"" platform sandals &amp;… https://t.co/VQhWQJLOo3"
+33,Henderson,Tue Jun 19 06:49:24 +0000 2018,0.0,NV,"When you watch #thebachelorette with friends in relationships, somehow you become a topic and have to download anot… https://t.co/Ez1Jb6bCjh"
+34,Seal Beach,Tue Jun 19 03:14:58 +0000 2018,-0.5,CA,I’m so bored with this season. #thebachelorette
+35,Burbank,Tue Jun 19 03:49:29 +0000 2018,-0.5,CA,Are they emphasizing all of the pictures they’re taking on #thebachelorette because of all the photos she randomly had with Arie
+36,Isla Vista,Tue Jun 19 03:54:15 +0000 2018,0.6,CA,Becca’s season has soooo many good guys #thebachelorette
+37,Burlington,Tue Jun 19 00:09:36 +0000 2018,0.1,MA,"Blake, Nick, Colton, Jason, David, Garrett &gt;&gt;&gt;&gt; never liked this many at one time on Bach #thebachelorette"
+38,Chattanooga,Tue Jun 19 00:10:16 +0000 2018,-0.3,TN,#thebachelorette I’m late for my weekly viewing party with @SidelineStormer can you start from the beginning please… https://t.co/BD7igfBHfb
+39,Manhattan,Tue Jun 19 00:11:39 +0000 2018,0.0,NY,"“I’m captain underpants, that’s all I got.” - Jordan, male model/captain underpants #thebachelorette https://t.co/2SHJy4FJez"
+40,Bayshore Gardens,Tue Jun 19 00:13:25 +0000 2018,0.0,FL,#thebachelorette
+41,Aspinwall,Tue Jun 19 00:13:48 +0000 2018,0.25,PA,She picks my man #Jason first #thebachelorette
+42,Whitehouse,Tue Jun 19 00:14:00 +0000 2018,-1.0,OH,@ATT @directv awful. Just awful. Should never have switched from cable. And it’s going out during #thebachelorette ? https://t.co/mzaRPuIRxu
+43,Omaha,Tue Jun 19 00:14:25 +0000 2018,0.09999999999999998,NE,I'm confused is there going to be a race to the rose? #thebachelorette #tracksuit
+44,Mechanicsville,Tue Jun 19 00:15:06 +0000 2018,0.0,VA,Definitely need this to take my mind off what's going on in our country today #thebachelorette
+45,Manhattan,Tue Jun 19 00:16:03 +0000 2018,0.3,NY,wait was this tracksuit guy even apart of the rose ceremony last week?!? #thebachelorette
+46,Lake Butler,Tue Jun 19 00:18:15 +0000 2018,0.0,FL,Captain Jordan Underpants #thebachelorette #bachelornation https://t.co/MPmnOncwF0
+47,Danville,Tue Jun 19 00:19:56 +0000 2018,0.0,IL,There's a guy wearing a track suite...what am I forgetting...#thebachelorette
+48,Park Forest Village,Tue Jun 19 00:20:01 +0000 2018,0.0,PA,"#thebachelorette Um Jordan I'm no art history student, but I know that it was Daly that painted the melting clocks.… https://t.co/KsR2DCY7S0"
+49,Park Forest Village,Tue Jun 19 00:24:14 +0000 2018,0.0,PA,"#thebachelorette⁠ ⁠ Um Jordan I'm no art history student, but I know that it was Dali that painted the melting cloc… https://t.co/spTt8tPx1i"
+50,Philadelphia,Tue Jun 19 00:25:22 +0000 2018,0.02878787878787879,PA,usually when i watch #thebachelorette i struggle live tweeting because i really wanna watch the show but this seaso… https://t.co/M4mRkFzqCj
+51,Brooklyn,Tue Jun 19 00:27:50 +0000 2018,0.2875,NY,Loving Dothraki stuntman Leo’s reaction faces to this flat earth thing 🤣 #thebachelorette #leoforbachelor
+52,Lake Butler,Tue Jun 19 00:29:25 +0000 2018,-0.21250000000000002,FL,"everyone: Lincoln can’t get any worse 
+Lincoln: the earth is flat
+everyone:
+#thebachelorette #bachelornation https://t.co/bYsLMr3bZW"
+53,Doylestown,Tue Jun 19 00:29:50 +0000 2018,0.2375,OH,Lincoln: convicted sexual predator and believes the earth is flat 🙃 #thebachelorette
+54,Chattanooga,Tue Jun 19 00:36:25 +0000 2018,0.3571428571428571,TN,"THIS IS YOUR HUSBAND and you know it @thebkoof !!!!!! #thebachelorette #THEEND 
+Right @SidelineStormer ?! https://t.co/iSlNggCBSq"
+55,Brooklyn,Tue Jun 19 00:38:38 +0000 2018,0.5,NY,I love @thebkoof but who wears jeans in the snow? #thebachelorette
+56,Indianapolis,Tue Jun 19 00:45:56 +0000 2018,0.4333333333333333,IN,Wills really out here making sure I know his name and honestly I appreciate it. #thebachelorette
+57,Louisville,Tue Jun 19 00:49:40 +0000 2018,-0.0125,KY,Had to rewatch the flat earth conversation about ten times. #thebachelorette
+58,Stillwater,Tue Jun 19 00:51:28 +0000 2018,0.0,OK,Something tells me this relationship isn’t going to last...... #thebachelorette https://t.co/yvTa0gXI0H
+59,Brooklyn,Tue Jun 19 00:54:34 +0000 2018,0.0,NY,Let’s make history this season!!! #thebachelorette #leoforbachelor https://t.co/GrYHKx4kYP
+60,Fishers,Tue Jun 19 00:58:22 +0000 2018,0.0,IN,"""I promise I won't hurt you""-every guy on the planet including #thebachelorette @ABCBachelorThe"
+61,Bensalem,Tue Jun 19 00:59:51 +0000 2018,0.0,PA,"Becca likes Republicans. Just deal with it, America. #thebachelorette"
+62,West Hollywood,Tue Jun 19 05:49:51 +0000 2018,0.1,CA,I guess 8 weeks of getting to know a person on #thebachelor was far too long...8 minutes will do. #theproposal
+0,Cambridge,Tue Jun 19 21:49:54 +0000 2018,0.375,MA,Becca just complemented Garrett for being good at making eye contact...sis that’s literally the bare minimum #thebachelorette
+1,Renton,Wed Jun 20 04:49:11 +0000 2018,0.0,WA,I only want to watch the parts with Blake in them #thebachelorette
+2,Los Angeles,Wed Jun 20 03:16:38 +0000 2018,0.0,CA,We had @deanie_babies from season 13 of @bachelorabc on the show to discuss relationships and @bacheloretteabc. I g… https://t.co/tyEisdMhqS
+3,Stockton,Wed Jun 20 01:28:59 +0000 2018,-0.025,CA,"“The earth is flat because of friction”
+- Lincoln  #thebachelorette"
+4,Omaha,Wed Jun 20 01:29:21 +0000 2018,0.0,NE,Watching last nights episode of @thebachelorette
+5,Stockton,Wed Jun 20 01:32:45 +0000 2018,0.0,CA,Garrett &amp; Becca #thebachelorette
+6,St Louis,Wed Jun 20 01:43:57 +0000 2018,0.0,MO,I could watch @leodottavio be a lumber jack all day #thebachelorette
 0,Frisco,Thu Jun 21 02:41:00 +0000 2018,0.6,TX,Great event. Devin Harris and DJ Mbenga shared many interesting Mavs nuggets. Nice work by our panel of… https://t.co/yaMHomRheB
 1,Frisco,Thu Jun 21 02:48:54 +0000 2018,0.5,TX,@ESefko My favorite story was Devin Harris telling us how Rick Carlisle likes to stretch before playing ping pong.
 2,Benton,Wed Jun 20 23:50:51 +0000 2018,0.375,LA,"@RepMikeJohnson Congressman Johnson, please vote for the original Goodlatte bill or nothing."
 3,Washington,Wed Jun 20 23:59:10 +0000 2018,0.5,DC,This is what purposeful look like!      So many takeaways from Dr. Joey Jones and @DVJohnson17... My fav “You are e… https://t.co/NizuXCAAdA
 4,Frisco,Thu Jun 21 00:26:36 +0000 2018,0.0,TX,Devin Harris selects Mo Bamba for the @dallasmavs at No. 5 in the @SportsDayDFW mock at our subscribers draft party… https://t.co/fXsf32SERd
+5,Glen Dale,Thu Jun 21 00:54:58 +0000 2018,-0.6458333333333334,WV,It’s hard to watch this season of #thebachelorette through my eyelids bc it’s so boring that I can’t stay awake.… https://t.co/67NuAt6HTd
 0,West Ocean City,Thu Jun 21 19:11:34 +0000 2018,0.1,MD,Mike Johnson developed an adaptive lacrosse stick for David Perry who has Cerebral Palsy and is wheelchair bound. T… https://t.co/Glg50CDc9d
 1,Bellingham,Fri Jun 22 03:49:41 +0000 2018,0.0,WA,@cocophobic @JohnPaulness smh
 2,Austin,Fri Jun 22 06:11:24 +0000 2018,0.2,TX,@JohnPaul48 @charliekirk11 Thugs don’t buy legal guns anyway
 3,Los Angeles,Fri Jun 22 05:09:05 +0000 2018,0.0,CA,@JohnPaulSly @DennisTFP I wish we could keep every D-man who did from the double OT loss...Theh busted their but an… https://t.co/wbWJzc0Dvw
 4,Los Angeles,Thu Jun 21 19:03:16 +0000 2018,0.8,CA,Today is #WorldMusicDay! This is an excerpt from a piece composed for an upcoming film with the great #MikeJohnson… https://t.co/jtGkzNViDp
-0,Alvin,Sat Jun 23 00:44:43 +0000 2018,0.16296296296296295,TX,"@JohnPaul_USA @realDonaldTrump Down with Rinos, down with Liberals, make America great again"
-0,Paradise,Sun Jun 24 02:10:45 +0000 2018,0.0,NV,@JohnPaul_USA @LasVegasLocally @schachin @realDonaldTrump @NVGOP @POTUS And we still outnumbered that room  at leas… https://t.co/JJWerr93Uz
-1,Paradise,Sun Jun 24 01:36:50 +0000 2018,0.0,NV,@LasVegasLocally @JohnPaul_USA @schachin @realDonaldTrump @NVGOP @POTUS Just sections of it. There were by my estim… https://t.co/WkZDePs51i
-2,Bethlehem,Sat Jun 23 22:38:26 +0000 2018,0.0,PA,@realDonaldTrump @JohnPaul_USA we are with you
-3,Las Vegas,Sun Jun 24 05:45:08 +0000 2018,0.0,NV,@JohnPaul_USA @schachin @VegasDad245 @realDonaldTrump @NVGOP @POTUS Where are *your* images/vids backing up your st… https://t.co/w6qAhj8eHZ
-4,Las Vegas,Sun Jun 24 05:52:56 +0000 2018,0.0,NV,@JohnPaul_USA @schachin @VegasDad245 @realDonaldTrump @NVGOP @POTUS That video actually shows fewer than 12 support… https://t.co/SuQBalNHBn
+0,Cincinnati,Fri Jun 22 22:50:04 +0000 2018,0.0972222222222222,OH,"hey #bachelornation: we sat down with @PFF_Mike today to chat about his time on #thebachelorette!🌹
+
+our full story… https://t.co/znD3dSzKWN"
+1,Alvin,Sat Jun 23 00:44:43 +0000 2018,0.16296296296296295,TX,"@JohnPaul_USA @realDonaldTrump Down with Rinos, down with Liberals, make America great again"
+0,San Francisco,Sat Jun 23 20:03:13 +0000 2018,0.0,CA,Celebrating our girl 💃🏼 #nicolettethebachelorette @ Tonga Room &amp; Hurricane Bar https://t.co/LyEs20FkDk
+1,Paradise,Sun Jun 24 02:10:45 +0000 2018,0.0,NV,@JohnPaul_USA @LasVegasLocally @schachin @realDonaldTrump @NVGOP @POTUS And we still outnumbered that room  at leas… https://t.co/JJWerr93Uz
+2,Paradise,Sun Jun 24 01:36:50 +0000 2018,0.0,NV,@LasVegasLocally @JohnPaul_USA @schachin @realDonaldTrump @NVGOP @POTUS Just sections of it. There were by my estim… https://t.co/WkZDePs51i
+3,Bethlehem,Sat Jun 23 22:38:26 +0000 2018,0.0,PA,@realDonaldTrump @JohnPaul_USA we are with you
+4,Las Vegas,Sun Jun 24 05:45:08 +0000 2018,0.0,NV,@JohnPaul_USA @schachin @VegasDad245 @realDonaldTrump @NVGOP @POTUS Where are *your* images/vids backing up your st… https://t.co/w6qAhj8eHZ
+5,Las Vegas,Sun Jun 24 05:52:56 +0000 2018,0.0,NV,@JohnPaul_USA @schachin @VegasDad245 @realDonaldTrump @NVGOP @POTUS That video actually shows fewer than 12 support… https://t.co/SuQBalNHBn
 0,Los Angeles,Sun Jun 24 20:09:18 +0000 2018,0.0,CA,@JohnPaulCarney2 @IAMTOMMACDONALD thank you 🖤
-0,Shreveport,Tue Jun 26 02:46:17 +0000 2018,0.2857142857142857,LA,"Hey, @RepMikeJohnson, this person right here ⬇ is talking to YOU. 
+0,Delray Beach,Tue Jun 26 00:10:48 +0000 2018,0.390625,FL,Becca get that wine outta the hot tub!! #thebachelorette
+1,Haines City,Tue Jun 26 00:19:20 +0000 2018,0.0,FL,chris harrison already knows 🍷 #thebachelorette https://t.co/iz76XAvuNO
+2,Boca Raton,Tue Jun 26 00:19:39 +0000 2018,0.5,FL,how many takes did colton have to do that “i’m falling in love with becca” interview because he kept saying “tia” #thebachelorette
+3,Doylestown,Tue Jun 26 00:20:04 +0000 2018,-0.1,OH,Colton trying to drag my girl Aly Raisman here  #thebachelorette https://t.co/kZcUwWdLcl
+4,Pensacola,Tue Jun 26 00:22:08 +0000 2018,0.0,FL,"When I think of Vegas, riding camels is totally #1 on my list....  #thebachelorette https://t.co/MeOeOhivkR"
+5,Radnor Township,Tue Jun 26 00:27:11 +0000 2018,0.0,PA,Ummm didn’t we already see this date? #thebachelorette
+6,Philadelphia,Tue Jun 26 00:28:16 +0000 2018,0.5,PA,ANOTHER SONGWRITING DATE?! Is Becca trying to find love or hosting a talent competition? #thebachelorette
+7,Nashville,Tue Jun 26 00:28:54 +0000 2018,0.3333333333333333,TN,This is super awk #thebachelorette
+8,Naperville,Tue Jun 26 00:29:32 +0000 2018,0.35,IL,Charlotte: that guy (Wayne Newton) looks like a sweet potato with eyes.  😂  #thebachelorette 🌹
+9,Easton,Tue Jun 26 00:29:45 +0000 2018,-0.1,MD,Wayne Newton looks like a dead extra from Six Feet Under #thebachelorette
+10,Tampa,Tue Jun 26 00:30:54 +0000 2018,0.0,FL,Even the horse looks like it had plastic surgery 😝 #thebachelorette
+11,Glenwood,Tue Jun 26 00:31:58 +0000 2018,-0.5,FL,Me watching the guys sing random words to the tune of “Danke Schoen” #thebachelorette https://t.co/SwYlzzCenm
+12,Tampa,Tue Jun 26 00:38:31 +0000 2018,0.0,FL,"Chris creeps me out for some reason, I can’t like him #thebachelorette"
+13,Alpharetta,Tue Jun 26 00:45:55 +0000 2018,0.5,GA,i think garrett is my top pick. their connection is 😍 #thebachelorette
+14,Hartford City,Tue Jun 26 00:46:52 +0000 2018,-0.04999999999999999,IN,"God bless Colton, he’s adorable and awkward #thebachelorette"
+15,Pensacola,Tue Jun 26 00:48:47 +0000 2018,0.0,FL,Hey Chris....  #thebachelorette https://t.co/PDVGcZoAbf
+16,Manhattan,Tue Jun 26 00:49:56 +0000 2018,0.0,NY,Colton be like #thebachelorette https://t.co/58E9NG8cMB
+17,Philadelphia,Tue Jun 26 00:50:03 +0000 2018,1.0,PA,Jason and Leo cleaned up the best in a tux 👀 #thebachelorette
+18,Pensacola,Tue Jun 26 00:51:14 +0000 2018,0.14285714285714285,FL,"“Tonight I’m shook.” - Chris. Yeah, we’re all shook by the way you’re acting right now.  #thebachelorette https://t.co/omW7A2al1k"
+19,Naperville,Tue Jun 26 00:58:29 +0000 2018,-0.8,IL,I want Becca to send BOTH these idiots home.  #NoRoseForYou  🌹#thebachelorette
+20,Boca Raton,Tue Jun 26 00:58:30 +0000 2018,0.13,FL,"chicken if you keep talking you’re not “enjoying the silence,” you’re enjoying the sound of your own voice. #thebachelorette"
+21,Alpharetta,Tue Jun 26 00:59:20 +0000 2018,0.0,GA,drink every time becca says “these guys” #thebachelorette
+22,Garden City,Tue Jun 26 01:01:10 +0000 2018,0.4681818181818182,SC,Becca should just leave both of them in the desert and live happily with Blake #thebachelorette
+23,Jacobstown,Tue Jun 26 01:02:22 +0000 2018,0.0,NJ,Jordan dressed like he’s about to take a yacht to the Catalina wine mixer #thebachelorette
+24,Woodway,Tue Jun 26 03:16:36 +0000 2018,0.0,TX,Wills should be the next Bachelor. End of discussion.  #TheBachelorette #thebachelor @BachelorABC @BacheloretteABC
+25,Henderson,Tue Jun 26 03:31:39 +0000 2018,-0.3499999999999999,NV,I feel bad Chris is now on his second song writing challenge #thebachelorette https://t.co/ruknXnPRoi
+26,Sioux Falls,Tue Jun 26 03:37:18 +0000 2018,-0.07500000000000001,SD,Becca gave Chris a rose :( why he is whinny #thebachelorette https://t.co/QRUvtNAoqj
+27,Phoenix,Tue Jun 26 03:45:37 +0000 2018,-0.0875,AZ,Chris not cool. Stop saying you had no idea. He said multiple times to your face the time he had. #thebachelorette https://t.co/fqYnLwZdOn
+28,Henderson,Tue Jun 26 03:49:14 +0000 2018,0.0,NV,Blake for #TheBachelor   #thebachelorette
+29,Henderson,Tue Jun 26 03:52:15 +0000 2018,0.2857142857142857,NV,⬇️ Chris right now needs to hear this #thebachelorette https://t.co/B0MNJBfUb6
+30,Aliso Viejo,Tue Jun 26 03:52:43 +0000 2018,0.0,CA,#thebachelorette
+31,Washington,Tue Jun 26 02:24:22 +0000 2018,0.55,DC,"“I speak, I can walk, I’m fit..” oh wise one, #thebachelorette"
+32,Shreveport,Tue Jun 26 02:46:17 +0000 2018,0.2857142857142857,LA,"Hey, @RepMikeJohnson, this person right here ⬇ is talking to YOU. 
 
 #civility https://t.co/EcKyKfqiGX"
-1,Shreveport,Mon Jun 25 20:09:44 +0000 2018,0.0,LA,"Dear @RepMikeJohnson...
+33,Woodhaven,Tue Jun 26 02:50:17 +0000 2018,0.5,MI,venmo john better request money from becca for wasting his time #thebachelorette
+34,Manhattan,Tue Jun 26 03:02:17 +0000 2018,0.0,NY,MY top two are wills and venmo john. sad to think becca’s def going to leave us with connor and racist garrett. #thebachelorette
+35,Columbus,Tue Jun 26 03:03:11 +0000 2018,0.0,OH,"while you’re all here, I chatted with @PFF_Mike on friday about his experience on #thebachelorette https://t.co/d8VFJS3b3R"
+36,Albany,Tue Jun 26 04:50:12 +0000 2018,-0.1875,OR,"It’s been like a month since I could watch #thebachelorette on a Monday. Starting two hours late, but let’s do the damn thing!"
+37,Pleasanton,Tue Jun 26 04:51:44 +0000 2018,-0.07222222222222226,CA,I just watched 7 minutes of #thebachelorette for the first time this season and all I see is one super annoying guy… https://t.co/RnHFPJF9sd
+38,West Sacramento,Tue Jun 26 04:56:45 +0000 2018,0.0,CA,i may not recover from becca choosing chris “johnny drama” over venmo john #thebachelorette
+39,Shreveport,Mon Jun 25 20:09:44 +0000 2018,0.0,LA,"Dear @RepMikeJohnson...
 
 #civility https://t.co/PQHdCslICn"
-2,Norfolk,Mon Jun 25 21:37:36 +0000 2018,0.0,VA,@BigMikeJohnson_ Never said that but Tatum went further in the playoffs
-3,Norfolk,Mon Jun 25 21:45:10 +0000 2018,0.8,VA,@BigMikeJohnson_ So LeBron shouldn’t win MVP then 🤷🏾‍♂️
-0,Carson,Wed Jun 27 03:59:33 +0000 2018,0.0,CA,@JohnPaulGreen Don’t let fame get to your head JPG
-1,Tallahassee,Tue Jun 26 23:01:03 +0000 2018,0.0,FL,"Senior public relations student, Devin Harrison, bids FAMU’s Student Government Association farewell. “SJGC taught… https://t.co/rhMAz2SWGC"
-0,Caimito,Wed Jun 27 22:32:12 +0000 2018,0.0,co,@JohnPaulRM Coges la clase con Carlos Lluveras?
-1,Caimito,Wed Jun 27 22:34:59 +0000 2018,0.0,co,"@JohnPaulRM Cb ponte, que esa primera parte está pal de puñetera."
-2,Caimito,Wed Jun 27 22:37:46 +0000 2018,0.0,co,@JohnPaulRM Y pa joder yo tengo un cb debate de Mayra el viernes y el lunes un cb ensayo que me tiene llorando y no lo he empezado.
-3,Caimito,Wed Jun 27 22:39:55 +0000 2018,0.0,co,@JohnPaulRM Todavía estamos a tiempo pa darnos de baja?
-4,Caimito,Wed Jun 27 22:40:59 +0000 2018,0.0,co,@JohnPaulRM Ah pues me doy de baja de la vida
-5,Caimito,Wed Jun 27 22:42:30 +0000 2018,0.0,co,@JohnPaulRM Te espero en la fila
+40,Miami,Mon Jun 25 20:40:48 +0000 2018,0.55,FL,&amp; the rose goes to.... 🌹 #barmajstudios #pictureoftheday #instapic #thebachelor #studmuffin #love #barmaj… https://t.co/0dRomHMZ4O
+41,Norfolk,Mon Jun 25 21:37:36 +0000 2018,0.0,VA,@BigMikeJohnson_ Never said that but Tatum went further in the playoffs
+42,Norfolk,Mon Jun 25 21:45:10 +0000 2018,0.8,VA,@BigMikeJohnson_ So LeBron shouldn’t win MVP then 🤷🏾‍♂️
+43,Garden City,Tue Jun 26 01:10:03 +0000 2018,0.0,SC,Can they both please just go home though?  #thebachelorette
+44,Westminster,Tue Jun 26 01:10:14 +0000 2018,-0.08333333333333333,CO,I don’t know how I feel about random hot tubs in the middle of nowhere dates... #thebachelorette #desserthottub… https://t.co/qoDkyBPGtk
+45,Wolcott,Tue Jun 26 01:11:00 +0000 2018,0.0,CT,garrett says hello #thebachelorette https://t.co/UlqHH7hZsn
+46,Minneapolis,Tue Jun 26 01:11:44 +0000 2018,-1.0,MN,These two are the worst. 🙄 #thebachelorette @YouGetARose https://t.co/vJYwyhTCCB
+47,Haines City,Tue Jun 26 01:15:38 +0000 2018,0.0,FL,ITS BACK ITS BACK ITS.... oh it’s a Kia commercial #thebachelorette
+48,Oregon,Tue Jun 26 01:16:01 +0000 2018,0.0,IL,Send them both home. 🙄 #thebachelorette
+49,Des Moines,Tue Jun 26 01:19:07 +0000 2018,0.0,IA,Oh god.... jordan... please stop #thebachelorette
+50,Garden City,Tue Jun 26 01:19:19 +0000 2018,0.0,SC,And now Jordan is gonna use this time to talk about his “career” 🙃#thebachelorette
+51,Chamberlayne,Tue Jun 26 01:19:52 +0000 2018,-1.0,VA,Well Jordan is the worst. #thebachelorette
+52,Oklahoma City,Tue Jun 26 01:20:55 +0000 2018,-0.4,OK,Yep. I definitely would not have let him kiss me. He’s annoying. #thebachelorette
+53,Manhattan,Tue Jun 26 01:20:56 +0000 2018,-0.08333333333333333,NY,"Jordan: what does your typical weekend look like?
+Becca: it depends 
+Jordan: OMG SAME 
+
+#thebachelorette"
+54,Haines City,Tue Jun 26 01:22:17 +0000 2018,0.0,FL,Which model face is that Jordan? #rejection #thebachelorette
+55,Garden City,Tue Jun 26 01:22:24 +0000 2018,0.0,SC,Wait who’s gonna stir the pot now that Jordan’s gone? #thebachelorette
+56,Burlington,Tue Jun 26 01:24:26 +0000 2018,0.4,KY,Every dude in #thebachelorette always seems to be sitting with a pillow in their lap. And I called this double dump tonight. Lol
+57,Manhattan,Tue Jun 26 01:25:56 +0000 2018,0.0,NY,"Jordan: “I can speak, I can walk I don’t know what she didn’t like about me.” #thebachelorette https://t.co/h21ubxrlnr"
+58,Manhattan,Tue Jun 26 01:27:51 +0000 2018,0.18,NY,there is absolutely nothing like watching #thebachelorette with 4 boys. highly recommend.
+59,Tampa,Tue Jun 26 01:29:22 +0000 2018,0.8,FL,Lol wut is a “mindstate” #thebachelorette
+60,Denham Springs,Tue Jun 26 01:32:53 +0000 2018,-0.3125,LA,I mean... except for @Colt3FIVE 😍 #thebachelorette
+61,Manhattan,Tue Jun 26 01:33:36 +0000 2018,-0.05,NY,"Excuse me. She doesn’t owe you 50,000 of ANYTHING #thebachelorette https://t.co/vgKc4AZF7q"
+62,Bayshore Gardens,Tue Jun 26 01:34:59 +0000 2018,-0.3,FL,"“It’s sucks man. She wouldn’t even look at me, like my eye.” #thebachelorette"
+63,Columbus,Tue Jun 26 01:38:16 +0000 2018,0.0,OH,you know who would politely get up to allow wills the rest of his time with becca? #thebachelorette https://t.co/o6x8FpM9tZ
+64,South Bend,Tue Jun 26 01:38:29 +0000 2018,0.0,IN,Becca watching Wills and Chris fight for time with her #thebachelorette https://t.co/OOMXy4adhA
+65,Queens,Tue Jun 26 01:39:20 +0000 2018,0.0,NY,"“In my opinion, which i respect” - Wayne Newton in an OTF on #thebachelorette and now me in all meetings henceforth"
+66,Milwaukee,Tue Jun 26 01:41:06 +0000 2018,0.0,WI,"Anyone else seeing the resemblance? Run, @thebkoof, run. #thebachelorette #separatedatbirth https://t.co/YCb1V7gJLP"
+67,Fairway,Tue Jun 26 01:42:20 +0000 2018,0.0,KS,WILLS. THE MAN. #thebachelorette
+68,Manhattan,Tue Jun 26 01:45:17 +0000 2018,-0.78125,NY,Chris is so effing entitled. Kick him out Becca!! #thebachelorette
+69,Echelon,Tue Jun 26 01:45:19 +0000 2018,0.0,NJ,Yes Wills! Stand your ground #thebachelorette
+70,Echelon,Tue Jun 26 01:46:30 +0000 2018,-0.8,NJ,Chris is so annoying like go home #thebachelorette
+71,Charlotte,Tue Jun 26 01:47:04 +0000 2018,0.35,NC,Chris has shown his true colors #thebachelorette https://t.co/5LAoC8Xrl6
+72,Adamsville,Tue Jun 26 01:50:45 +0000 2018,0.5,MI,I’m in love with Wills #thebachelorette
+73,Dayton,Tue Jun 26 01:56:31 +0000 2018,0.0,NJ,JUSTICE FOR VENMO JOHN #thebachelorette
+74,Milwaukee,Tue Jun 26 01:57:04 +0000 2018,0.0,WI,Leo is the Fabio of our generation #superhero #saveusfromChris #thebachelorette https://t.co/N0Rltwbv1b
+75,Delran,Tue Jun 26 01:57:27 +0000 2018,0.3125,NJ,First grocery store Joe and now Venmo John?!? #thebachelorette #wrongchoice
+76,Philadelphia,Tue Jun 26 01:58:55 +0000 2018,-0.20277777777777778,PA,I accepted when she sent home #GroceryStoreJoe but I’m putting my phone down for Venmo John. NOT OKAY BECCA #thebachelorette
+77,Somerville,Tue Jun 26 02:03:35 +0000 2018,0.2,MA,Jason is the real comeback kid here #thebachelorette
+78,Sylva,Tue Jun 26 02:04:28 +0000 2018,0.0,NC,@thebachelor
+79,Phoenix,Tue Jun 26 06:17:49 +0000 2018,0.0,AZ,Congratulations to the former @bachelorabc Star @ariejr And His fiancé Lauren! They officially purchased a home in… https://t.co/c7rnD1pw55
+0,Chicago,Tue Jun 26 18:43:37 +0000 2018,0.0,IL,"Becca on 2 on 1s, you can’t keep both guys #thebachelorette"
+1,Chicago,Tue Jun 26 18:44:25 +0000 2018,0.25,IL,"Chris needs to get off his high horse... if you want time with her, go talk with her!! #thebachelorette"
+2,Chicago,Tue Jun 26 18:46:53 +0000 2018,0.5,IL,Jordan talking about his family... I love it #thebachelorette
+3,Chicago,Tue Jun 26 18:51:19 +0000 2018,0.0,IL,"Becca, send them both home.. #thebachelorette"
+4,Chicago,Tue Jun 26 18:51:50 +0000 2018,0.0,IL,Becca: did he say that? David: well it sounded like he said that. #thebachelorette
+5,Chicago,Tue Jun 26 18:53:06 +0000 2018,0.0,IL,David needs to learn how to mind his business #thebachelorette
+6,Chicago,Tue Jun 26 18:59:43 +0000 2018,0.0,IL,Becca sent both home 👍🏽 #thebachelorette
+7,Chicago,Tue Jun 26 19:01:03 +0000 2018,1.0,IL,The guys reacting to the luggages being taken away is the best #thebachelorette
+8,San Diego,Wed Jun 27 04:38:00 +0000 2018,0.0,CA,"my OY VEY pose, brought to you by this wks episode of thebacheloramerica 😖 between the guy w/ the gold underpants &amp;… https://t.co/d73U1sG2NT"
+9,Chicago,Tue Jun 26 19:11:53 +0000 2018,0.0,IL,Wills is my spirt animal #thebachelorette
+10,Lake Butler,Tue Jun 26 21:42:44 +0000 2018,0.0625,FL,Also still adore Blake like no other. #thebachelorette
+11,Carson,Wed Jun 27 03:59:33 +0000 2018,0.0,CA,@JohnPaulGreen Don’t let fame get to your head JPG
+12,Tallahassee,Tue Jun 26 23:01:03 +0000 2018,0.0,FL,"Senior public relations student, Devin Harrison, bids FAMU’s Student Government Association farewell. “SJGC taught… https://t.co/rhMAz2SWGC"
+0,Burbank,Wed Jun 27 21:19:00 +0000 2018,0.7,CA,Becca does not make good choices #thebachelorette
+1,San Diego,Wed Jun 27 20:28:26 +0000 2018,0.0,CA,Either Becca picks Blake or he’s the next bachelor and I won’t take no for an answer 😇 #thebachelorette
+2,Caimito,Wed Jun 27 22:32:12 +0000 2018,0.0,co,@JohnPaulRM Coges la clase con Carlos Lluveras?
+3,Caimito,Wed Jun 27 22:34:59 +0000 2018,0.0,co,"@JohnPaulRM Cb ponte, que esa primera parte está pal de puñetera."
+4,Caimito,Wed Jun 27 22:37:46 +0000 2018,0.0,co,@JohnPaulRM Y pa joder yo tengo un cb debate de Mayra el viernes y el lunes un cb ensayo que me tiene llorando y no lo he empezado.
+5,Caimito,Wed Jun 27 22:39:55 +0000 2018,0.0,co,@JohnPaulRM Todavía estamos a tiempo pa darnos de baja?
+6,Caimito,Wed Jun 27 22:40:59 +0000 2018,0.0,co,@JohnPaulRM Ah pues me doy de baja de la vida
+7,Caimito,Wed Jun 27 22:42:30 +0000 2018,0.0,co,@JohnPaulRM Te espero en la fila
+8,Manhattan,Thu Jun 28 03:28:13 +0000 2018,0.25,NY,judging by the volume of my voice i am very invested in stuntman Leo’s success on and after #thebachelorette . amer… https://t.co/mmw3RAbFJ4
 0,Smyrna,Fri Jun 29 04:12:11 +0000 2018,-0.17857142857142858,TN,Me and My dude @do_the_JohnPaul so tight. I once wrote an apology letter to his momma #facts #okayillstop 😂😂😂
 1,Manhattan,Thu Jun 28 22:46:17 +0000 2018,0.0,NY,@JohnPaul_USA @seanhannity @realDonaldTrump @POTUS He likes to feed you bullshit with a spoon.
 2,Smyrna,Fri Jun 29 03:22:22 +0000 2018,0.1,TN,I been saying this shit for years @do_the_JohnPaul is a smooth ass dude... the homie been off in the gym dropping m… https://t.co/Fbnl8r9SW3
 3,Smyrna,Fri Jun 29 03:48:06 +0000 2018,-0.1,TN,Like fr fr @do_the_JohnPaul is the thre real  “mr steal yo girl” homies game slicker than the BP oil spill. Don’t s… https://t.co/qxD5prAOm4
 4,Smyrna,Fri Jun 29 03:57:19 +0000 2018,0.2,TN,@do_the_JohnPaul put me on with a chick one time... and then this dude really took Her to lunch one time... no bull… https://t.co/W3rd0FGx8a
-5,West Columbia,Fri Jun 29 03:00:28 +0000 2018,-0.02083333333333333,TX,@JohnPaul_USA @TheDemocrats 'Libs have acted absolutely ridiculous throughout this entire Presidency; many disliked Obama but weren't jerks!
+5,Grand Rapids,Fri Jun 29 02:24:37 +0000 2018,0.0,MI,Does Becca only shop at Deb? #thebachelorette
+6,West Columbia,Fri Jun 29 03:00:28 +0000 2018,-0.02083333333333333,TX,@JohnPaul_USA @TheDemocrats 'Libs have acted absolutely ridiculous throughout this entire Presidency; many disliked Obama but weren't jerks!
 0,Richmond,Fri Jun 29 19:46:12 +0000 2018,0.5,IL,@JohnPaul_USA @seanhannity @ICEgov Many Nazi Stormtroopers where veterans of WW I. When resistance fighters attacke… https://t.co/U6lH68jqA3
 1,Portsmouth,Fri Jun 29 13:19:17 +0000 2018,0.25,NH,More local art located at the John Paul Jones Carriage house! @ PortCity Bike Tours https://t.co/OKuXZ7G3aE
 2,Port St Lucie,Fri Jun 29 12:24:04 +0000 2018,0.0,FL,@mattkoonmusic I know you also listen to a lot of his shows. Cant tell if him constantly forgetting Mike Johnson’s… https://t.co/CCibKnxVg0
 3,Greenburgh,Fri Jun 29 12:35:34 +0000 2018,-0.5125,NY,@JohnPaulBones So flat. Terrible. $1000 a month on singing lessons and this is what I get?
 4,Streator,Fri Jun 29 17:14:24 +0000 2018,0.0,IL,@JohnPaulJude Happybirthday
-0,Hartford,Sat Jun 30 16:14:03 +0000 2018,0.0,WI,@SkepticHidden @luzeternapr @Guds_barn @RPRPhilosophy @JohnPaulII7 @RealDCEric @ATHE1STP0WER @EveKeneinan… https://t.co/nFvdkteLb3
+5,Phoenix,Fri Jun 29 17:46:18 +0000 2018,0.7,AZ,Look who stopped to smell the roses at qatthefarm this week! We loved having @bachelorabc @ariejr &amp;… https://t.co/ZdhFBbIoTi
+0,Tempe,Sat Jun 30 23:42:33 +0000 2018,0.0,AZ,Living in the same city as #thebachelor @ariejr means sometimes he steals your parking spot when you have your blin… https://t.co/m71gaSXtmx
+1,Hartford,Sat Jun 30 16:14:03 +0000 2018,0.0,WI,@SkepticHidden @luzeternapr @Guds_barn @RPRPhilosophy @JohnPaulII7 @RealDCEric @ATHE1STP0WER @EveKeneinan… https://t.co/nFvdkteLb3
+2,Bloomington,Sat Jun 30 20:49:39 +0000 2018,0.0,MN,People often ask how we find a match is for clients. We’ll do just about anything... At the #thebachelorette castin… https://t.co/CFKralvp9C
+3,Bloomington,Sat Jun 30 21:05:40 +0000 2018,-0.08928571428571427,MN,Today we’re crashing the #thebachelorette casting call and meeting all the single ladies! 🤣 #bachelorette… https://t.co/mVwtMnBbEh
+4,Chicago,Sat Jun 30 19:41:57 +0000 2018,0.0,IL,"I almost tried out for the #thebachelor today.... walked in, saw how done up everyone was then immediately turned a… https://t.co/elUwmjSStq"
 0,Warwick,Sun Jul 01 14:02:02 +0000 2018,0.0,RI,@JohnPaulCline Hello
 1,Manchester,Sun Jul 01 21:34:11 +0000 2018,0.6,TN,"@_TStreet @do_the_JohnPaul She wanna swing like a man, get treated like a man 🤷🏾‍♂️ 
 
@@ -209,6 +869,16 @@ DESERT CHIMERA… https://t.co/0QEMJsDxJb"
 0,Malta,Mon Jul 02 21:09:16 +0000 2018,0.0,NY,@Bklynfinest1477 @JohnPaulFAL @Babchik @mcleod_anthony @UCONNAl @ENewill A restraining order.
 1,Lake Lotawana,Mon Jul 02 18:46:04 +0000 2018,-0.06666666666666664,MO,"@RepMikeJohnson @710keel I didn’t think it was that bad, but if @RepMikeJohnson thinks it’s good, we are all in trouble."
 0,West Monroe,Tue Jul 03 17:05:01 +0000 2018,0.0,LA,@PHS_MrZimmer @JohnPaultheWall  https://t.co/qH9Uo2DICe
+1,West Pasco,Tue Jul 03 17:56:21 +0000 2018,0.0,WA,Did Chris just call Garrett “GarBear” ?! #thebachelorette
+2,Bellingham,Tue Jul 03 22:25:10 +0000 2018,0.0,WA,"@Kaitgriffy has anyone mentioned that you look like Becca, because you totally do #thebachelorette"
+3,Minneapolis,Tue Jul 03 15:22:22 +0000 2018,0.0,MN,thank GOD we’re finally going to see these boys topless next week. #thebachelorette
+4,West Pasco,Tue Jul 03 18:00:57 +0000 2018,0.55,WA,"Y’all Colton has started professing his love for Becca, of course he got the rose #thebachelorette"
+5,West Pasco,Tue Jul 03 18:18:13 +0000 2018,0.0,WA,"The producers are making it seem like Chris is going to kill someone! Like come on he wouldn’t do that... would he?
+#thebachelorette"
+6,West Pasco,Tue Jul 03 18:22:31 +0000 2018,0.0,WA,WHERE IS CHRIS GOING?! WHERE IS HE WALKING TO?! #thebachelorette
+7,West Pasco,Tue Jul 03 18:23:56 +0000 2018,0.5,WA,"I think Chris is secretly in love with Lincoln. Worrying about his cholesterol and all (that’s love bitch) 
+#thebachelorette"
+8,Silver Summit,Tue Jul 03 16:37:24 +0000 2018,0.14375,UT,chris from @thebachelorette is definitely a self-proclaimed nice guy who gets mad that girls don’t like him when he’s sooooo nice to them
 0,Hoover,Wed Jul 04 16:03:49 +0000 2018,1.0,AL,@charliekirk11 John Paul Jones’ best work was with Zeppelin.
 1,Manhattan,Wed Jul 04 20:16:45 +0000 2018,0.35,NY,"John Paul Jones is coming up next on TCM.
 
@@ -226,7 +896,8 @@ Now that's leadership incarnate."
 1,Live Oak,Fri Jul 06 20:51:15 +0000 2018,-0.375,TX,I’m going to miss Tony blowing past Devin Harris and spinning in the paint followed by a difficult layup off the glass.
 2,Salisbury,Fri Jul 06 13:34:16 +0000 2018,0.0,MD,@JohnPaultheWall Hmu dummy
 0,Miramar Beach,Sat Jul 07 14:27:28 +0000 2018,0.5,FL,"@Tim_WatsonHSV They wouldn’t give up their gigs for this, for sure. Barry Krauss. Mike Johnson. John Parker Wilson"
-1,Portsmouth,Sat Jul 07 21:09:03 +0000 2018,0.0,NH,Just posted a photo @ John Paul Jones House https://t.co/G8iXrnzd5S
+1,Stillwater,Sat Jul 07 15:11:08 +0000 2018,-0.125,OK,“Says racist things but then wonders why we can’t all just get a long” I’m DEAD 😂 #thebachelorette https://t.co/JeVKqxhRvv
+2,Portsmouth,Sat Jul 07 21:09:03 +0000 2018,0.0,NH,Just posted a photo @ John Paul Jones House https://t.co/G8iXrnzd5S
 0,Portsmouth,Sun Jul 08 14:14:58 +0000 2018,0.25,NH,Getting ready for the John Paul Jones birthday party! @ John Paul Jones House https://t.co/etFzQauZBe
 1,Grand Rapids,Sun Jul 08 17:33:00 +0000 2018,0.0,MI,"FTR, John Paul Jones is kinda just an add on."
 2,North Lauderdale,Sun Jul 08 16:57:58 +0000 2018,0.7583333333333334,FL,@RepMikeJohnson Good Afternoon! Nice seeing you on @ANHQDC w/ @MikeEmanuelFox Great job in LA and in the @HouseGOP… https://t.co/1vB15mtO6V
@@ -240,14 +911,21 @@ STONE QUEST Series Book Set https://t.co/CSV8w6RTAp
 DESERT CHI… https://t.co/eXnxyVsag7"
 2,Murfreesboro,Mon Jul 09 23:39:42 +0000 2018,0.0,TN,@do_the_JohnPaul @Alfred_Mason24 Bet JP?
 3,Murfreesboro,Mon Jul 09 23:40:46 +0000 2018,0.0,TN,@do_the_JohnPaul @Alfred_Mason24 $5K?
-4,San Francisco,Mon Jul 09 16:47:19 +0000 2018,0.0,CA,"Morning Walk — I'd heard about a shipwreck that was never found - John Paul Jones' Bonhomme Richard. So I thought,… https://t.co/50mxWcTIjD"
-5,Coral Gables,Mon Jul 09 22:00:17 +0000 2018,0.0,FL,@EJT___ @JohnPaulBunyan Or none.
-0,Annapolis,Tue Jul 10 12:25:42 +0000 2018,-0.2734375,MD,"@JohnPaulII7 @KennySanders @ArcheeDebunker God got them into that mess, and then got some of them out of it! Thank you, lord!"
-1,Annapolis,Tue Jul 10 12:29:44 +0000 2018,0.0,MD,@KennySanders @JamesWoodruff7 @JohnPaulII7 @ArcheeDebunker I wonder if you pretend to believe the Bible fairy tales… https://t.co/b6PHxMx1Cf
-2,Annapolis,Tue Jul 10 12:44:12 +0000 2018,-0.3,MD,"@KennySanders @JamesWoodruff7 @JohnPaulII7 @ArcheeDebunker ""Sin is the one thing we all have in common and is the t… https://t.co/DlCHYcmFWg"
-3,Norfolk,Tue Jul 10 13:35:43 +0000 2018,0.0,VA,When you take off bro?  @BigMikeJohnson_
-4,Murrieta,Tue Jul 10 23:30:15 +0000 2018,0.0,CA,@JohnPaulSweeny4 @Fan33Tiger @leftyrose @rig503 @Shaunblahblah @ProFootballTalk @AZCardinals Doesn’t take you long… https://t.co/r5hKNGJyHO
-5,Murrieta,Tue Jul 10 23:32:16 +0000 2018,-0.7999999999999999,CA,"@JohnPaulSweeny4 @Fan33Tiger @leftyrose @rig503 @Shaunblahblah @ProFootballTalk @AZCardinals I get that stupid, sma… https://t.co/ocejSsXq0a"
+4,Narragansett,Mon Jul 09 16:11:09 +0000 2018,0.3,RI,@svershbow @realDonaldTrump BUT WHICH SCOTUS NOM WILL GET TRUMP’S FINAL ROSE #lolbarf #thebachelorette
+5,San Francisco,Mon Jul 09 16:47:19 +0000 2018,0.0,CA,"Morning Walk — I'd heard about a shipwreck that was never found - John Paul Jones' Bonhomme Richard. So I thought,… https://t.co/50mxWcTIjD"
+6,Coral Gables,Mon Jul 09 22:00:17 +0000 2018,0.0,FL,@EJT___ @JohnPaulBunyan Or none.
+0,McKinney,Tue Jul 10 16:23:24 +0000 2018,0.0,TX,Interrupting #thebachelorette 🙄 Yet another reason for me to dislike @realDonaldTrump 😜
+1,Lake Butler,Tue Jul 10 16:50:44 +0000 2018,0.2,FL,Did this b!tch really just walk away after he said he’s a virgin? #thebachelorette
+2,Annapolis,Tue Jul 10 12:25:42 +0000 2018,-0.2734375,MD,"@JohnPaulII7 @KennySanders @ArcheeDebunker God got them into that mess, and then got some of them out of it! Thank you, lord!"
+3,Annapolis,Tue Jul 10 12:29:44 +0000 2018,0.0,MD,@KennySanders @JamesWoodruff7 @JohnPaulII7 @ArcheeDebunker I wonder if you pretend to believe the Bible fairy tales… https://t.co/b6PHxMx1Cf
+4,Annapolis,Tue Jul 10 12:44:12 +0000 2018,-0.3,MD,"@KennySanders @JamesWoodruff7 @JohnPaulII7 @ArcheeDebunker ""Sin is the one thing we all have in common and is the t… https://t.co/DlCHYcmFWg"
+5,Norfolk,Tue Jul 10 13:35:43 +0000 2018,0.0,VA,When you take off bro?  @BigMikeJohnson_
+6,New Orleans,Tue Jul 10 15:36:08 +0000 2018,0.0,LA,@whats_ur_sign_  where is your #thebachelorette commentary this week!?
+7,Coon Rapids,Tue Jul 10 23:07:16 +0000 2018,-0.21999999999999997,MN,Was Blake high throughout this episode of #thebachelorette? He had to be. He’s crazy.
+8,Murrieta,Tue Jul 10 23:30:15 +0000 2018,0.0,CA,@JohnPaulSweeny4 @Fan33Tiger @leftyrose @rig503 @Shaunblahblah @ProFootballTalk @AZCardinals Doesn’t take you long… https://t.co/r5hKNGJyHO
+9,Murrieta,Tue Jul 10 23:32:16 +0000 2018,-0.7999999999999999,CA,"@JohnPaulSweeny4 @Fan33Tiger @leftyrose @rig503 @Shaunblahblah @ProFootballTalk @AZCardinals I get that stupid, sma… https://t.co/ocejSsXq0a"
+10,Chicago,Tue Jul 10 17:25:34 +0000 2018,0.0,IL,Nooooo wills is gone 😔 #thebachelorette
+11,Chicago,Tue Jul 10 17:25:47 +0000 2018,0.5,IL,I better see wills in paradise #thebachelorette
 0,El Paso,Wed Jul 11 16:11:34 +0000 2018,0.0,TX,@JohnPauly__ Thank you❤️
 1,Washington,Wed Jul 11 22:34:21 +0000 2018,0.0,DC,@LABankers @BOMest1903 @RepMikeJohnson https://t.co/8TtSwgwcBX
 2,Manhattan,Wed Jul 11 17:13:56 +0000 2018,-0.3,NY,@JohnPaulWeber @TimMcGov Show us your squad bet it sucks 👀
@@ -271,44 +949,75 @@ If ""Collusion"" is not a crime, then… https://t.co/4iH5UB7IRz"
 14,Pittsburgh,Thu Jul 12 23:24:29 +0000 2018,0.7,PA,@RepMikeJohnson Good lord Ye is hypocritical.
 15,Moon Lake,Thu Jul 12 23:26:01 +0000 2018,0.8,FL,@RepMikeJohnson YOU DID A GREAT JOB ALL THE REPUBLICANS HAVE..DEMOCRATS TRYING TO THROW ANYTHING THEY CAN LIKE DACA… https://t.co/qDUddiGdEw
 16,Land O' Lakes,Thu Jul 12 23:28:29 +0000 2018,0.3125,FL,"@FallacaroJim @RepMikeJohnson Not a problem, I was was so hot under the collar I felt sun burnt! Looking forward to… https://t.co/e4wMo4zd9U"
-17,Mount Vernon,Thu Jul 12 21:11:08 +0000 2018,0.0,VA,@NatResources @westerncaucus @RepGosar @RepAndyBiggsAZ @RepTipton @RepWesterman @RepLaMalfa @RepMikeJohnson… https://t.co/4Y5TqM508n
-18,Las Vegas,Thu Jul 12 19:59:08 +0000 2018,0.025,NV,"@JohnPaulKavana3 @Starbucks @KTNV @lesleymarin @KTNVLindsay Near Carey and losee I believe, not far from nab"
+17,Austin,Thu Jul 12 23:53:13 +0000 2018,0.0,TX,#Austin I have arrived!  Time for the perculator...#thebachelor
+18,Mount Vernon,Thu Jul 12 21:11:08 +0000 2018,0.0,VA,@NatResources @westerncaucus @RepGosar @RepAndyBiggsAZ @RepTipton @RepWesterman @RepLaMalfa @RepMikeJohnson… https://t.co/4Y5TqM508n
+19,Las Vegas,Thu Jul 12 19:59:08 +0000 2018,0.025,NV,"@JohnPaulKavana3 @Starbucks @KTNV @lesleymarin @KTNVLindsay Near Carey and losee I believe, not far from nab"
 0,Mount Juliet,Fri Jul 13 16:05:05 +0000 2018,0.0,TN,@KittenofMetal @EcoSexuality @RepMikeJohnson 👌
 1,Dana,Fri Jul 13 23:40:30 +0000 2018,-0.4,NC,"@RepMikeJohnson Not while the filthy, obscene, #TrumpGestapo inhabits the people’s White House and keeps babies awa… https://t.co/KqGvTUwuIO"
 2,Bellmore,Fri Jul 13 23:45:45 +0000 2018,0.0,NY,"@RachOnAir John Paul Jones , Jimmy Paige Robert Plant, and Jason Bonham ...boom!"
 3,Fort Hunt,Fri Jul 13 11:28:40 +0000 2018,0.5,VA,@SunShinesToday1 @JohnPaulSweeny4 @ABC @RepJerryNadler I enjoyed watching Rep. Hakeem Jeffries as well. https://t.co/v40hgmARlq
 4,Chicago,Fri Jul 13 18:06:47 +0000 2018,0.0,IL,@JohnPaulSpencer Beep bop beeeep. Thaaaaanks
-5,Spokane,Fri Jul 13 12:37:49 +0000 2018,0.0,WA,@westerncaucus @RepGosar @tommcclintock @NatResources @RepMikeJohnson @RepLaMalfa @RepAndyBiggsAZ @RepTipton… https://t.co/0AjXj4BkQl
-6,Arlington,Fri Jul 13 12:50:50 +0000 2018,0.0,VA,"@RepMikeJohnson Don't you have actual work to do???
+5,Miami,Fri Jul 13 20:52:09 +0000 2018,0.0,FL,"#takeyourdogtoworkday #bvkmiami ❤️
+noah.thebachelor Pepper and Bruno @ BVK Miami https://t.co/EVY4zL3IWW"
+6,Spokane,Fri Jul 13 12:37:49 +0000 2018,0.0,WA,@westerncaucus @RepGosar @tommcclintock @NatResources @RepMikeJohnson @RepLaMalfa @RepAndyBiggsAZ @RepTipton… https://t.co/0AjXj4BkQl
+7,Arlington,Fri Jul 13 12:50:50 +0000 2018,0.0,VA,"@RepMikeJohnson Don't you have actual work to do???
 
 Maybe work on getting those families back together, instead?"
-7,Green Bay,Fri Jul 13 15:13:14 +0000 2018,0.15625,WI,@jaredbatch Exactly! and that’s just what we need was a backup pg to @BeMore27. We had Devin Harris but this is a big upgrade!
-8,San Marcos,Fri Jul 13 15:34:31 +0000 2018,0.0,TX,@Lady_MeuMeu @Heritage @RepMikeJohnson  https://t.co/hmnhj9ndXN
+8,Green Bay,Fri Jul 13 15:13:14 +0000 2018,0.15625,WI,@jaredbatch Exactly! and that’s just what we need was a backup pg to @BeMore27. We had Devin Harris but this is a big upgrade!
+9,San Marcos,Fri Jul 13 15:34:31 +0000 2018,0.0,TX,@Lady_MeuMeu @Heritage @RepMikeJohnson  https://t.co/hmnhj9ndXN
 0,Orange,Sat Jul 14 23:44:16 +0000 2018,0.0,CA,7-12-18 Mike Johnson (R-LA) Questions Strzok https://t.co/MxBVCcep62 via @YouTube
 1,Los Angeles,Sat Jul 14 17:04:14 +0000 2018,-0.16666666666666666,CA,"@kentwayne108 Discover the hidden world of Luke Stone
 STONE QUEST Series Book Set https://t.co/CSV8w6RTAp 
 DESERT C… https://t.co/gSu8SVS4Dl"
 2,Destin,Sat Jul 14 17:55:02 +0000 2018,0.0,FL,@brandonsudge @BarrettSallee @AroundtheATLpod Former AL &amp; Falcons player Mike Johnson (currently with @SECCountry)… https://t.co/IdioG3YYHj
-0,Chicago,Sun Jul 15 17:41:46 +0000 2018,-0.04999999999999999,IL,#StJohnPaulII: There is no place for selfishness and no place for fear! Do not be afraid when love makes demands. D… https://t.co/xPUSBn1rzS
-0,Lewisville,Mon Jul 16 12:50:39 +0000 2018,0.0,TX,"The steeper the road, the faster it rises towards ever wider horizons. #MondayMotivation from #JohnPaulII"
-1,Chicago,Mon Jul 16 20:56:06 +0000 2018,0.0,IL,John Paul Stevens&gt;John Paul Jones&gt;John Paul II &gt;John Paul Getty
-2,Washington,Mon Jul 16 18:05:03 +0000 2018,0.0,DC,@JohnPaulWhearty @Rubberbandits Gotta say I'm a bigger fan of the Hi8 stuff with some yogurt and berries!
+0,Fort Lauderdale,Sun Jul 15 18:18:40 +0000 2018,0.0,FL,"It’s that tome a year again. Casting for the @bachelorabc season 23
+•
+•
+#worklife #casting #production… https://t.co/BztTDfMJKH"
+1,Chicago,Sun Jul 15 17:41:46 +0000 2018,-0.04999999999999999,IL,#StJohnPaulII: There is no place for selfishness and no place for fear! Do not be afraid when love makes demands. D… https://t.co/xPUSBn1rzS
+0,Manhattan,Mon Jul 16 19:09:27 +0000 2018,0.0,NY,Ugh Trump and Putin ruined America and @TheView today. Now I know what fans of @thebachelorette felt.
+1,Lewisville,Mon Jul 16 12:50:39 +0000 2018,0.0,TX,"The steeper the road, the faster it rises towards ever wider horizons. #MondayMotivation from #JohnPaulII"
+2,Normal,Mon Jul 16 23:55:20 +0000 2018,0.0,IL,"Dear cable antenna gods:
+
+I will sell you my soul if you let my TV pick up ABC so that I can watch #thebachelorette in 6 minutes.
+
+Please."
+3,Oregon,Mon Jul 16 23:58:54 +0000 2018,0.0,IL,HOMETOWNS TIME!!!!!! #thebachelorette
+4,Chicago,Mon Jul 16 20:56:06 +0000 2018,0.0,IL,John Paul Stevens&gt;John Paul Jones&gt;John Paul II &gt;John Paul Getty
+5,Washington,Mon Jul 16 18:05:03 +0000 2018,0.0,DC,@JohnPaulWhearty @Rubberbandits Gotta say I'm a bigger fan of the Hi8 stuff with some yogurt and berries!
+6,Phoenix,Mon Jul 16 18:56:40 +0000 2018,0.0,AZ,Me every Monday (specifically when I’m watching the dumpster 🔥 that is this season of thebacheloretteabc 😂🙄). Raise… https://t.co/ywqxUBj87k
 0,Edina,Tue Jul 17 14:52:36 +0000 2018,-0.4999999999999999,MN,"@ScottAndersen13 Hotdog on a hamburger bun isnt bad, just confusing"
-1,Minneapolis,Tue Jul 17 21:47:49 +0000 2018,0.0,MN,@Ligets0u812 @JohnPaul_USA @realDonaldTrump @JohnBrennan @Comey @HillaryClinton Are you trying to convince me by be… https://t.co/Jr4HESSm6K
-2,St Paul,Tue Jul 17 23:05:19 +0000 2018,0.1,MN,"@Ligets0u812 @JohnPaul_USA @realDonaldTrump @JohnBrennan @Comey @HillaryClinton Wow, you might be the angriest pers… https://t.co/m7q12AXAIh"
+1,Golden,Tue Jul 17 21:14:59 +0000 2018,0.2,CO,"I don’t know why people are just now saying they dislike Tia, I’ve been there the whole time 🤷🏻‍♀️#thebachelorette"
+2,Minneapolis,Tue Jul 17 21:47:49 +0000 2018,0.0,MN,@Ligets0u812 @JohnPaul_USA @realDonaldTrump @JohnBrennan @Comey @HillaryClinton Are you trying to convince me by be… https://t.co/Jr4HESSm6K
+3,Renton,Tue Jul 17 21:48:05 +0000 2018,0.3333333333333333,WA,Ok I know I said I only love Blake but like..... Jason... #thebachelorette
+4,Canonsburg,Tue Jul 17 11:23:37 +0000 2018,0.43333333333333335,PA,"garret, jason, and blake r all great but i’m still in love with peter and he is the only bachelor i wanna see #thebachelor"
+5,Chicago,Tue Jul 17 11:29:19 +0000 2018,0.0,IL,"Still reeling from #thebachelorette hometowns? Missed the episode + want to know why this photo contains a tomato,… https://t.co/o5iF8FGICR"
+6,Bakersfield,Tue Jul 17 20:06:12 +0000 2018,-0.4,CA,"oooohhhhhh my god tia FUCK OFF 🤬
+#thebachelorette"
+7,Torrance,Tue Jul 17 20:37:29 +0000 2018,0.25,CA,#thebachelorette so SOO SOO in love with jason..especially the last words he said to Becca after hometowns..OH MY GOD..😍😍😍
+8,St Paul,Tue Jul 17 23:05:19 +0000 2018,0.1,MN,"@Ligets0u812 @JohnPaul_USA @realDonaldTrump @JohnBrennan @Comey @HillaryClinton Wow, you might be the angriest pers… https://t.co/m7q12AXAIh"
+9,New Haven,Tue Jul 17 13:11:34 +0000 2018,-0.5,CT,"After Garrett’s date, I was like ....the rest of you are irrelevant 😴 #thebachelorette"
+10,Manhattan,Tue Jul 17 22:57:19 +0000 2018,0.0,NY,"@AshleySpivey Garret: I can’t wait to show you the place that made me the man I am today 
+
+Me: Reddit? 4chan? 
+
+#thebachelorette"
+11,Chicago,Tue Jul 17 12:14:08 +0000 2018,0.0,IL,"Still reeling from #thebachelorette hometowns? Missed the episode + want to know why this photo contains a tomato,… https://t.co/jPltGZLxJ5"
+12,Chicago,Tue Jul 17 18:25:48 +0000 2018,-0.5,IL,Tiara is being hella selfish. You should’ve spoke up 6 weeks ago #thebachelorette
 0,Fort Collins,Wed Jul 18 22:19:59 +0000 2018,0.13636363636363635,CO,@tperkins @RepMikeJohnson I would rather listen to a live feed of a tooth extraction than listen to a quisling like… https://t.co/GMZiU2z14o
 1,St Paul,Wed Jul 18 18:44:40 +0000 2018,0.0,MN,@Ligets0u812 @JohnPaul_USA @realDonaldTrump @JohnBrennan @Comey @HillaryClinton I hope you get some help easing the… https://t.co/JXJw2lJDSm
 2,Aliso Viejo,Wed Jul 18 18:51:08 +0000 2018,-0.175,CA,@JohnPaulFAL @lilrunner The bottom of a cake cone is always a mess tho
 3,Huntington Beach,Wed Jul 18 23:03:02 +0000 2018,-0.21875,CA,@JohnPaulFAL @lilrunner I’m imaging a mess!
 4,Dickinson,Wed Jul 18 23:06:10 +0000 2018,0.65,ND,Happy Birthday to my brother @do_the_JohnPaul nothing but love ✊🏼 #OtherHalf
-5,St Paul,Wed Jul 18 14:04:15 +0000 2018,0.0,MN,"@Ligets0u812 @JohnPaul_USA @realDonaldTrump @JohnBrennan @Comey @HillaryClinton Oh, did I say they did agree? I mus… https://t.co/nu9LDpIXNu"
-6,Manhattan,Wed Jul 18 14:58:48 +0000 2018,0.0,NY,@JohnPaulWeber YES
-7,Manhattan,Wed Jul 18 15:00:06 +0000 2018,0.0,NY,@JohnPaulWeber Let’s go now
-8,Terre Haute,Wed Jul 18 15:03:28 +0000 2018,0.0,IN,@Parker14Luke Luke Parker
-9,Manhattan,Wed Jul 18 15:14:51 +0000 2018,0.0,NY,@JohnPaulWeber https://t.co/Bowuy25ndH
-10,Manhattan,Wed Jul 18 15:33:41 +0000 2018,0.0,NY,@JohnPaulWeber @TimMcGov Yeah your shitty line up is gunna get merc’d today
-11,Minden,Wed Jul 18 15:55:09 +0000 2018,0.4333333333333333,LA,Mike Johnson from Bossier have a strong statement though https://t.co/bidpgKNkn3
-12,Marquette,Wed Jul 18 20:25:12 +0000 2018,0.0,MI,@RepMikeJohnson @RepDLesko @RepDrewFerguson @cathymcmorris @RepGarretGraves @RepCharlieCrist @RepJackBergman Impeac… https://t.co/WbM9yC5hEF
+5,Jenison,Wed Jul 18 23:30:01 +0000 2018,0.0,MI,@Colt3FIVE plz marry me and have my babies thnx #thebachelor 🌹
+6,St Paul,Wed Jul 18 14:04:15 +0000 2018,0.0,MN,"@Ligets0u812 @JohnPaul_USA @realDonaldTrump @JohnBrennan @Comey @HillaryClinton Oh, did I say they did agree? I mus… https://t.co/nu9LDpIXNu"
+7,Manhattan,Wed Jul 18 14:58:48 +0000 2018,0.0,NY,@JohnPaulWeber YES
+8,Manhattan,Wed Jul 18 15:00:06 +0000 2018,0.0,NY,@JohnPaulWeber Let’s go now
+9,Terre Haute,Wed Jul 18 15:03:28 +0000 2018,0.0,IN,@Parker14Luke Luke Parker
+10,Manhattan,Wed Jul 18 15:14:51 +0000 2018,0.0,NY,@JohnPaulWeber https://t.co/Bowuy25ndH
+11,Manhattan,Wed Jul 18 15:33:41 +0000 2018,0.0,NY,@JohnPaulWeber @TimMcGov Yeah your shitty line up is gunna get merc’d today
+12,Minden,Wed Jul 18 15:55:09 +0000 2018,0.4333333333333333,LA,Mike Johnson from Bossier have a strong statement though https://t.co/bidpgKNkn3
+13,Marquette,Wed Jul 18 20:25:12 +0000 2018,0.0,MI,@RepMikeJohnson @RepDLesko @RepDrewFerguson @cathymcmorris @RepGarretGraves @RepCharlieCrist @RepJackBergman Impeac… https://t.co/WbM9yC5hEF
 0,Shreveport,Thu Jul 19 13:21:04 +0000 2018,0.0,LA,"@RepMikeJohnson, why did you vote against subpoenaing the #TrumpPutinSummit translator today?
 
 Why are you protecti… https://t.co/3YgIVrjDV7"
@@ -319,9 +1028,10 @@ Why are you protecti… https://t.co/3YgIVrjDV7"
 2,Dallas,Fri Jul 20 21:48:07 +0000 2018,0.0,TX,Oh God I hope Mavs don’t sign Devin Harris back rather go after somebody else instead
 3,High Springs,Fri Jul 20 23:12:39 +0000 2018,1.0,FL,@jsbelmont @da_PopeJohnPaul Way to go guys that's impressive! But how did you guys finish in the 3 legged race at the Father-son picnic
 4,San Antonio,Fri Jul 20 19:43:26 +0000 2018,0.0,TX,@JohnPaulGarza @NBA_Skits I’ll remember this when he’s kissing the ship in H-Town next year #Rockets
-0,Chicago,Sat Jul 21 19:05:20 +0000 2018,0.05,IL,"#WYD Cross and icon given to young people by #StJohnPaulII will be for the 1st time in #CHICAGO
+0,Floyds Knobs,Sat Jul 21 15:04:54 +0000 2018,0.7,IN,Good Luck to our girl @hayleyrogers_  heading to Nashville for the casting call The Bachelor. #thebachelor https://t.co/2V4Cxrjr53
+1,Chicago,Sat Jul 21 19:05:20 +0000 2018,0.05,IL,"#WYD Cross and icon given to young people by #StJohnPaulII will be for the 1st time in #CHICAGO
 Monday, August 20… https://t.co/S1TM0g2dme"
-1,Monrovia,Sat Jul 21 19:26:22 +0000 2018,0.0,CA,Pop: JohnPaul?? What’s this. (Holding my pack of cigarettes)                               Me: uhhhhhm Those aren’t… https://t.co/bKHrv4XhII
+2,Monrovia,Sat Jul 21 19:26:22 +0000 2018,0.0,CA,Pop: JohnPaul?? What’s this. (Holding my pack of cigarettes)                               Me: uhhhhhm Those aren’t… https://t.co/bKHrv4XhII
 0,Largo,Sun Jul 22 20:57:11 +0000 2018,0.0,FL,@RepMikeJohnson We The People... https://t.co/NqDzs4EoX2
 1,West Monroe,Sun Jul 22 13:05:24 +0000 2018,0.0,LA,"@PolishPatryot MORNING POLISH PATRIOT
 🇵🇱🇵🇱🇵🇱
@@ -331,17 +1041,23 @@ YOU SAID IT ALL HERE ON YOUR TWEET ABOUT
 #PopeJohnPaull HE… https://t.co/mQsUI0QhHb"
 2,Nashville,Sun Jul 22 18:24:25 +0000 2018,0.0,TN,@do_the_JohnPaul @Jake_Beezy 😂
 3,Houston,Sun Jul 22 21:50:18 +0000 2018,0.2,TX,@JohnPaulTitan Hahahaha qaqu babae lang sinasabitan ng syndrome
-0,Malta,Tue Jul 24 11:50:32 +0000 2018,-0.25,NY,@Bklynfinest1477 @JohnPaulFAL @EvCoRadio @Babchik Not sure about Jimmy G as MVP but Seattle WILL be in the basement of the NFC West.
-1,Malta,Tue Jul 24 12:17:49 +0000 2018,0.0,NY,@Bklynfinest1477 @JohnPaulFAL @EvCoRadio @Babchik Just started listening.  No clue what ur talking about with the tiers.
-2,Charlotte,Tue Jul 24 20:15:59 +0000 2018,0.13636363636363635,NC,@JohnPaulFAL @beardmeatsfood Maybe it's a New Yorker thing...
-3,Charlotte,Tue Jul 24 20:22:23 +0000 2018,0.0,NC,"@JohnPaulFAL @beardmeatsfood Cheese pizza is the gold standard - and it's not even debatable.
+0,Delhi,Mon Jul 23 17:43:08 +0000 2018,0.35,NY,@NStagnitti Only good thing about this day #thebachelorette
+1,Thibodaux,Mon Jul 23 23:57:52 +0000 2018,0.0,LA,it’s time it’s time it’s time !! #thebachelorette
+0,Norfolk,Tue Jul 24 23:20:58 +0000 2018,0.0,VA,Can @Jason_Tartick please be the next @thebachelor
+1,Malta,Tue Jul 24 11:50:32 +0000 2018,-0.25,NY,@Bklynfinest1477 @JohnPaulFAL @EvCoRadio @Babchik Not sure about Jimmy G as MVP but Seattle WILL be in the basement of the NFC West.
+2,Malta,Tue Jul 24 12:17:49 +0000 2018,0.0,NY,@Bklynfinest1477 @JohnPaulFAL @EvCoRadio @Babchik Just started listening.  No clue what ur talking about with the tiers.
+3,Queens,Tue Jul 24 12:40:58 +0000 2018,0.3,NY,"It’s just like, I love Blake sooo much and I don’t really know what to do about it, ya know? #thebachelorette"
+4,Charlotte,Tue Jul 24 20:15:59 +0000 2018,0.13636363636363635,NC,@JohnPaulFAL @beardmeatsfood Maybe it's a New Yorker thing...
+5,Charlotte,Tue Jul 24 20:22:23 +0000 2018,0.0,NC,"@JohnPaulFAL @beardmeatsfood Cheese pizza is the gold standard - and it's not even debatable.
 
 @beardmeatsfood are… https://t.co/LlYNmopFv8"
-4,Charlotte,Tue Jul 24 20:22:52 +0000 2018,0.1,NC,@PennFal25 @JohnPaulFAL @beardmeatsfood Not talking price. That's a whole different story.
-5,Charlotte,Tue Jul 24 20:42:36 +0000 2018,0.78125,NC,@PennFal25 @JohnPaulFAL @beardmeatsfood Are there any @DuckDonuts in the UK? Now that Adam would definitely love!!
-6,Albuquerque,Tue Jul 24 13:43:21 +0000 2018,0.0,NM,@JohnPaulBunyan @JokelahomaMic Delusional @VP astronomical Debt #kidnappedkids #taxsham #NKoreaFail #@POTUS IS Puti… https://t.co/ZyWWxBKoLe
+6,San Diego,Tue Jul 24 20:22:51 +0000 2018,0.19999999999999998,CA,#thebachelorette is stressful!! Before starting this episode I was more #teamgarrett but so far in this episode I’m… https://t.co/GVHHx6IUJM
+7,Charlotte,Tue Jul 24 20:22:52 +0000 2018,0.1,NC,@PennFal25 @JohnPaulFAL @beardmeatsfood Not talking price. That's a whole different story.
+8,Charlotte,Tue Jul 24 20:42:36 +0000 2018,0.78125,NC,@PennFal25 @JohnPaulFAL @beardmeatsfood Are there any @DuckDonuts in the UK? Now that Adam would definitely love!!
+9,Albuquerque,Tue Jul 24 13:43:21 +0000 2018,0.0,NM,@JohnPaulBunyan @JokelahomaMic Delusional @VP astronomical Debt #kidnappedkids #taxsham #NKoreaFail #@POTUS IS Puti… https://t.co/ZyWWxBKoLe
 0,Los Angeles,Wed Jul 25 13:36:40 +0000 2018,0.0,CA,@pornobobbie @JohnPaulthePope @krisscottxxx @kinkdotcom @HogtiedDotCom 🔥🔥🔥
-1,Bellingham,Wed Jul 25 22:18:08 +0000 2018,-0.25,WA,@wynterdesjar @JohnPaulness @raeganstop @MardiHuecker @natepettet @meighan0007 fucking RIP wow
+1,Palmdale,Wed Jul 25 19:35:43 +0000 2018,0.0,CA,@Jason_Tartick has to be #thebachelor!
+2,Bellingham,Wed Jul 25 22:18:08 +0000 2018,-0.25,WA,@wynterdesjar @JohnPaulness @raeganstop @MardiHuecker @natepettet @meighan0007 fucking RIP wow
 0,Denton,Thu Jul 26 19:29:22 +0000 2018,0.0,TX,I’ll never be upset with The Mavs bringing in Devin Harris! He’s a #MFFL he’s one of us!
 1,Dallas,Thu Jul 26 22:18:13 +0000 2018,0.0,TX,"If you told me I had to pick between Devin Harris or Yogi, I’ll always take Devin."
 2,Dallas,Thu Jul 26 22:49:31 +0000 2018,0.0,TX,Devin Harris is back!!
@@ -358,8 +1074,12 @@ YOU SAID IT ALL HERE ON YOUR TWEET ABOUT
 6,Huntington Beach,Fri Jul 27 12:28:29 +0000 2018,0.8,CA,@jimmyjamny @Bklynfinest1477 @JohnPaulFAL They should win 9
 7,Glens Falls,Fri Jul 27 12:37:01 +0000 2018,0.2,NY,@ElaineinCali @Bklynfinest1477 @JohnPaulFAL @FalQueen They’re NOT gonna beat Minn week 1 in Minnesota.   As much as… https://t.co/ydl2iIfp4T
 0,Malta,Sat Jul 28 11:53:21 +0000 2018,0.0,NY,@ElaineinCali @Bklynfinest1477 @JohnPaulFAL @FalQueen I think ppl forget about a rb named David Johnson
-0,Travers Corners,Sun Jul 29 15:10:46 +0000 2018,0.0,NY,@thedailybeast @JohnPaulFAL  https://t.co/kOq4Pmi7zD
-0,Pasadena,Mon Jul 30 19:53:04 +0000 2018,0.0,CA,"Nicky Hopkins on #vinyl #nowspinning 
+1,Costa Mesa,Sat Jul 28 23:47:05 +0000 2018,0.0,CA,@bachelorcasting at #thebachelorette #thebachelor casting in Costa Mesa. #bachelor #bachelorette @ Westin Hotel Cos… https://t.co/Jo1UcpbsQa
+0,Manhattan,Sun Jul 29 20:31:44 +0000 2018,0.0,NY,Season finale of thebacheloretteabc metmuseum !!! @ The Metropolitan Museum of Art Teens https://t.co/tcJSbIA8Hr
+1,Los Angeles,Sun Jul 29 15:09:36 +0000 2018,-0.7,CA,It’s actually painful everytime I hear Garrett say “alls” on #thebachelorette
+2,Travers Corners,Sun Jul 29 15:10:46 +0000 2018,0.0,NY,@thedailybeast @JohnPaulFAL  https://t.co/kOq4Pmi7zD
+0,Sterling Heights,Mon Jul 30 22:24:07 +0000 2018,0.78125,MI,@TanyaRad had those love eyes while talking with Jason during their interview today!! #thebachelorette https://t.co/OaRW7smZAG
+1,Pasadena,Mon Jul 30 19:53:04 +0000 2018,0.0,CA,"Nicky Hopkins on #vinyl #nowspinning 
 
 w/John Paul Jones, Albert Lee,  Jimmy Page! https://t.co/zzGkK2VKoi"
 0,La Feria,Tue Jul 31 15:50:36 +0000 2018,0.3125,TX,@woahitsyasmin @JohnPaulEsparza @bellmarman @sammloredo dude y’all these hot dogs 🌭 are bomb! I had one a couple of… https://t.co/pGskWhtkal
@@ -369,11 +1089,19 @@ w/John Paul Jones, Albert Lee,  Jimmy Page! https://t.co/zzGkK2VKoi"
 4,Round Lake,Tue Jul 31 12:42:58 +0000 2018,0.0,NY,@Bklynfinest1477 @EvCoRadio @Babchik @JohnPaulFAL Saw that in the theaters.  😂
 5,Clifton Park,Tue Jul 31 12:46:43 +0000 2018,1.0,NY,@Bklynfinest1477 @EvCoRadio @Babchik @JohnPaulFAL Bahahahaha that’s awesome.
 6,Newport News,Tue Jul 31 13:47:09 +0000 2018,-0.4333333333333333,VA,@BigMikeJohnson_ He ain’t have to do it by capitalizing  off of death doe that was dramatic
-0,Malta,Wed Aug 01 12:26:27 +0000 2018,-0.5,NY,@ckrenn73 @UCONNAl @Bklynfinest1477 @JohnPaulFAL Totally....either he is nasally or it’s a fake accent.  😂😂
-1,Huntington Beach,Wed Aug 01 12:40:54 +0000 2018,0.0,CA,@JohnPaulFAL @hilaryjoy @EvCoRadio @Babchik #nicefal
-2,Overland Park,Wed Aug 01 16:16:41 +0000 2018,0.0,KS,"Often imitated, but never duplicated, the John Paul Jones Arena is configured for intimacy so Wahoos are always rig… https://t.co/sZefdej8ym"
-3,Amarillo,Wed Aug 01 19:28:41 +0000 2018,0.47500000000000003,TX,"@JohnPaulFAL @Bobbyh78 @Litt__jay wow, great job. Thank you so much, you’re a great example for everyone."
-4,San Antonio,Wed Aug 01 20:55:04 +0000 2018,0.0,TX,@JohnPaulSweeny4 @dpshow @lawsoncraddock @Kurkjian_ESPN @AudienceNetwork @NBCSN @espn @LeTour @CoxComm @GetSpectrum… https://t.co/TITBQTQfGP
+7,Queens,Tue Jul 31 23:06:25 +0000 2018,-0.375,NY,"re Colton on #thebachelorette there's nothing wrong w ""it"" but being a virgin is not a sexual identity so there's n… https://t.co/Aabc5zbMnf"
+8,Danville,Tue Jul 31 20:33:36 +0000 2018,0.0,IL,The public has spoken @BachelorABC @ABCBachelorThe #TheBachelerotte #thebachelor #MakeItHappen
+9,Burbank,Tue Jul 31 18:55:33 +0000 2018,0.325,CA,Wow @Jason_Tartick is SUCH a class act &amp; good dude! #GimmeAHug #IfHesTheNextBachelorImIn @BacheloretteABC #thebachelorette
+0,Chicago,Wed Aug 01 14:36:23 +0000 2018,0.14583333333333334,IL,Anyone know this guy? Ran into him last night. Clay from The Bachelorette. Such a sweet guy! #thebachelorette… https://t.co/UY4J54If2A
+1,Malta,Wed Aug 01 12:26:27 +0000 2018,-0.5,NY,@ckrenn73 @UCONNAl @Bklynfinest1477 @JohnPaulFAL Totally....either he is nasally or it’s a fake accent.  😂😂
+2,Huntington Beach,Wed Aug 01 12:40:54 +0000 2018,0.0,CA,@JohnPaulFAL @hilaryjoy @EvCoRadio @Babchik #nicefal
+3,Charlotte,Wed Aug 01 21:16:35 +0000 2018,0.0,NC,Us when Grocery Store Joe went home #thebachelorette
+4,Overland Park,Wed Aug 01 16:16:41 +0000 2018,0.0,KS,"Often imitated, but never duplicated, the John Paul Jones Arena is configured for intimacy so Wahoos are always rig… https://t.co/sZefdej8ym"
+5,Scottsdale,Wed Aug 01 22:54:50 +0000 2018,0.15,AZ,Wills is CONFIDENT. Jordan is COCKY. know the difference #thebachelorette #MenTellAll
+6,Amarillo,Wed Aug 01 19:28:41 +0000 2018,0.47500000000000003,TX,"@JohnPaulFAL @Bobbyh78 @Litt__jay wow, great job. Thank you so much, you’re a great example for everyone."
+7,San Antonio,Wed Aug 01 20:55:04 +0000 2018,0.0,TX,@JohnPaulSweeny4 @dpshow @lawsoncraddock @Kurkjian_ESPN @AudienceNetwork @NBCSN @espn @LeTour @CoxComm @GetSpectrum… https://t.co/TITBQTQfGP
+0,Los Angeles,Thu Aug 02 20:43:30 +0000 2018,0.5,CA,5 more days #thebachelorette #bachelorinsider https://t.co/Ss6p0doZMs
+0,Smyrna,Fri Aug 03 15:44:42 +0000 2018,1.0,TN,Jason asking Becca for a hug on the men tell all is the best thing ever ❤️ #thebachelorette
 0,Binghamton,Sat Aug 04 21:57:32 +0000 2018,0.0,NY,It’s Hunter Jones!! https://t.co/4ZMXdEYdpt
 1,Beverly,Sat Aug 04 23:28:28 +0000 2018,-0.1,MA,@johnfkirby63 John Paul Jones would take pride in your family’s service. My dad was Navy WW2 and had a lifelong int… https://t.co/njycxWRXt6
 2,Memphis,Sat Aug 04 20:35:37 +0000 2018,-0.1923076923076923,TN,"@JohnPaulAmbros4 @charliekirk11 Yeah. Probably not very many of the votes she received were legitimate. 
@@ -381,17 +1109,30 @@ w/John Paul Jones, Albert Lee,  Jimmy Page! https://t.co/zzGkK2VKoi"
 That makes sense."
 3,Boston,Sat Aug 04 12:30:31 +0000 2018,0.0,MA,@DrJszo6 @Hakimyasin @disruptivesigna @Corleone0t @georgegalloway One has to assume that Mike Johnson likes the fee… https://t.co/Eas7h3wX1x
 0,Manhattan,Sun Aug 05 17:13:20 +0000 2018,0.0,NY,@JohnPaulBaratta P.S.  We’re a 501(c)(3) so it is tax deductible.
-1,Minneapolis,Sun Aug 05 23:38:57 +0000 2018,0.7,MN,@bucketsdntlie Devin Harris got in one in 2009. Good call. Def a Wally move. Feel like those two dudes should talk… https://t.co/ISzfFmQh9k
-0,Portsmouth,Mon Aug 06 13:12:17 +0000 2018,0.0,NH,Just posted a photo @ John Paul Jones House https://t.co/pCWVRmnm8d
-1,Las Vegas,Mon Aug 06 13:44:03 +0000 2018,0.0,NV,@darla7614 @GoldenKnights Darla...Jackie Redmond and Mike Johnson?  They know nothing...this team is going to be hu… https://t.co/8um8tYiiMI
-2,State College,Mon Aug 06 12:06:46 +0000 2018,0.0,PA,@Babchik @JohnPaulFAL @bethanybwrites Was it the neighbor that you invited over again that you don't like?
+1,Nashville,Sun Aug 05 17:44:22 +0000 2018,-0.08333333333333334,TN,Anyone else find it weird that @thebachelorabc and @BacheloretteABC both start out with thirty something super aver… https://t.co/gGKIftSpKv
+2,Minneapolis,Sun Aug 05 23:38:57 +0000 2018,0.7,MN,@bucketsdntlie Devin Harris got in one in 2009. Good call. Def a Wally move. Feel like those two dudes should talk… https://t.co/ISzfFmQh9k
+0,Spring,Mon Aug 06 23:51:21 +0000 2018,0.46875,TX,The finale of #thebachelorette comes on tonight and I’m excited to see who Becca picks!
+1,Nashua,Mon Aug 06 23:57:36 +0000 2018,0.0,NH,#thebachelorette!!!
+2,Portsmouth,Mon Aug 06 13:12:17 +0000 2018,0.0,NH,Just posted a photo @ John Paul Jones House https://t.co/pCWVRmnm8d
+3,Las Vegas,Mon Aug 06 13:44:03 +0000 2018,0.0,NV,@darla7614 @GoldenKnights Darla...Jackie Redmond and Mike Johnson?  They know nothing...this team is going to be hu… https://t.co/8um8tYiiMI
+4,Ankeny,Mon Aug 06 17:58:48 +0000 2018,0.2,IA,The anticipation for #thebachelorette tonight is real https://t.co/mVUlzfijKp
+5,Lodi,Mon Aug 06 11:46:01 +0000 2018,0.16818181818181818,NJ,I really want garret to get engaged to Becca so that Blake is the new bachelor 🙈😂 bc wowwwww Blake is just dreamy #thebachelorette
+6,Stillwater,Mon Aug 06 19:34:30 +0000 2018,0.0,OK,I kissed Grogery Store Joe at hometowns 😎🌹 #thebachelorette https://t.co/EBfHh0DY1D
+7,State College,Mon Aug 06 12:06:46 +0000 2018,0.0,PA,@Babchik @JohnPaulFAL @bethanybwrites Was it the neighbor that you invited over again that you don't like?
 0,Talty,Tue Aug 07 23:15:08 +0000 2018,0.0,TX,"@MavsNationDAL Honorable mentions:
 J Kidd
 Devin Harris 
 Roddy Beaubois
 Nash
 Deshawn Stephenson"
-1,State College,Tue Aug 07 12:40:38 +0000 2018,0.0,PA,@JohnPaulFAL @Babchik @Bklynfinest1477 https://t.co/nw89MlSlvk He'd forget his head probably if it wasn't attached
+1,Rockcreek,Tue Aug 07 15:27:32 +0000 2018,-0.6999999999999998,OR,I know there’s some bad blood between him and the network but can we PLEASE HAVE PETER????? #thebachelor https://t.co/XU76vrZmGd
+2,Los Angeles,Tue Aug 07 21:09:45 +0000 2018,0.5,CA,Is there anything more representative of Trump-era America than #thebachelorette choosing a School Shooting Denier… https://t.co/fJJpwba4LY
+3,Orlando,Tue Aug 07 14:59:29 +0000 2018,-0.3125,FL,Who still hasn't gotten over the shock of Blake not winning Becca's heart?! 🙋🏻🙋🏻🙋🏻#thebachelorette
+4,Washington,Tue Aug 07 12:00:32 +0000 2018,0.44999999999999996,DC,good morning to everyone except the monsters responsible for #thebachelorette finale STILL not being on hulu
+5,State College,Tue Aug 07 12:40:38 +0000 2018,0.0,PA,@JohnPaulFAL @Babchik @Bklynfinest1477 https://t.co/nw89MlSlvk He'd forget his head probably if it wasn't attached
+6,Palm City,Tue Aug 07 11:40:57 +0000 2018,0.0,FL,@thebachelortea @dwboden No one...stop wasting our time with this dreck
+7,Severn,Tue Aug 07 17:16:29 +0000 2018,0.2,MD,My thoughts on this whole season #thebachelorettefinale THROW IT ALL AWAY JUST THROW IT AWAY https://t.co/UQfnYRM82V
+8,Severn,Tue Aug 07 17:18:15 +0000 2018,0.0,MD,The worstttttttttt #thebachelorettefinale https://t.co/xXbbmt72tz
 0,Annapolis,Wed Aug 08 22:07:15 +0000 2018,0.1,MD,"@JohnPaulII7 I found a JPEG on it - again, they're saying they don't have to follow the Old Testament (except the p… https://t.co/3hN4oVg1DD"
 1,Lakeland Heights,Wed Aug 08 16:25:20 +0000 2018,0.0,TX,"Question of the day:
 When do the @dallasmavs keep bringing back Devin Harris?"
@@ -399,7 +1140,9 @@ When do the @dallasmavs keep bringing back Devin Harris?"
 
 Grace amounts to: ""God got ev… https://t.co/nDrw1Ue3Oi"
 3,Dallas,Wed Aug 08 19:57:37 +0000 2018,0.2,TX,G Devin Harris returns to Mavericks for third time after signing $2.4 million free agent contract
+4,Concord,Wed Aug 08 23:22:41 +0000 2018,0.0,NC,Just now watching #thebachelorette finale. https://t.co/95qFiCV1mS
 0,Manhattan,Thu Aug 09 13:10:33 +0000 2018,0.0,NY,@JohnPaulWeber Ill do you one better https://t.co/9pBWImAj10
 1,Lakeland Heights,Thu Aug 09 18:23:09 +0000 2018,0.0,TX,Devin Harris regresa a los Mavericks por tercera vez después de firmar un contrato de agente libre de $ 2.4 millone… https://t.co/o9G2Xosjjc
-2,Manhattan Beach,Thu Aug 09 12:32:38 +0000 2018,0.0,CA,Congrats to @JohnPaulUM
-3,Brooklyn,Thu Aug 09 12:48:29 +0000 2018,0.6,NY,@JohnPaulWeber Lmao stopppppp
+2,Ypsilanti,Thu Aug 09 12:21:57 +0000 2018,-0.4,MI,"I’m still so annoyed that on #thebachelorette Becca didn’t get to propose, Garette did. After she picks her racist… https://t.co/X99EhPe4Hn"
+3,Manhattan Beach,Thu Aug 09 12:32:38 +0000 2018,0.0,CA,Congrats to @JohnPaulUM
+4,Brooklyn,Thu Aug 09 12:48:29 +0000 2018,0.6,NY,@JohnPaulWeber Lmao stopppppp
