@@ -25,7 +25,7 @@ ui <- navbarPage(title = "Snazzy title",
                                             0 being neutral, and 1 being positive."),
                                           p("A critical problem of this method is dealing with contestants who do not have Twitter. This was extremely 
                                             problematic for the Bachelorette 2018, because the winner of the season had no Twitter account. To compensate for this, 
-                                            we parsed a second dataset for this seasos. This is likely to be a noisy dataset, but the results of the model can be 
+                                            we parsed a second dataset for this season. This is likely to be a noisy dataset, but the results of the model can be 
                                             compared to see if the noise made a significant impact. Another flaw in the data was the varying size of each data set. For instance, the Bachelor 2018 was very large,
                                             consisting of 1,914 tweets. This is likely due to the fact that this season had a unique ending where the Bachelor
                                             ended up leaving the finalist for the runner-up in a very short time frame. Other seasons had very few, nearly 300,
@@ -43,6 +43,7 @@ ui <- navbarPage(title = "Snazzy title",
                                                     c("Bachelor 2018" = "Bachelor_2018",
                                                       "Bachelor 2019" = "Bachelor_2019",
                                                       "Bachelorette 2018" = "Bachelorette_2018",
+                                                      "Bachelorette 2018 wGarrett" = "Bachelorette_2018_wGarrett",
                                                       "Bachelorette 2019" = "Bachelorette_2019"))),
                                      
                                    mainPanel(tableOutput(outputId = 'table')))),
@@ -59,12 +60,7 @@ ui <- navbarPage(title = "Snazzy title",
                                      a(href="https://www.cmc.edu/academic/faculty/profile/michael-izbicki"
                                        , "Professor Mike Izbicki"), "a Professor Mike Izbicki at Claremont
                                           McKenna College who generously shared his two years worth of Twitter data.")))
-                          
                           ),
-                          
-                          
-                 
-                 
                  
                  navbarMenu("Predictive Model",
                             tabPanel("Methodology",
@@ -72,13 +68,14 @@ ui <- navbarPage(title = "Snazzy title",
                                      mainPanel(
                                        
                                      h2("Creating the Dataset"), 
-                                     p("Generating the dataset used in the model required bootstrapping tweet data from each show and season. 
+                                     p("Generating the dataset used in the model required bootstrapping tweet data from each show and season.
+                                     The purpose of bootstrapping the data was to use the limited amount of information in 'cleaned_data' to
+                                       approximate trends in the population.
                                        The amount bootstrapped was dependent on the size of data for each show's season. For example, 
                                        in the Bachelor 2018 there were 1,914 tweets that were bootstrapped with size 1,914. This was
-                                       repeated for each dataset over a range of different times, ranging from ______. After the data was generated, 
+                                       repeated for each dataset over a range of different times, ranging from 100 to 4500. After the data was generated, 
                                        the average tweet sentiment for each contestant and the total number of tweets that referenced the contestant 
-                                       (through their twitter handle), were calculated." ), br(), 
-                                     p("The purpose of bootstrapping the data was to ...."),
+                                       (through their twitter handle), were calculated." ), 
                                       h2("Types of classification models"),
                                       p("There were 5 different types of linear classification models used to generate predictions. Note that although 
                                         Naive Bayes is not always linear, in this case it is becase the output is binary (winners and losers). 
@@ -88,17 +85,26 @@ ui <- navbarPage(title = "Snazzy title",
                                         tags$ul(
                                           tags$li(p( a(href="https://scikit-learn.org/stable/modules/naive_bayes.html", "Naive Bayes"),
                                           "is a supervised classification model that uses the 'naive' assumption that feautures are independent.
-                                          In this model, we have 60 feautures, which are the average sentiment and total tweet count of each of the 30 
-                                          contestants.")),
+                                          Therefore, as more data is inputted into a model, accuracy is expected to go down because the independence 
+                                          assumption does not always hold true. In general, a Naive Bayes model creates overly-simplified assumptions,
+                                          which make it a poor model to use on real world data. It is included in this project in order to compare
+                                          performance with other models.")),
                                           tags$li(p( a(href="https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html", "Linear 
                                            Discriminant Analysis"), "is a classification model that creates a linear decision boundary that seperates multiple classes.
-                                          In this model, classes are the 30 contestants in each season.")),
+                                          LDA has two main uses: dimensionality reduction and linear classification.")),
                                           tags$li(p( a(href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html", 
-                                                       "Logistic Regression"), "is ")),
+                                                       "Logistic Regression"), "is a classification algorithim that generates the probability of 
+                                                     binary dependent variables. In our case, the dependent variable is whether or not a contestant will win or not
+                                                     win based on total tweet count and avergae tweet sentiment.")),
                                           tags$li(p( a(href="https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html", 
-                                                       "Linear Support Vector Classification"), "is ")),
+                                                       "Linear Support Vector Classification"), "tries to classify training data through a best fit hyperplane. 
+                                                     It is called 'linear' because it utilizes a linear kernel. Linear SVC tends to perform better with 
+                                                     larger sample sizes.")),
                                           tags$li(p( a(href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html", 
-                                                       "Stochastic Gradient Descent Classifier"), "is "))
+                                                       "Stochastic Gradient Descent Classifier"), "is a linear classifier that utilizes SGD for training. 
+                                                       This means that for each data point, the gradient (or minima) of loss is estimated.
+                                                       Like the Naive Bayes model, SGD Classifier is not commonly used
+                                                     in practice."))
                                           
                                           )
                                       ))
@@ -107,17 +113,26 @@ ui <- navbarPage(title = "Snazzy title",
                             tabPanel("Results",
                                      
                                      tabsetPanel(type = "tabs",
-                                                 tabPanel("Overall",
-                                     fluidPage(
+                                                 tabPanel("Model with 3 seasons",
+                                     fluidPage( br(), br(),
                                        div(img(src = 'prediction_overall3.png', align='left', height = '500px', width = '1000px'))),
                                      mainPanel( br(), br(), br(),
-                                       p("For "))),
+                                       p("This model utilized data from the Bachelor (2018-2019) and the Bachelorette 2019. 
+                                         The reason the Bachelorette 2019 was excluded is because the winner did not have a Twitter handle, 
+                                         so we excluded the data to prevent the model from becoming too noisy. This model had 60 feautures (tweet count total 
+                                         and average tweet sentiment) and 30 classes (roughly 30 contestants for each season). "),
+                                       p("We can see that LDA and LR performed the best out of all 5 classification models. Next steps of this project could include
+                                         optimizing these models to see if better results can be obtained."))),
                                      
-                                     tabPanel("Optimizing LDA",
-                                              fluidPage(
-                                                div(img(src = 'prediction_overall3.png', align='left', height = '800px', width = '1000px'))),
-                                              mainPanel(
-                                                p(" add someanalysis here"))
+                                     tabPanel("Model with 4 seasons",
+                                              fluidPage( br(), br(),
+                                                div(img(src = 'prediction_overall4.png', align='left', height = '500px', width = '1000px'))),
+                                              mainPanel(br(), br(), br(),
+                                                p("In all, the five models performed more poorly than the 3 season model It is important to note that the
+                                                  data used to train this model are not guaranteed to be related to the TV show. For example, a tweet of 
+                                                  'My buddy, Hugh Garrett , should be on the Bachelor! #thebachelor' would be included in this dataset. "),
+                                                p("Given more time, an additional visualization could include graphing the loss of each model in order
+                                                  to better understand error."))
                                               )
                                      
                                      
