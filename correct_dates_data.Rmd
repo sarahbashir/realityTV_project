@@ -25,13 +25,13 @@ data2<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-s
 
 bachelor_2019<-read.csv(text=data2)
 
-data3<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelorette_2018.csv?token=ALH3QRVBWH64PE2YL6Y6SQC574MSQ")
+data3<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelorette_2018.csv?token=ANC7WXQXPACIYOKZ6I66XOS6AG3QU")
 
 bachelorette_2018<-read.csv(text=data3)
 
 #bachelorette_2018 <- data.frame(bachelorette_2018)
 
-data4<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelorette_2019.csv?token=ALH3QRXNG7OYU3VJGD224EC574M2A")
+data4<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelorette_2019.csv?token=ANC7WXVD4C7W56CCNTRVRD26AG3SC")
 bachelorette_2019<-read.csv(text=data4)
 
 
