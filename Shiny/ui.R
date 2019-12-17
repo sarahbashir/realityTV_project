@@ -80,7 +80,9 @@ ui <- navbarPage(title = "Snazzy title",
                                        (through their twitter handle), were calculated." ), br(), 
                                      p("The purpose of bootstrapping the data was to ...."),
                                       h2("Types of classification models"),
-                                      
+                                      p("There were 5 different types of linear classification models used to generate predictions. Note that although 
+                                        Naive Bayes is not always linear, in this case it is becase the output is binary (winners and losers). 
+                                        Below is a quick summary of each type of classifier used."),
                         
                                       tags$div(
                                         tags$ul(
@@ -102,7 +104,26 @@ ui <- navbarPage(title = "Snazzy title",
                                       ))
                                      
                                      ),
-                            tabPanel("Results")
+                            tabPanel("Results",
+                                     
+                                     tabsetPanel(type = "tabs",
+                                                 tabPanel("Overall",
+                                     fluidPage(
+                                       div(img(src = 'prediction_overall3.png', align='left', height = '500px', width = '1000px'))),
+                                     mainPanel( br(), br(), br(),
+                                       p("For "))),
+                                     
+                                     tabPanel("Optimizing LDA",
+                                              fluidPage(
+                                                div(img(src = 'prediction_overall3.png', align='left', height = '800px', width = '1000px'))),
+                                              mainPanel(
+                                                p(" add someanalysis here"))
+                                              )
+                                     
+                                     
+                                     )
+                                     
+                                     )
                   
                             
                 ),
