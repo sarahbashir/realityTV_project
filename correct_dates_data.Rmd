@@ -1,0 +1,89 @@
+---
+title: "nicer data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(RCurl)
+library(tidyverse)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+data1<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelor_2018.csv?token=ALH3QRQ2ZODAH6DDWGMOHNS6AGIHW")
+
+bachelor_2018<-read.csv(text=data1)
+
+
+data2<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelor_2019.csv?token=ALH3QRU2W7PDOK3LVXU2JRC6AGIKK")
+
+bachelor_2019<-read.csv(text=data2)
+
+data3<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelorette_2018.csv?token=ALH3QRVBWH64PE2YL6Y6SQC574MSQ")
+
+bachelorette_2018<-read.csv(text=data3)
+
+#bachelorette_2018 <- data.frame(bachelorette_2018)
+
+data4<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelorette_2019.csv?token=ALH3QRXNG7OYU3VJGD224EC574M2A")
+bachelorette_2019<-read.csv(text=data4)
+
+
+```
+
+
+```{r}
+
+#bachelorette_2018$text<-rownames(bachelorette_2018)
+#dplyr::filter(bachelorette_2019, grepl('GarrettY', text))
+
+bachelor_2019<-separate(bachelor_2019, date, into = c("day", "month", "date", "time1", "time2", "year"), sep = " ", remove = TRUE, convert = FALSE, extra = "warn", fill = "warn")
+
+bachelor_2019$month[which(bachelor_2019$month == "Dec")] = "12"
+bachelor_2019$month[which(bachelor_2019$month == "Jan")] = "01"
+bachelor_2019$month[which(bachelor_2019$month == "Feb")] = "02"
+bachelor_2019$month[which(bachelor_2019$month == "Mar")] = "03"
+
+bachelor_2019 <- bachelor_2019 %>%
+  select(month, date, year, polarity, state, text)
+
+bachelor_2019 <- bachelor_2019 %>% 
+  unite("date", year, month, date, sep = "-")
+
+
+
+bachelor_2019
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
