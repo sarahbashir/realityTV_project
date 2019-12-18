@@ -19,6 +19,9 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r}
+
+#get all data from github and convert to csv
+
 data1<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelor_2018.csv?token=ALH3QRSD7MJQYKL6WBOCET26AJ2LE")
 bachelor_2018<-read.csv(text=data1)
 data2<-getURL("https://raw.githubusercontent.com/ST47S-CompStats-Fall2019/team-shows/master/cleaned_data/Bachelor_2019.csv?token=ALH3QRWMBYT5KAVRW4R7E6K6AJ2M4")
@@ -32,18 +35,27 @@ bachelorette_2019<-read.csv(text=data4)
 ```
 
 ```{r}
+
+#make the original date format into Y-M-D
+
 bachelor_2018<-separate(bachelor_2018, date, into = c("day", "month", "date", "time1", "time2", "year"), sep = " ", remove = TRUE, convert = FALSE, extra = "warn", fill = "warn")
+#covert the months to numbers
 bachelor_2018$month[which(bachelor_2018$month == "Dec")] = "12"
 bachelor_2018$month[which(bachelor_2018$month == "Jan")] = "01"
 bachelor_2018$month[which(bachelor_2018$month == "Feb")] = "02"
 bachelor_2018$month[which(bachelor_2018$month == "Mar")] = "03"
+#select the relevant variables for the new data set
 bachelor_2018 <- bachelor_2018 %>%
   select(month, date, year, polarity, state, text)
+#y-m-d format
 form.dates <- ymd(paste(bachelor_2018$year, bachelor_2018$month, bachelor_2018$date, sep = "-"))
+#eliminate previous month and year column
+#overwrite dates column with new dates
 bachelor_2018$date<-form.dates
 bachelor_2018$month<-NULL
 bachelor_2018$year<-NULL
 
+#create and assign a weeks column based on dates taken from wikipedia
 bachelor_2018<-bachelor_2018 %>%
   mutate(Weeks = case_when(
     between(date, "2017-12-09", "2017-12-31") ~ "pre-show",
@@ -59,16 +71,18 @@ bachelor_2018<-bachelor_2018 %>%
     between(date, "2018-03-05", "2018-03-14") ~ "week 10"
   ))
 
+#create a variable that assigns the season to each row
 bachelor_2018<-bachelor_2018 %>%
   mutate(Season = "Bachelor 2018")
 
+#create a csv of the new, altered data
 write.csv(bachelor_2018, file = "bachelor_2018.csv")
 
 
 
 ```
 
-
+Repeat process from above for all bacehelo/bachelorette data sets:
 ```{r}
 bachelor_2019<-separate(bachelor_2019, date, into = c("day", "month", "date", "time1", "time2", "year"), sep = " ", remove = TRUE, convert = FALSE, extra = "warn", fill = "warn")
 bachelor_2019$month[which(bachelor_2019$month == "Dec")] = "12"
@@ -179,8 +193,11 @@ write.csv(bachelorette_2019, file = "bachelorette_2019.csv")
 
 ```{r}
 
+
+#combine all rows of the 4 data sets into one large data set
 all_Data<-do.call("rbind", list(bachelor_2018, bachelor_2019, bachelorette_2018, bachelorette_2019))
 
+#save the large data set as a csv
 write.csv(all_Data, file = "finalized_data.csv")
 
 
@@ -189,19 +206,21 @@ write.csv(all_Data, file = "finalized_data.csv")
 Parsing all sentiment for word cloud:
 ```{r}
 
+#collapse each text column in each data set into one cell
 sentiment_bachelor_2018 <- paste(unlist(bachelor_2018$text), collapse = " ")
 sentiment_bachelor_2019 <- paste(unlist(bachelor_2019$text), collapse = " ")
 sentiment_bachelorette_2018 <- paste(unlist(bachelorette_2018$text), collapse = " ")
 sentiment_bachelorette_2019 <- paste(unlist(bachelorette_2019$text), collapse = " ")
 sentiment_all <- paste(unlist(all_Data$text), collapse = " ")
 
-
+#cast the data into a data frame
 data_bachelor_2018 <- data.frame(category = sample(sentiment_bachelor_2018, 100, replace = TRUE), stringsAsFactors = FALSE)
 data_bachelor_2019 <- data.frame(category = sample(sentiment_bachelor_2019, 100, replace = TRUE), stringsAsFactors = FALSE)
 data_bachelorette_2018 <- data.frame(category = sample(sentiment_bachelorette_2018, 100, replace = TRUE), stringsAsFactors = FALSE)
 data_bachelorette_2019 <- data.frame(category = sample(sentiment_bachelorette_2019, 100, replace = TRUE), stringsAsFactors = FALSE)
 data_all <- data.frame(category = sample(sentiment_all, 100, replace = TRUE), stringsAsFactors = FALSE)
 
+#separate each word in the cell and get the number of occurences of each word
 data_bachelor_2018 <- data_bachelor_2018 %>% unnest_tokens(word, category) %>%
   group_by(word) %>%
   count()
@@ -222,27 +241,30 @@ data_all <- data_all %>% unnest_tokens(word, category) %>%
   group_by(word) %>%
   count()
 
+#sort the words by decreasing order of number of occurrences
 data_bachelor_2018 <- data_bachelor_2018[order(data_bachelor_2018$n, decreasing = TRUE),]
 data_bachelor_2019 <- data_bachelor_2019[order(data_bachelor_2019$n, decreasing = TRUE),]
 data_bachelorette_2018 <- data_bachelorette_2018[order(data_bachelorette_2018$n, decreasing = TRUE),]
 data_bachelorette_2019 <- data_bachelorette_2019[order(data_bachelorette_2019$n, decreasing = TRUE),]
 data_all <- data_all[order(data_all$n, decreasing = TRUE),]
 
-
+#words not ot include in word counts
 bad_words <- c("the", "https", "t.co", "to", "a", "you", "and", "for", "of", "on", "that", "so", "my", "just", "be", "her", "me", "are", "she", "him", "his", "was", "all", "have", "not", "but", "what", "how", "get", "out", "at", "your", "can", "we", "why", "when", "do", "go", "has", "as", "from", "know", "don't", "who", "an", "or", "been", "than", "does", "she's", "you're", "because", "every", "by", "else", "also", "could", "says", "he's", "doesn't", "2", "that's", "thought", "any", "some", "us", "those", "1", "3", "he", "even",  "let", "very", "gt", "ep", "4", "own", "45", "5hglkw0p6v", "5xjk4v4zlt", "6zrkelnyzn", "9kpefew9y0", "9pcn9tykkp", "dx8kzlwcyo", "our", "i'm", "isn't", "if", "it", "it's", "is", "with", "in", "frcdc", "i've", "i'll", "such", "i'd", "did")
 
+#new word counts excluding the irrelevant words
 data_bachelor_2018<-data_bachelor_2018[!grepl(paste(bad_words,collapse="|"),data_bachelor_2018$word),]
 data_bachelor_2019<-data_bachelor_2019[!grepl(paste(bad_words,collapse="|"),data_bachelor_2019$word),]
 data_bachelorette_2018<-data_bachelorette_2018[!grepl(paste(bad_words,collapse="|"),data_bachelorette_2018$word),]
 data_bachelorette_2019<-data_bachelorette_2019[!grepl(paste(bad_words,collapse="|"),data_bachelorette_2019$word),]
 data_all<-data_all[!grepl(paste(bad_words,collapse="|"),data_all$word),]
 
+#top 200 words
 data_bachelor_2018<-head(data_bachelor_2018, 200)
 data_bachelor_2019<-head(data_bachelor_2019, 200)
 data_bachelorette_2018<-head(data_bachelorette_2018, 200)
 data_bachelorette_2019<-head(data_bachelorette_2019, 200)
 
-
+#words and their counts for each file written to csv format
 write.csv(data_bachelor_2018, file = "bachelor_2018_word_count.csv")
 write.csv(data_bachelor_2019, file = "bachelor_2019_word_count.csv")
 write.csv(data_bachelorette_2018, file = "bachelorette_2018_word_count.csv")
