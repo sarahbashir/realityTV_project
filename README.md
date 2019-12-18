@@ -29,4 +29,4 @@ We will be creating several visualization tools using Tableau or Shiny to be pub
 The interactive component of this visualization is allowing users to compare states for each season. 
 
 ## Visualizations
-Link: https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1
+[Link to Visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1)
