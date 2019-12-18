@@ -3,7 +3,7 @@ Sarah Bashir: Project Manager, Director of Computation</br>
 Ethan Ong:  Task Manager, Director of Research</br>
 Lindsey Tam:  Facilitator, Reporter</br>
 
-## Title: Polarity of contestants on The Bachelor and The Bachelorette: Will You Accept This Rose?
+## Polarity of contestants on The Bachelor and The Bachelorette: Will You Accept This Rose?
 
 ## Purpose: 
 To look at, through twitter data, how people feel about the shows The Bachelor and the Bachelorette. From our project, hopefully others can understand the varying sentiments on the program across the country. Additionally, some questions we need to address include: Is public sentiment generally positive or negative? Is it the same across all seasons?
