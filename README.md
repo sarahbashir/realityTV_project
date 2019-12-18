@@ -3,6 +3,8 @@ Sarah Bashir: Project Manager, Director of Computation</br>
 Ethan Ong:  Task Manager, Director of Research</br>
 Lindsey Tam:  Facilitator, Reporter</br>
 
+[Presentation}(https://docs.google.com/presentation/d/1G7IIkiSaZm3E1TTuKNK8iYa26rkzdu8zbHCIuZDZ4VM/edit?usp=sharing)
+
 ## Title: Polarity of contestants on The Bachelor and The Bachelorette
 
 ## Purpose: 
