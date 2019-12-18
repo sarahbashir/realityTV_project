@@ -82,7 +82,7 @@ write.csv(bachelor_2018, file = "bachelor_2018.csv")
 
 ```
 
-Repeat process from above for all bacehelo/bachelorette data sets:
+Repeat process from above for all bacehelor/bachelorette data sets:
 ```{r}
 bachelor_2019<-separate(bachelor_2019, date, into = c("day", "month", "date", "time1", "time2", "year"), sep = " ", remove = TRUE, convert = FALSE, extra = "warn", fill = "warn")
 bachelor_2019$month[which(bachelor_2019$month == "Dec")] = "12"
