@@ -39,7 +39,6 @@ generated_data <- read.csv(file = 'model_data.csv')
 head(generated_data)
 ```
 
-
 ## Visualizations
 
 The [visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1) associated with this project were generated in Tableau.
@@ -52,23 +51,8 @@ A better model would have included data from all seasons of the bachelor and bac
 We are framing this model as an approach to how the model would look with all of the seasons of data. 
 
 
-
 #### The 5 classification models
 These models were implemented using Python's [scikit learn library](https://scikit-learn.org/stable/). A quick overview of each model is attached below:
-
-#### Algorithim for predictive models
-1. Bootstrapp parsed twitter data for one season
-2. Get average tweet sentiment and total tweet count per contestant
-3. Shuffle contestant order 
-4. Repeat steps 1-2 
-5. Repeat steps 1-3 for all seasons of interest
-
-Therfore, if we repeat step for 1000 times for 3 seasons, the data used for the model will have 3000 entries.
-
-Based on the way dataset was created, the classification model will have 30 classes (contestants), 60 dimensions/features (avg sentiment + total tweets for each contestant), and a binary outcome (winner or not winner).
-
-#### The 5 classification models
-These 5 classification models were implemented using Python's [scikit learn library](https://scikit-learn.org/stable/). A quick overview of each model is attached below:
 
 * Naive Bayes is a supervised classification model that uses Bayes' theorem of conditional probability and also uses the 'naive' assumption that feautures are independent. In this case, the Naive Bayes model is trying to predict whether or not a contestant will given their tweet count and average sentiment, under the assumption that tweet count and sentiment are independent (which they are not). Therefore, as more data is inputted into a model, accuracy is expected to go down because the independence assumption does not always hold true, as in this case. In general, a Naive Bayes model creates overly-simplified assumptions, which make it a poor model to use on real world data. It is included in this project in order to compare performance with other models.
 
@@ -82,14 +66,9 @@ with a linear kernel. Linear SVC tends to perform better with larger sample size
 * Stochastic Gradient Descent Classifier is a linear classifier that utilizes SGD for training. This means that for each data point, the gradient (or minima) of loss is estimated. The SGD classifier has a similar loss function as compared to Logistic Regression, but the solver each one uses is different. Since Logistic Regression uses GD and not SGD, we expect the SGD classifier to be the most computationally efficient out of these 5 models. Like the Naive Bayes model, SGD Classifier is not commonly used in practice.
 
 #### Model with 3 seasons worth of data
-
 Based on the way dataset was created, the classification model will have 89 classes (contestants), 2 dimensions/features (avg sentiment + total tweets), and a binary outcome (winner or not winner).
 
 The results are highly questionable. 
-```{r, out.width = "100%"}
-knitr::include_graphics("chart.png")
-```
-
 ```{r, out.width = "100%"}
 knitr::include_graphics("chart.png")
 ```
