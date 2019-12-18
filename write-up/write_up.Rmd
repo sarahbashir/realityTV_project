@@ -45,6 +45,7 @@ head(generated_data)
 The [visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1) associated with this project were generated in Tableau.
 
 
+
 ### Ethical Considerations for predictive models
 **It is critical to point out that no interpretation should be made about these models.**
 We were only able to train this model on 3 seasons worth of data (not 4 because one season's winner had no twitter handle).
