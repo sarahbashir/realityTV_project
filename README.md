@@ -29,9 +29,4 @@ We will be creating several visualization tools using Tableau or Shiny to be pub
 The interactive component of this visualization is allowing users to compare states for each season. 
 
 ## Visualizations
-* Chloropleth map (https://en.wikipedia.org/wiki/Choropleth_map): what locations are these shows recieving the most engagement from?
-* Word Map
-* Each show has an interactive timeline
-* Stacked bar graph (x: week number, y: proportion talking about contestant) <- interactive (click to see sentiment)
-
-this is super cool: https://fivethirtyeight.com/features/the-bachelorette/
+Link: https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1
