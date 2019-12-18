@@ -1,0 +1,71 @@
+---
+title: "The Bachelor(ette)"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Abstract
+WHY DO PEOPLE CARE? Better understanding the relationship between Twitter data and the popular TV shows.
+
+## The data
+
+This project utilizes two years worth of Twitter data, which was generated shared with use by [Professor Mike Izbicki](https://www.cmc.edu/academic/faculty/profile/michael-izbicki). Data is stored on a supercomputer as a series of JSON but parsed into smaller CSVs. Data for each season was extracted by looking at the dates between times contestants were announced and one week after the final episode was aired. For each season, a set of key words were used to identify tweets relevant tweets. Key words included the twitter handle of each contestant, as well as 'thebachelor', 'thebachelorette', and 'bachelorabc'. Intially, words like 'bachelor' were included, but this lead to high amounts of noise. By narrowing the key words to contestants' twitter handles, the data set became significnatly smaller, but we were more confident that the tweets are relevant to the show of interest.In addition to parsing tweets into geographic location, time, and tweet content, we were also able to measure the sentiment of each tweet. A package called [TextBlob](https://textblob.readthedocs.io/en/dev/) was used to assign sentiment from a scale of -1 to 1, with -1 being negative, 0 being neutral, and 1 being positive.
+
+A critical problem of this method is dealing with contestants who do not have Twitter. This was extremely problematic for the Bachelorette 2018, because the winner of the season had no Twitter account. To compensate for this, we parsed a second dataset for this season. This is likely to be a noisy dataset, but the results of the model can be compared to see if the noise made a significant impact. Another flaw in the data was the varying size of each data set. For instance, the Bachelor 2018 was very large, consisting of 1,914 tweets. This is likely due to the fact that this season had a unique ending where the Bachelor ended up leaving the finalist for the runner-up in a very short time frame. Other seasons had very few, nearly 300 tweets. This is something to be mindful of when interpreting results.
+
+Example of parsed twitter data from the Bachelor 2018:
+```{r}
+parsed_data <- read.csv(file = 'cleaned_data/Bachelor_2018.csv')
+head(parsed_data)
+```
+Additionally, manually ge
+
+
+For the visualizations, the data was wrangled this way....
+```{r}
+#CHANGE THIS
+#wrangled_data <- read.csv(file = 'data/car-speeds.csv')
+#head(wrangled_data)
+```
+
+For the predictive model, the dataset was generated this way...
+
+Example of generated data from 3 seasons worth of data.
+```{r}
+generated_data <- read.csv(file = 'Generated_data_example.csv')
+head(generated_data)
+```
+
+## Visualizations
+
+The [visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1) associated with this project were generated in Tableau.
+
+
+## The predictive models
+wdh
+
+#### Algorithim
+sadkbj
+
+#### The 5 classification models
+Talk about the models
+
+#### Model with 3 seasons worth of data
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+#plot(pressure)
+```
+
+#### Model with 4 seasons worth of data
+sadkj
+
+```{r, echo=FALSE}
+#plot(pressure)
+```
+
+## Next Steps
+sabdkj
