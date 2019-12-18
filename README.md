@@ -20,8 +20,6 @@ We will use a Twitter API to get live data in the form of a JSON file. Using loc
 * Location: The geographic coordinate where tweet was created </br>
 * Degree of sentiment in word choice: The degree of word choice used among tweets about a NO (use TextBlob python package to gauge sentiment) </br>
 * Show name and season: We will look at Bachelor and Bachelorette for seasons 2017, 2018, 2019
- </br>
-
 
 ## End Product: 
 We will be creating several visualization tools using Tableau or Shiny to be published on an online interface. On this interface, users can interact with the data clicking on certain NO content they would like to visualize. Each tab on our interface will correspond to a certain media piece, each containing several visualization types:</br>
@@ -30,7 +28,6 @@ We will be creating several visualization tools using Tableau or Shiny to be pub
 * Tweet polarity overtime by state </br>
 The interactive component of this visualization is allowing users to compare states for each season. 
 
-## Visualizations
-[Link to Visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1)
+## [Visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1)
 
 ## [Presentation](https://docs.google.com/presentation/d/1G7IIkiSaZm3E1TTuKNK8iYa26rkzdu8zbHCIuZDZ4VM/edit?usp=sharing)
