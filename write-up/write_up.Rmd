@@ -10,15 +10,20 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Abstract
-Trying to find love in the 21st century? The Bachelor franchise can help! Twitter and the TV shows the Bachelor and the Bachelorette are key components of American culture. This projects seeks to better understand the relationship between these two media forms. Using text analysis, we explore the polarity of tweet content as well as associated words that people use to describe the show. These trends are visualized and vary by state, show season, and time. Using all of this information, we begin the process of creating a predictive model. Though the current state of the model yields uninterpretable results, we build the foundation of a potentially promising way to use Twitter data to predict the outcome of each show. 
+Trying to find love in the 21st century? The Bachelor franchise can help! Twitter and the TV shows the Bachelor and the Bachelorette are key components of American culture. This projects seeks to better understand the relationship between these two media forms. Using text analysis, we explore the polarity of tweet content as well as associated words that people use to describe the show. These trends are visualized and vary by state, show season, and time. 
 
 ## Data
 
-This project utilizes two years worth of Twitter data, which was generated shared with use by [Professor Mike Izbicki](https://www.cmc.edu/academic/faculty/profile/michael-izbicki). Data is stored on a supercomputer as a series of JSON files but parsed into smaller CSVs using a Python script. Data for each season was extracted by looking at the dates between times contestants were announced and one week after the final episode was aired. For each season, a set of key words were used to identify relevant tweets. Key words included the twitter handle of each contestant, as well as 'thebachelor', 'thebachelorette', and 'bachelorabc'. Intially, words like 'bachelor' were included, but this led to high amounts of noise. By narrowing the key words to contestants' twitter handles, the data set became significnatly smaller, but we are more confident that the tweets are relevant to the show of interest. In addition to parsing tweets into geographic location, time, and tweet content, we were also able to measure the sentiment of each tweet. A package called [TextBlob](https://textblob.readthedocs.io/en/dev/) was used to assign sentiment from a scale of -1 to 1, with -1 being negative, 0 being neutral, and 1 being positive. 
+This project utilizes two years worth of Twitter data, which was generouly shared with us by [Professor Mike Izbicki](https://www.cmc.edu/academic/faculty/profile/michael-izbicki). Data is stored on a supercomputer as a series of JSON files but parsed into smaller CSVs using a Python script. Parsing enabled us to condense the information we needed; for instance, in the original JSON, there are over 20 variables, such as geographic coordinates, country codes, retweets and likes, etc. We only needed a subset of this information, such as date, geographic location, and tweet content. Parsing a subset of the original data made extracting the relevant tweets more computationally efficient. An example of the original Twitter data in its JSON format can be displayed below:
+```{r}
+library("rjson")
+json_data <- fromJSON(file="example_json.JSON")
+head(json_data)
+```
 
-A critical problem of this method is dealing with contestants who do not have Twitter. This was extremely problematic for the Bachelorette 2018, because the winner of the season had no Twitter account. To compensate for this, we parsed a second dataset for this season. This is likely to be a noisy dataset, but the results of the model can be compared to see if the noise made a significant impact. Another flaw in the data was the varying size of each data set. For instance, the Bachelor 2018 was very large, consisting of 1,914 tweets. This is likely due to the fact that this season had a unique ending where the Bachelor ended up leaving the finalist for the runner-up in a very short time frame. Other seasons had very few, nearly 300 tweets. This is something to be mindful of when interpreting results. 
+Data for each season was extracted by looking at the dates between times contestants were announced and one week after the final episode was aired. For each season, a set of key words were used to identify relevant tweets. Key words included the twitter handle of each contestant, as well as 'thebachelor', 'thebachelorette', and 'bachelorabc'. Intially, words like 'bachelor' were included, but this led to high amounts of noise. By narrowing the key words to contestants' twitter handles, the data set became significnatly smaller, but we are more confident that the tweets are relevant to the show of interest. In addition to parsing tweets into geographic location, time, and tweet content, we were also able to measure the sentiment of each tweet. A package called [TextBlob](https://textblob.readthedocs.io/en/dev/) was used to assign sentiment from a scale of -1 to 1, with -1 being negative, 0 being neutral, and 1 being positive. 
 
-Example of parsed twitter data from the Bachelor 2018:
+A critical problem of this method is dealing with contestants who do not have Twitter. This was extremely problematic for the Bachelorette 2018, because the winner of the season had no Twitter account. To compensate for this, we parsed a second dataset for this season. This is likely to be a noisy dataset, but the results of the model can be compared to see if the noise made a significant impact. Another flaw in the data was the varying size of each data set. For instance, the Bachelor 2018 was very large, consisting of 1,914 tweets. This is likely due to the fact that this season had a unique ending where the Bachelor ended up leaving the finalist for the runner-up in a very short time frame. Other seasons had very few, nearly 300 tweets. This is something to be mindful of when interpreting results. An example of parsed twitter data from the Bachelor 2018 can be found below:
 ```{r}
 cleaned_data <- read.csv(file = 'Bachelor_2018.csv')
 head(cleaned_data)
@@ -118,15 +123,6 @@ write.csv(data_bachelor_2018, file = "bachelor_2018_word_count.csv")
 ```
 The above process was repeated for the other 4 data sets.
 
-
-For the predictive model, we used a dataset that summarized contestant information of total tweet count and average tweet sentiment. We only looked at 3 seasons of data, which included the Bachelor (2018-2019) and the Bachelorette (2019).
-Example of predictive model data.
-```{r}
-generated_data <- read.csv(file = 'model_data.csv')
-head(generated_data)
-```
-
-
 ## Visualizations
 
 The [visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1) associated with this project were generated in Tableau and published on Tableau public.
@@ -143,43 +139,14 @@ To understand what viewers are tweeting about the most, we created an interactiv
 ![Word Cloud (Bachelor 2019)](visual_cloudbach2019.png)
 To follow up a word cloud that visualizes word frequencies across all show seasons, we also created individual word clouds by show season. Each word cloud also included the feature to toggle the word cloud to only include words that have a certain minimum word count. Above is a word cloud representing frequently used words about The Bachelor 2019. Words such as `demi_burnett`, `fence`, `sloth`, and `love` are some examples of words that are frequently used, as indicated by the word cloud. Furthermore, high word frequencies can help us determine notable moments in a particular show season. Further market research can easily be done to understand the causal and resultant factors of certain high word frequencies.
 
-### Ethical Considerations for predictive models
-**It is critical to point out that no interpretation should be made about these models.**
-We were only able to train this model on 3 seasons worth of data (not 4 because one season's winner had no Twitter handle).
-A better model would have included data from all 23 seasons of The Bachelor and all 15 seasons of The Bachelorette. Although we have created a predictive model, that predicts the winner of a season based on sentiment, ethically, we must address the issue of training a model with few data points and drawing conclusions from it. The model likely has high bias with so little data and will not perform well on out-of-bag data. We are therefore unable to draw any meaningful conclusions from the model but are framing how this model should be formulated as an approach to how the model could look with sufficiently more seasons or more data (50+ seasons). 
-
-
-#### The 5 classification models
-These models were implemented using Python's [scikit learn library](https://scikit-learn.org/stable/). A quick overview of each model is attached below:
-
-* Naive Bayes is a supervised classification model that uses Bayes' theorem of conditional probability and also uses the 'naive' assumption that feautures are independent. In this case, the Naive Bayes model is trying to predict whether or not a contestant will given their tweet count and average sentiment, under the assumption that tweet count and sentiment are independent (which they are not). Therefore, as more data is inputted into a model, accuracy is expected to go down because the independence assumption does not always hold true, as in this case. In general, a Naive Bayes model creates overly-simplified assumptions, which make it a poor model to use on real world data. It is included in this project in order to compare performance with other models.
-
-* Linear Discriminant Analysis is a supervised classification model that creates a linear decision boundary that seperates multiple classes. LDA has two main uses: dimensionality reduction and linear classification. For dimensionality reductions, LDA tries to project the data into another space/dimension that minmimzes distance from the mean while minimizing variance of each class; this projection can make the data linearly seperable in a lower space when it was not linearly serperable in its original space. 
-
-* Logistic Regression is a classification algorithim that generates the probability of binary dependent variables. In our case, the dependent variable is whether or not a contestant will win or not win based on total tweet count and avergae tweet sentiment. It is similar to linear regession, except the outcome is binary (not continuous) and the seperating boundary is 'S' shaped. 
-
-* Linear Support Vector Classification tries to linearly seperate training data into classes. A linear SVC can be though of as a SVM.
-with a linear kernel. Linear SVC tends to perform better with larger sample sizes and is more computationally efficient because it is using a linear kernel.
-
-* Stochastic Gradient Descent Classifier is a linear classifier that utilizes SGD for training. This means that for each data point, the gradient (or minima) of loss is estimated. The SGD classifier has a similar loss function as compared to Logistic Regression, but the solver each one uses is different. Since Logistic Regression uses GD and not SGD, we expect the SGD classifier to be the most computationally efficient out of these 5 models. Like the Naive Bayes model, SGD Classifier is not commonly used in practice.
-
-#### Model with 3 seasons worth of data
-Based on the way dataset was created, the classification model will have 89 classes (contestants), 2 dimensions/features (avg sentiment + total tweets), and a binary outcome (winner or not winner).
-
-The results are highly questionable, due to the extremely high accuracy. We therefore are extremely doubutful of the results but instead view the data as a positive signal for the potential of adding much more data to the model.
-```{r, out.width = "100%"}
-knitr::include_graphics("chart.png")
-```
-
 ## Conclusions
-We observe that although no long-term predictions can be drawn from 4 seasons of The Bachelor franchise data, we are still able to setup the foundations for a potential predictive process and look at long-term modeling possibilities (when using more data). We are also able to draw interesting conclusions through the use of interactive visuals. From the visuals, we gain a clear understanding on the geographic distribution of the tweets and how polarity varies across states. We also were able to visualize polarity as a function of time/episode week by show season. Lastly, we were also able to visualize the most frequently used words when discussing different seasons of The Bachelor/Bachelorette. From all of this information, we can evaluate how people on Twitter are feeling from season to season of the show, whether it is more negative or positive about a particular show season during a particular time. Ultimately, our conclusions drawn from polarity averages in each state is our most meaningful data.
-
+We were able to draw interesting conclusions through the use of interactive visuals. From the visuals, we gain a clear understanding on the geographic distribution of the tweets and how polarity varies across states. We also were able to visualize polarity as a function of time/episode week by show season. Lastly, we were also able to visualize the most frequently used words when discussing different seasons of The Bachelor/Bachelorette. From all of this information, we can evaluate how people on Twitter are feeling from season to season of the show, whether it is more negative or positive about a particular show season during a particular time. Ultimately, our conclusions drawn from polarity averages in each state is our most meaningful data.
 
 ## Next Steps
-Access to more seasons or more data would allow us to create even more insightful visualizations and a more reliable predictive model. This would require Twitter data from 2006 - 2017 (Twitter founded in 2006), to be available, which we could access with a paid developer account through Twitter. Furthermore, hyperparameters in each classification model can be tuned to yield better results. Additionally, looking at polarity in specific major cities could lead to more specific insights between more specific locations. In our current project, we looked at tweet volume by state; however, it may be more meaningful in the future to look at tweet volume as proportional to population of the state. Data from more seasons would greatly increase the number and quality of conclusions we are able to draw from The Bachelor franchise data.
+Access to more seasons or more data would allow us to create even more insightful visualizations. This would require Twitter data from 2006 - 2017 (Twitter founded in 2006), to be available, which we could access with a paid developer account through Twitter. Additionally, looking at polarity in specific major cities could lead to more specific insights between more specific locations. In our current project, we looked at tweet volume by state; however, it may be more meaningful in the future to look at tweet volume as proportional to population of the state. Data from more seasons would greatly increase the number and quality of conclusions we are able to draw from The Bachelor franchise data.
 
 ## New Insights
-In order to complete this project, we had to learn how to interpret JSON data and parse the data into a CSV. Accessing data through a supercomputer (ssh-ing through the machine) was a major hurdle in intially collecting data and a new process that the team learned a lot from. Completing this project required gaining a better understanding of the 5 classification models mentioned previously mentioned. String manipulation was a new technique implemented when data wrangling. Furthermore, generating the visualizations required learning Tableau, which none of the team members had experience in was crucial to our most insightful findings. 
+In order to complete this project, we had to learn how to interpret JSON data and parse the data into a CSV. Accessing data through a supercomputer (ssh-ing through the machine) was a major hurdle in intially collecting data and a new process that the team learned a lot from. String manipulation was a new technique implemented when data wrangling. Furthermore, generating the visualizations required learning Tableau, which none of the team members had experience in was crucial to our most insightful findings. 
 
 
 
