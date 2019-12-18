@@ -91,7 +91,11 @@ all_Data<-do.call("rbind", list(bachelor_2018, bachelor_2019, bachelorette_2018,
 #save the large data set as a csv
 write.csv(all_Data, file = "finalized_data.csv")
 ```
-
+Below is the first few entries from the finalized data set including weeks and season name:
+```{r}
+final <- read.csv(file = 'finalized_data.csv')
+head(final)
+```
 The next step is to prepare a data set that will be useful in creating a word cloud visualization in Tableau. We began with the data sets previously created that were separated into bachelor_2018, bachelor_2019, bachelorette_2018, and bachelorette_2019. We began by collapsing each the text column in each data set into a single cell. The next step was to separate each word in the cell and include the count. The words were then sorted by decreasing order of count. We looked at the words in each seasons and chose to exclude certain words that we didn't consider relevant in explaining the tweets. However, we were unable to completely eliminate all irrelevant words, specifically individual letters. For example, the letter "i" was unable to be eliminated from the word counts because every word that contained "i" would also be excluded. We later addressed the noisy words we had to leave in by removing them while creating the Tableau visualization. Once the noisy words were excluded, the word counts data was run again and output the top 200 entries for every season and all the seasons combined (5 total data sets). The 2 columns in each data set were the words and the count of each word. Only the top 200 entries were included in order to make the data set more manageable to work with in Tabeleau and for sake of relevancy. Below is the R code for creating the bachelor 2018 word count data:
 
 ```{r eval = FALSE}
@@ -124,6 +128,12 @@ write.csv(data_bachelor_2018, file = "bachelor_2018_word_count.csv")
 
 ```
 The above process was repeated for the other 4 data sets.
+
+Below is the first few entries in the word count data set looking at all the seasons (including some 'bad' words later filtered out in Tableau):
+```{r}
+count_data <- read.csv(file = 'all_count.csv')
+head(count_data)
+```
 
 Our main objective in making visualizations was to visualize trends or topics that people frequently mentioned and expressed and opinion about on social media. In addition, we wanted to visualize variations in trends based on state, show season and time. All [visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1) associated with this project were generated in Tableau and published on Tableau public. Some examples have been elaborated upon below.
 ![Polarity by State (all Seasons, all Weeks)](visual_map1.png)
