@@ -32,3 +32,5 @@ The interactive component of this visualization is allowing users to compare sta
 
 ## Visualizations
 [Link to Visualizations](https://public.tableau.com/profile/ethan3912#!/vizhome/TheBacheloretteVisualizations/Dashboard1)
+
+## [Presentation](https://docs.google.com/presentation/d/1G7IIkiSaZm3E1TTuKNK8iYa26rkzdu8zbHCIuZDZ4VM/edit?usp=sharing)
