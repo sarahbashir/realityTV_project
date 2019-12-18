@@ -3,9 +3,7 @@ Sarah Bashir: Project Manager, Director of Computation</br>
 Ethan Ong:  Task Manager, Director of Research</br>
 Lindsey Tam:  Facilitator, Reporter</br>
 
-[Presentation](https://docs.google.com/presentation/d/1G7IIkiSaZm3E1TTuKNK8iYa26rkzdu8zbHCIuZDZ4VM/edit?usp=sharing)
-
-## Title: Polarity of contestants on The Bachelor and The Bachelorette
+## Title: Polarity of contestants on The Bachelor and The Bachelorette: Will You Accept This Rose?
 
 ## Purpose: 
 To look at, through twitter data, how people feel about the shows The Bachelor and the Bachelorette. From our project, hopefully others can understand the varying sentiments on the program across the country. Additionally, some questions we need to address include: Is public sentiment generally positive or negative? Is it the same across all seasons?
@@ -17,13 +15,14 @@ We will use a Twitter API to get live data in the form of a JSON file. Using loc
 * Text in the tweet</br>
 * Which week of the show </br>
 * Tweet Date: The date the tweet was made   </br>
-* Location: The geographic coordinate where tweet was created </br>
+* Location: The geographic coordinate where the tweet was created </br>
 * Degree of sentiment in word choice: The degree of word choice used among tweets about a NO (use TextBlob python package to gauge sentiment) </br>
-* Show name and season: We will look at Bachelor and Bachelorette for seasons 2017, 2018, 2019
+* Show name and season: We will look at The Bachelor and The Bachelorette for seasons 2017, 2018 and 2019
 
 ## End Product: 
-We will be creating several visualization tools using Tableau or Shiny to be published on an online interface. On this interface, users can interact with the data clicking on certain NO content they would like to visualize. Each tab on our interface will correspond to a certain media piece, each containing several visualization types:</br>
+We will be creating several visualization tools using Tableau to be published on an online interface. On this interface, users can interact with the data clicking on certain NO content they would like to visualize. Each tab on our interface will correspond to a show season (Bachelor 2018, Bachelor 2019, Bachelorette 2018, Bachelorette 2019), each containing several visualization types:</br>
 * Polarity of words (x-axis: quantifying good vs. bad words, y-axis: frequency in which each word is used to describe each show) </br>
+* Word Frequency in Tweets with a minimum word count toggle (word cloud) </br>
 * Tweet Count overtime by state (x-axis: time, y-axis: tweet count) </br>
 * Tweet polarity overtime by state </br>
 The interactive component of this visualization is allowing users to compare states for each season. 
