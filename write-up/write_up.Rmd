@@ -9,7 +9,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library("rjson")
+
 ```
+
+
 
 **Trying to find love in the 21st century? The Bachelor franchise can help!** Twitter and the TV shows the Bachelor and the Bachelorette are key components of American culture. This projects seeks to better understand the relationship between these two media forms. Using text analysis, we explore the polarity of tweet content as well as associated words that people use to describe the show. These trends are visualized and vary by state, show season, and time. 
 
@@ -31,7 +34,7 @@ cleaned_data <- read.csv(file = 'Bachelor_2018.csv')
 head(cleaned_data)
 ```
 
-For the visualizations, we created two main data sets. The reasoning behind creating the data sets was to simplify the process of the visualizations. Once the data was in the exact format that was needed for Tableau, it was straightforward to create interactive images. The first data set was very similar to the parsed data from twitter and included the same polarity, state, and text columns. We first took the data from each season and transformed it from the parsed twitter data. We wanted to assign the tweets to a week in the show: e.g. week 1, week 2, etc. In order to do this, the date needed to be in a format of Y-M-D. The code used to transform the date for the bachelor in 2018 is below:
+For the visualizations, we created two main data sets. The reasoning behind creating the data sets was to simplify the process of the visualizations. Once the data was in the exact format that was needed for Tableau, it was straightforward to create interactive images. The first data set was very similar to the parsed data from twitter and included the same polarity, state, and text columns. We first took the data from github (using RCurl [@RCurl]) for each season and transformed it from the parsed twitter data. We wanted to assign the tweets to a week in the show: e.g. week 1, week 2, etc. In order to do this, the date needed to be in a format of Y-M-D. To separate the original date value to begin the formatting we used tidyverse[@tidyverse]. Once the original date was separated, unnecessary variables like 'time' were elimated and the Y-M-D format was put together using lubridate [@lubridate]. The code used to transform the date for the bachelor in 2018 is below:
 ```{r eval = FALSE}
 
 bachelor_2018<-separate(bachelor_2018, date, into = c("day", "month", "date", "time1", "time2", "year"), sep = " ", remove = TRUE, convert = FALSE, extra = "warn", fill = "warn")
@@ -57,17 +60,17 @@ The next step in creating the new dataset was to assign a week value according t
 #create and assign a weeks column based on dates taken from wikipedia
 bachelor_2018<-bachelor_2018 %>%
   mutate(Weeks = case_when(
-    between(date, "2017-12-09", "2017-12-31") ~ "pre-show",
-    between(date, "2018-01-01", "2018-01-07") ~ "week 1",
-    between(date, "2018-01-08", "2018-01-14") ~ "week 2",
-    between(date, "2018-01-15", "2018-01-21") ~ "week 3",
-    between(date, "2018-01-22", "2018-01-28") ~ "week 4",
-    between(date, "2018-01-29", "2018-02-04") ~ "week 5",
-    between(date, "2018-02-05", "2018-02-11") ~ "week 6",
-    between(date, "2018-02-12", "2018-02-18") ~ "week 7",
-    between(date, "2018-02-19", "2018-02-25") ~ "week 8",
-    between(date, "2018-02-26", "2018-03-04") ~ "week 9",
-    between(date, "2018-03-05", "2018-03-14") ~ "week 10"
+    between(date, as.Date("2017-12-09"), as.Date("2017-12-31")) ~ "pre-show",
+    between(date, as.Date("2018-01-01"), as.Date("2018-01-07")) ~ "week 1",
+    between(date, as.Date("2018-01-08"), as.Date("2018-01-14")) ~ "week 2",
+    between(date, as.Date("2018-01-15"), as.Date("2018-01-21")) ~ "week 3",
+    between(date, as.Date("2018-01-22"), as.Date("2018-01-28")) ~ "week 4",
+    between(date, as.Date("2018-01-29"), as.Date("2018-02-04")) ~ "week 5",
+    between(date, as.Date("2018-02-05"), as.Date("2018-02-11")) ~ "week 6",
+    between(date, as.Date("2018-02-12"), as.Date("2018-02-18")) ~ "week 7",
+    between(date, as.Date("2018-02-19"), as.Date("2018-02-25")) ~ "week 8",
+    between(date, as.Date("2018-02-26"), as.Date("2018-03-04")) ~ "week 9",
+    between(date, as.Date("2018-03-05"), as.Date("2018-03-14")) ~ "week 10"
   ))
 ```
 
@@ -96,7 +99,7 @@ Below is the first few entries from the finalized data set including weeks and s
 final <- read.csv(file = 'finalized_data.csv')
 head(final)
 ```
-The next step is to prepare a data set that will be useful in creating a word cloud visualization in Tableau. We began with the data sets previously created that were separated into bachelor_2018, bachelor_2019, bachelorette_2018, and bachelorette_2019. We began by collapsing each the text column in each data set into a single cell. The next step was to separate each word in the cell and include the count. The words were then sorted by decreasing order of count. We looked at the words in each seasons and chose to exclude certain words that we didn't consider relevant in explaining the tweets. However, we were unable to completely eliminate all irrelevant words, specifically individual letters. For example, the letter "i" was unable to be eliminated from the word counts because every word that contained "i" would also be excluded. We later addressed the noisy words we had to leave in by removing them while creating the Tableau visualization. Once the noisy words were excluded, the word counts data was run again and output the top 200 entries for every season and all the seasons combined (5 total data sets). The 2 columns in each data set were the words and the count of each word. Only the top 200 entries were included in order to make the data set more manageable to work with in Tabeleau and for sake of relevancy. Below is the R code for creating the bachelor 2018 word count data:
+The next step is to prepare a data set that will be useful in creating a word cloud visualization in Tableau. We began with the data sets previously created that were separated into bachelor_2018, bachelor_2019, bachelorette_2018, and bachelorette_2019. We began by collapsing each the text column in each data set into a single cell. The next step was to separate each word in the cell and include the count. The unnest_tokens() function from tidytext [@tidytext] was used to split the words to have one word per row. The words were then sorted by decreasing order of count. We looked at the words in each seasons and chose to exclude certain words that we didn't consider relevant in explaining the tweets. However, we were unable to completely eliminate all irrelevant words, specifically individual letters. For example, the letter "i" was unable to be eliminated from the word counts because every word that contained "i" would also be excluded. We later addressed the noisy words we had to leave in by removing them while creating the Tableau visualization. Once the noisy words were excluded, the word counts data was run again and output the top 200 entries for every season and all the seasons combined (5 total data sets). The 2 columns in each data set were the words and the count of each word. Only the top 200 entries were included in order to make the data set more manageable to work with in Tabeleau and for sake of relevancy. Below is the R code for creating the bachelor 2018 word count data:
 
 ```{r eval = FALSE}
 #collapse each text column in each data set into one cell
@@ -151,7 +154,7 @@ To follow up a word cloud that visualizes word frequencies across all show seaso
 
 We were able to draw interesting conclusions through the use of interactive visuals. From the visuals, we gain a clear understanding on the geographic distribution of the tweets and how polarity varies across states. This allows us to facilitate comparisons between states as well, such as observing how Delaware tends to have the most tweets with negative sentiment while California tends to have tweets with more positive sentiment. We also were able to visualize polarity as a function of time and episode week by show season. This gives us a better understanding on people's attitudes and how they change in response to events that transpire in each episode. Lastly, we were also able to visualize the most frequently used words when discussing different seasons of the Bachelor and the Bachelorette. From all of this information, we can better understand how people on Twitter are feeling from season to season of the show, whether it is more negative or positive about a particular show season during a particular time. Ultimately, our conclusions drawn from polarity averages in each state is our most meaningful data.
 
-Access to more seasons or more data would allow us to create even more insightful visualizations. This would require Twitter data from 2006 - 2017 (Twitter founded in 2006), to be available, which we could access with a paid developer account through Twitter [@history.com_2019]. Additionally, looking at polarity in specific major cities could lead to more specific insights between more specific locations. In our current project, we looked at tweet volume by state; however, it may be more meaningful in the future to look at tweet volume as proportional to population of the state. Data from more seasons would greatly increase the number and quality of conclusions we are able to draw from the Bachelor franchise data.
+Access to more seasons or more data would allow us to create even more insightful visualizations. This would require Twitter data from 2006 - 2017 (Twitter founded in 2006), to be available, which we could access with a paid developer account through Twitter [@history.com_2019]. Additionally, looking at polarity in specific major cities could lead to more specific insights between more specific locations. In our current project, we looked at tweet volume by state; however, it may be more meaningful in the future to look at tweet volume as proportional to population of the state. Additionally, for the word count data set, in this case, it was fine to manually filter out the words we didn't want to use in Tableau and R since we didn't have that many stop words. In the future, especially when looking at more data, it would be usefful to use an R package that filters out stop words. Data from more seasons would greatly increase the number and quality of conclusions we are able to draw from the Bachelor franchise data.
 
 Furthermore, we can try to optimize the performance of Textblob so we can increase sentiment accuracy. Recall that Textblob fails when words are spelled incorrectly. We can do additional data cleaning by correcting words though Tetxblob's 'correct()' package [@textblob]. By doing so, we could get a better representation of public sentiment regarding the show.
 
