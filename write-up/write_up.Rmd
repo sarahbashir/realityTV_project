@@ -31,13 +31,17 @@ For the most part, Textblob was able to correctly identify positive or nergative
 A critical problem of this method is dealing with contestants who do not have Twitter. This was extremely problematic for the Bachelorette 2018, because the winner of the season had no Twitter account. To compensate for this, we parsed a second dataset for this season. This is likely to be a noisy dataset, but the results of the model can be compared to see if the noise made a significant impact. Another flaw in the data was the varying size of each data set. For instance, the Bachelor 2018 was very large, consisting of 1,914 tweets. This is likely due to the fact that this season had a unique ending where the Bachelor ended up leaving the finalist for the runner-up in a very short time frame. Other seasons had very few, nearly 300 tweets. This is something to be mindful of when interpreting results. An example of parsed twitter data from the Bachelor 2018 can be found below:
 ```{r}
 cleaned_data <- read.csv(file = 'Bachelor_2018.csv')
+cleaned_data$text<-strtrim(cleaned_data$text, 50)
+cleaned_data$text<-paste0(cleaned_data$text, "...")
 head(cleaned_data)
 ```
 
 For the visualizations, we created two main data sets. The reasoning behind creating the data sets was to simplify the process of the visualizations. Once the data was in the exact format that was needed for Tableau, it was straightforward to create interactive images. The first data set was very similar to the parsed data from twitter and included the same polarity, state, and text columns. We first took the data from github (using RCurl [@RCurl]) for each season and transformed it from the parsed twitter data. We wanted to assign the tweets to a week in the show: e.g. week 1, week 2, etc. In order to do this, the date needed to be in a format of Y-M-D. To separate the original date value to begin the formatting we used tidyverse[@tidyverse]. Once the original date was separated, unnecessary variables like 'time' were elimated and the Y-M-D format was put together using lubridate [@lubridate]. The code used to transform the date for the bachelor in 2018 is below:
 ```{r eval = FALSE}
 
-bachelor_2018<-separate(bachelor_2018, date, into = c("day", "month", "date", "time1", "time2", "year"), sep = " ", remove = TRUE, convert = FALSE, extra = "warn", fill = "warn")
+bachelor_2018<-separate(bachelor_2018, date, into = c("day", "month", "date", "time1",
+"time2", "year"), sep = " ", remove = TRUE, convert = FALSE, extra = "warn", 
+fill = "warn")
 #covert the months to numbers
 bachelor_2018$month[which(bachelor_2018$month == "Dec")] = "12"
 bachelor_2018$month[which(bachelor_2018$month == "Jan")] = "01"
@@ -47,7 +51,8 @@ bachelor_2018$month[which(bachelor_2018$month == "Mar")] = "03"
 bachelor_2018 <- bachelor_2018 %>%
   select(month, date, year, polarity, state, text)
 #y-m-d format
-form.dates <- ymd(paste(bachelor_2018$year, bachelor_2018$month, bachelor_2018$date, sep = "-"))
+form.dates <- ymd(paste(bachelor_2018$year, bachelor_2018$month, bachelor_2018$date,
+                        sep = "-"))
 #eliminate previous month and year column
 #overwrite dates column with new dates
 bachelor_2018$date<-form.dates
@@ -89,16 +94,13 @@ This process was repeated for the other 3 seasons of the bacehlor. 4 different c
 
 ```{r eval = FALSE}
 #combine all rows of the 4 data sets into one large data set
-all_Data<-do.call("rbind", list(bachelor_2018, bachelor_2019, bachelorette_2018, bachelorette_2019))
+all_Data<-do.call("rbind", list(bachelor_2018, bachelor_2019, bachelorette_2018, 
+                                bachelorette_2019))
 
 #save the large data set as a csv
 write.csv(all_Data, file = "finalized_data.csv")
 ```
-Below is the first few entries from the finalized data set including weeks and season name:
-```{r}
-final <- read.csv(file = 'finalized_data.csv')
-head(final)
-```
+
 The next step is to prepare a data set that will be useful in creating a word cloud visualization in Tableau. We began with the data sets previously created that were separated into bachelor_2018, bachelor_2019, bachelorette_2018, and bachelorette_2019. We began by collapsing each the text column in each data set into a single cell. The next step was to separate each word in the cell and include the count. The unnest_tokens() function from tidytext [@tidytext] was used to split the words to have one word per row. The words were then sorted by decreasing order of count. We looked at the words in each seasons and chose to exclude certain words that we didn't consider relevant in explaining the tweets. However, we were unable to completely eliminate all irrelevant words, specifically individual letters. For example, the letter "i" was unable to be eliminated from the word counts because every word that contained "i" would also be excluded. We later addressed the noisy words we had to leave in by removing them while creating the Tableau visualization. Once the noisy words were excluded, the word counts data was run again and output the top 200 entries for every season and all the seasons combined (5 total data sets). The 2 columns in each data set were the words and the count of each word. Only the top 200 entries were included in order to make the data set more manageable to work with in Tabeleau and for sake of relevancy. Below is the R code for creating the bachelor 2018 word count data:
 
 ```{r eval = FALSE}
@@ -106,7 +108,8 @@ The next step is to prepare a data set that will be useful in creating a word cl
 sentiment_bachelor_2018 <- paste(unlist(bachelor_2018$text), collapse = " ")
 
 #cast the data into a data frame
-data_bachelor_2018 <- data.frame(category = sample(sentiment_bachelor_2018, 100, replace = TRUE), stringsAsFactors = FALSE)
+data_bachelor_2018 <- data.frame(category = sample(sentiment_bachelor_2018, 100, 
+                                      replace = TRUE), stringsAsFactors = FALSE)
 
 #separate each word in the cell and get the number of occurences of each word
 data_bachelor_2018 <- data_bachelor_2018 %>% unnest_tokens(word, category) %>%
@@ -117,10 +120,21 @@ data_bachelor_2018 <- data_bachelor_2018 %>% unnest_tokens(word, category) %>%
 data_bachelor_2018 <- data_bachelor_2018[order(data_bachelor_2018$n, decreasing = TRUE),]
 
 #words not to include in word counts
-bad_words <- c("the", "https", "t.co", "to", "a", "you", "and", "for", "of", "on", "that", "so", "my", "just", "be", "her", "me", "are", "she", "him", "his", "was", "all", "have", "not", "but", "what", "how", "get", "out", "at", "your", "can", "we", "why", "when", "do", "go", "has", "as", "from", "know", "don't", "who", "an", "or", "been", "than", "does", "she's", "you're", "because", "every", "by", "else", "also", "could", "says", "he's", "doesn't", "2", "that's", "thought", "any", "some", "us", "those", "1", "3", "he", "even",  "let", "very", "gt", "ep", "4", "own", "45", "5hglkw0p6v", "5xjk4v4zlt", "6zrkelnyzn", "9kpefew9y0", "9pcn9tykkp", "dx8kzlwcyo", "our", "i'm", "isn't", "if", "it", "it's", "is", "with", "in", "frcdc", "i've", "i'll", "such", "i'd", "did")
+bad_words <- c("the", "https", "t.co", "to", "a", "you", "and", "for", "of", "on", "that", 
+               "so", "my", "just", "be", "her", "me", "are", "she", "him", "his", "was", 
+               "all", "have", "not", "but", "what", "how", "get", "out", "at", "your",
+               "can", "we", "why", "when", "do", "go", "has", "as", "from", "know", 
+               "don't", "who", "an", "or", "been", "than", "does", "she's", "you're", 
+               "because", "every", "by", "else", "also", "could", "says", "he's", 
+               "doesn't", "2", "that's", "thought", "any", "some", "us", "those", "1", 
+               "3", "he", "even",  "let", "very", "gt", "ep", "4", "own", "45", 
+               "5hglkw0p6v", "5xjk4v4zlt", "6zrkelnyzn", "9kpefew9y0", "9pcn9tykkp", 
+               "dx8kzlwcyo", "our", "i'm", "isn't", "if", "it", "it's", "is", "with", 
+               "in", "frcdc", "i've", "i'll", "such", "i'd", "did")
 
 #new word counts excluding the irrelevant words
-data_bachelor_2018<-data_bachelor_2018[!grepl(paste(bad_words,collapse="|"),data_bachelor_2018$word),]
+data_bachelor_2018<-data_bachelor_2018[!grepl(paste(bad_words,collapse="|"),
+                                              data_bachelor_2018$word),]
 
 #top 200 words
 data_bachelor_2018<-head(data_bachelor_2018, 200)
